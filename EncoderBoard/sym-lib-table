@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name EncoderBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/EncoderBoard-rescue.lib)(options "")(descr ""))
   (lib (name Displays)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Displays.lib)(options "")(descr ""))
   (lib (name Teensy)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Teensy.lib)(options "")(descr ""))
 )
