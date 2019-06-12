@@ -1,3 +1,11 @@
 (fp_lib_table
-  (lib (name Encoders)(type KiCad)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-footprints/Encoders.pretty)(options "")(descr ""))
+  (lib (name Encoder_BG)(type KiCad)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-footprints/Encoder_BG.pretty)(options "")(descr ""))
+  (lib (name Display_BG)(type KiCad)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-footprints/Display_BG.pretty)(options "")(descr ""))
+  (lib (name Teensy_BG)(type KiCad)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-footprints/Teensy_BG.pretty)(options "")(descr ""))
+  (lib (name Button_Switch_BG)(type KiCad)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-footprints/Button_Switch_BG.pretty)(options "")(descr ""))
+  (lib (name LED_BG)(type KiCad)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-footprints/LED_BG.pretty)(options "")(descr ""))
+  (lib (name SOIC_BG)(type KiCad)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-footprints/SOIC_BG.pretty)(options "")(descr ""))
+  (lib (name TSSOP_BG)(type KiCad)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-footprints/TSSOP_BG.pretty)(options "")(descr ""))
+  (lib (name Resistor_BG)(type KiCad)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-footprints/Resistor_BG.pretty)(options "")(descr ""))
+  (lib (name Capacitor_BG)(type KiCad)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-footprints/Capacitor_BG.pretty)(options "")(descr ""))
 )

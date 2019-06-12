@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name Displays)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Displays.lib)(options "")(descr ""))
-  (lib (name Teensy)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Teensy.lib)(options "")(descr ""))
+  (lib (name Displays_BG)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Displays_BG.lib)(options "")(descr ""))
+  (lib (name Teensy_BG)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Teensy_BG.lib)(options "")(descr ""))
+  (lib (name Interface_Expansion_BG)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Interface_Expansion_BG.lib)(options "")(descr ""))
+  (lib (name Switch_BG)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Switch_BG.lib)(options "")(descr ""))
 )

@@ -15,14 +15,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Displays:Display_OLED_128x32_I2C U?
+L Displays_BG:Display_OLED_128x32_I2C U?
 U 1 1 5D470BC3
 P 1050 1400
 AR Path="/5D470BC3" Ref="U?"  Part="1" 
-AR Path="/5D4582C3/5D470BC3" Ref="U?"  Part="1" 
-F 0 "U?" H 1000 2050 50  0000 L CNN
+AR Path="/5D4582C3/5D470BC3" Ref="U9"  Part="1" 
+F 0 "U9" H 1000 2050 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 550 1950 50  0000 L CNN
-F 2 "MODULE" H 1050 1400 50  0001 C CNN
+F 2 "Display_BG:Display_OLED_128x32_I2C" H 1050 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 1894 1309 50  0001 L CNN
 	1    1050 1400
 	1    0    0    -1  
@@ -54,14 +54,14 @@ F 3 "" H 1650 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Displays:Display_OLED_128x32_I2C U?
+L Displays_BG:Display_OLED_128x32_I2C U?
 U 1 1 5D47C587
 P 2200 1400
 AR Path="/5D47C587" Ref="U?"  Part="1" 
-AR Path="/5D4582C3/5D47C587" Ref="U?"  Part="1" 
-F 0 "U?" H 2150 2050 50  0000 L CNN
+AR Path="/5D4582C3/5D47C587" Ref="U10"  Part="1" 
+F 0 "U10" H 2150 2050 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 1700 1950 50  0000 L CNN
-F 2 "MODULE" H 2200 1400 50  0001 C CNN
+F 2 "Display_BG:Display_OLED_128x32_I2C" H 2200 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 3044 1309 50  0001 L CNN
 	1    2200 1400
 	1    0    0    -1  
@@ -93,14 +93,14 @@ F 3 "" H 2800 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Displays:Display_OLED_128x32_I2C U?
+L Displays_BG:Display_OLED_128x32_I2C U?
 U 1 1 5D47E7E6
 P 3350 1400
 AR Path="/5D47E7E6" Ref="U?"  Part="1" 
-AR Path="/5D4582C3/5D47E7E6" Ref="U?"  Part="1" 
-F 0 "U?" H 3300 2050 50  0000 L CNN
+AR Path="/5D4582C3/5D47E7E6" Ref="U11"  Part="1" 
+F 0 "U11" H 3300 2050 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 2850 1950 50  0000 L CNN
-F 2 "MODULE" H 3350 1400 50  0001 C CNN
+F 2 "Display_BG:Display_OLED_128x32_I2C" H 3350 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 4194 1309 50  0001 L CNN
 	1    3350 1400
 	1    0    0    -1  
@@ -132,14 +132,14 @@ F 3 "" H 3950 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Displays:Display_OLED_128x32_I2C U?
+L Displays_BG:Display_OLED_128x32_I2C U?
 U 1 1 5D480D01
 P 4500 1400
 AR Path="/5D480D01" Ref="U?"  Part="1" 
-AR Path="/5D4582C3/5D480D01" Ref="U?"  Part="1" 
-F 0 "U?" H 4450 2050 50  0000 L CNN
+AR Path="/5D4582C3/5D480D01" Ref="U12"  Part="1" 
+F 0 "U12" H 4450 2050 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 4000 1950 50  0000 L CNN
-F 2 "MODULE" H 4500 1400 50  0001 C CNN
+F 2 "Display_BG:Display_OLED_128x32_I2C" H 4500 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 5344 1309 50  0001 L CNN
 	1    4500 1400
 	1    0    0    -1  
@@ -171,14 +171,14 @@ F 3 "" H 5100 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Displays:Display_OLED_128x32_I2C U?
+L Displays_BG:Display_OLED_128x32_I2C U?
 U 1 1 5D483919
 P 5650 1400
 AR Path="/5D483919" Ref="U?"  Part="1" 
-AR Path="/5D4582C3/5D483919" Ref="U?"  Part="1" 
-F 0 "U?" H 5600 2050 50  0000 L CNN
+AR Path="/5D4582C3/5D483919" Ref="U13"  Part="1" 
+F 0 "U13" H 5600 2050 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 5150 1950 50  0000 L CNN
-F 2 "MODULE" H 5650 1400 50  0001 C CNN
+F 2 "Display_BG:Display_OLED_128x32_I2C" H 5650 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 6494 1309 50  0001 L CNN
 	1    5650 1400
 	1    0    0    -1  
@@ -210,14 +210,14 @@ F 3 "" H 6250 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Displays:Display_OLED_128x32_I2C U?
+L Displays_BG:Display_OLED_128x32_I2C U?
 U 1 1 5D4868CB
 P 6800 1400
 AR Path="/5D4868CB" Ref="U?"  Part="1" 
-AR Path="/5D4582C3/5D4868CB" Ref="U?"  Part="1" 
-F 0 "U?" H 6750 2050 50  0000 L CNN
+AR Path="/5D4582C3/5D4868CB" Ref="U14"  Part="1" 
+F 0 "U14" H 6750 2050 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 6300 1950 50  0000 L CNN
-F 2 "MODULE" H 6800 1400 50  0001 C CNN
+F 2 "Display_BG:Display_OLED_128x32_I2C" H 6800 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 7644 1309 50  0001 L CNN
 	1    6800 1400
 	1    0    0    -1  
@@ -249,14 +249,14 @@ F 3 "" H 7400 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Displays:Display_OLED_128x32_I2C U?
+L Displays_BG:Display_OLED_128x32_I2C U?
 U 1 1 5D49104D
 P 7950 1400
 AR Path="/5D49104D" Ref="U?"  Part="1" 
-AR Path="/5D4582C3/5D49104D" Ref="U?"  Part="1" 
-F 0 "U?" H 7900 2050 50  0000 L CNN
+AR Path="/5D4582C3/5D49104D" Ref="U15"  Part="1" 
+F 0 "U15" H 7900 2050 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 7450 1950 50  0000 L CNN
-F 2 "MODULE" H 7950 1400 50  0001 C CNN
+F 2 "Display_BG:Display_OLED_128x32_I2C" H 7950 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 8794 1309 50  0001 L CNN
 	1    7950 1400
 	1    0    0    -1  
@@ -288,14 +288,14 @@ F 3 "" H 8550 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Displays:Display_OLED_128x32_I2C U?
+L Displays_BG:Display_OLED_128x32_I2C U?
 U 1 1 5D4945C2
 P 9100 1400
 AR Path="/5D4945C2" Ref="U?"  Part="1" 
-AR Path="/5D4582C3/5D4945C2" Ref="U?"  Part="1" 
-F 0 "U?" H 9050 2050 50  0000 L CNN
+AR Path="/5D4582C3/5D4945C2" Ref="U16"  Part="1" 
+F 0 "U16" H 9050 2050 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 8600 1950 50  0000 L CNN
-F 2 "MODULE" H 9100 1400 50  0001 C CNN
+F 2 "Display_BG:Display_OLED_128x32_I2C" H 9100 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 9944 1309 50  0001 L CNN
 	1    9100 1400
 	1    0    0    -1  
@@ -327,14 +327,14 @@ F 3 "" H 9700 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Displays:Display_OLED_128x32_I2C U?
+L Displays_BG:Display_OLED_128x32_I2C U?
 U 1 1 5D496686
 P 10250 1400
 AR Path="/5D496686" Ref="U?"  Part="1" 
-AR Path="/5D4582C3/5D496686" Ref="U?"  Part="1" 
-F 0 "U?" H 10200 2050 50  0000 L CNN
+AR Path="/5D4582C3/5D496686" Ref="U17"  Part="1" 
+F 0 "U17" H 10200 2050 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 9750 1950 50  0000 L CNN
-F 2 "MODULE" H 10250 1400 50  0001 C CNN
+F 2 "Display_BG:Display_OLED_128x32_I2C" H 10250 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 11094 1309 50  0001 L CNN
 	1    10250 1400
 	1    0    0    -1  
@@ -366,12 +366,12 @@ F 3 "" H 10850 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D1
 U 1 1 5D496DC1
 P 1650 3350
-F 0 "D?" H 1600 3800 50  0000 L CNN
+F 0 "D1" H 1600 3800 50  0000 L CNN
 F 1 "WS2812B" H 1450 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1700 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1700 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1750 2975 50  0001 L TNN
 	1    1650 3350
 	1    0    0    -1  
@@ -399,12 +399,12 @@ F 3 "" H 1650 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D2
 U 1 1 5D4A0838
 P 2400 3350
-F 0 "D?" H 2350 3800 50  0000 L CNN
+F 0 "D2" H 2350 3800 50  0000 L CNN
 F 1 "WS2812B" H 2200 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2450 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2450 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2500 2975 50  0001 L TNN
 	1    2400 3350
 	1    0    0    -1  
@@ -432,12 +432,12 @@ F 3 "" H 2400 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D3
 U 1 1 5D4A1AFB
 P 3150 3350
-F 0 "D?" H 3100 3800 50  0000 L CNN
+F 0 "D3" H 3100 3800 50  0000 L CNN
 F 1 "WS2812B" H 2950 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3200 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3200 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3250 2975 50  0001 L TNN
 	1    3150 3350
 	1    0    0    -1  
@@ -465,12 +465,12 @@ F 3 "" H 3150 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D4
 U 1 1 5D4A2F40
 P 3900 3350
-F 0 "D?" H 3850 3800 50  0000 L CNN
+F 0 "D4" H 3850 3800 50  0000 L CNN
 F 1 "WS2812B" H 3700 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3950 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3950 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4000 2975 50  0001 L TNN
 	1    3900 3350
 	1    0    0    -1  
@@ -498,12 +498,12 @@ F 3 "" H 3900 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D5
 U 1 1 5D4A4918
 P 4650 3350
-F 0 "D?" H 4600 3800 50  0000 L CNN
+F 0 "D5" H 4600 3800 50  0000 L CNN
 F 1 "WS2812B" H 4450 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4700 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4700 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4750 2975 50  0001 L TNN
 	1    4650 3350
 	1    0    0    -1  
@@ -531,12 +531,12 @@ F 3 "" H 4650 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D6
 U 1 1 5D4A5970
 P 5400 3350
-F 0 "D?" H 5350 3800 50  0000 L CNN
+F 0 "D6" H 5350 3800 50  0000 L CNN
 F 1 "WS2812B" H 5200 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5450 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5450 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5500 2975 50  0001 L TNN
 	1    5400 3350
 	1    0    0    -1  
@@ -564,12 +564,12 @@ F 3 "" H 5400 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D7
 U 1 1 5D4A721F
 P 6150 3350
-F 0 "D?" H 6100 3800 50  0000 L CNN
+F 0 "D7" H 6100 3800 50  0000 L CNN
 F 1 "WS2812B" H 5950 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6200 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6200 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6250 2975 50  0001 L TNN
 	1    6150 3350
 	1    0    0    -1  
@@ -597,12 +597,12 @@ F 3 "" H 6150 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D8
 U 1 1 5D4A87F8
 P 6900 3350
-F 0 "D?" H 6850 3800 50  0000 L CNN
+F 0 "D8" H 6850 3800 50  0000 L CNN
 F 1 "WS2812B" H 6700 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6950 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6950 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7000 2975 50  0001 L TNN
 	1    6900 3350
 	1    0    0    -1  
@@ -630,12 +630,12 @@ F 3 "" H 6900 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D9
 U 1 1 5D4A9C84
 P 7650 3350
-F 0 "D?" H 7600 3800 50  0000 L CNN
+F 0 "D9" H 7600 3800 50  0000 L CNN
 F 1 "WS2812B" H 7450 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7700 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7700 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7750 2975 50  0001 L TNN
 	1    7650 3350
 	1    0    0    -1  
@@ -663,12 +663,12 @@ F 3 "" H 7650 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D10
 U 1 1 5D4AB5D0
 P 8400 3350
-F 0 "D?" H 8350 3800 50  0000 L CNN
+F 0 "D10" H 8350 3800 50  0000 L CNN
 F 1 "WS2812B" H 8200 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8450 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8450 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8500 2975 50  0001 L TNN
 	1    8400 3350
 	1    0    0    -1  
@@ -696,12 +696,12 @@ F 3 "" H 8400 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D11
 U 1 1 5D4AC830
 P 9150 3350
-F 0 "D?" H 9100 3800 50  0000 L CNN
+F 0 "D11" H 9100 3800 50  0000 L CNN
 F 1 "WS2812B" H 8950 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9200 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9200 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9250 2975 50  0001 L TNN
 	1    9150 3350
 	1    0    0    -1  
@@ -729,12 +729,12 @@ F 3 "" H 9150 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D?
+L LED:WS2812B D12
 U 1 1 5D4AE3A7
 P 9900 3350
-F 0 "D?" H 9850 3800 50  0000 L CNN
+F 0 "D12" H 9850 3800 50  0000 L CNN
 F 1 "WS2812B" H 9700 3700 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9950 3050 50  0001 L TNN
+F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9950 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10000 2975 50  0001 L TNN
 	1    9900 3350
 	1    0    0    -1  
@@ -789,12 +789,12 @@ Wire Wire Line
 	9450 3350 9600 3350
 NoConn ~ 10200 3350
 $Comp
-L Device:C_Small C?
+L Device:C_Small C30
 U 1 1 5D4B6FD8
 P 1900 2850
-F 0 "C?" H 1992 2896 50  0000 L CNN
+F 0 "C30" H 1992 2896 50  0000 L CNN
 F 1 "100nF" H 1992 2805 50  0000 L CNN
-F 2 "" H 1900 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 1900 2850 50  0001 C CNN
 F 3 "~" H 1900 2850 50  0001 C CNN
 	1    1900 2850
 	1    0    0    -1  
@@ -816,12 +816,12 @@ Wire Wire Line
 	1650 2750 1900 2750
 Connection ~ 1650 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C31
 U 1 1 5D4BD977
 P 2650 2850
-F 0 "C?" H 2742 2896 50  0000 L CNN
+F 0 "C31" H 2742 2896 50  0000 L CNN
 F 1 "100nF" H 2742 2805 50  0000 L CNN
-F 2 "" H 2650 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 2650 2850 50  0001 C CNN
 F 3 "~" H 2650 2850 50  0001 C CNN
 	1    2650 2850
 	1    0    0    -1  
@@ -840,12 +840,12 @@ $EndComp
 Wire Wire Line
 	2400 2750 2650 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C32
 U 1 1 5D4BEA8C
 P 3400 2850
-F 0 "C?" H 3492 2896 50  0000 L CNN
+F 0 "C32" H 3492 2896 50  0000 L CNN
 F 1 "100nF" H 3492 2805 50  0000 L CNN
-F 2 "" H 3400 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 3400 2850 50  0001 C CNN
 F 3 "~" H 3400 2850 50  0001 C CNN
 	1    3400 2850
 	1    0    0    -1  
@@ -864,12 +864,12 @@ $EndComp
 Wire Wire Line
 	3150 2750 3400 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C33
 U 1 1 5D4BF818
 P 4150 2850
-F 0 "C?" H 4242 2896 50  0000 L CNN
+F 0 "C33" H 4242 2896 50  0000 L CNN
 F 1 "100nF" H 4242 2805 50  0000 L CNN
-F 2 "" H 4150 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 4150 2850 50  0001 C CNN
 F 3 "~" H 4150 2850 50  0001 C CNN
 	1    4150 2850
 	1    0    0    -1  
@@ -888,12 +888,12 @@ $EndComp
 Wire Wire Line
 	3900 2750 4150 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C34
 U 1 1 5D4C0B30
 P 4900 2850
-F 0 "C?" H 4992 2896 50  0000 L CNN
+F 0 "C34" H 4992 2896 50  0000 L CNN
 F 1 "100nF" H 4992 2805 50  0000 L CNN
-F 2 "" H 4900 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 4900 2850 50  0001 C CNN
 F 3 "~" H 4900 2850 50  0001 C CNN
 	1    4900 2850
 	1    0    0    -1  
@@ -912,12 +912,12 @@ $EndComp
 Wire Wire Line
 	4650 2750 4900 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C35
 U 1 1 5D4C2016
 P 5650 2850
-F 0 "C?" H 5742 2896 50  0000 L CNN
+F 0 "C35" H 5742 2896 50  0000 L CNN
 F 1 "100nF" H 5742 2805 50  0000 L CNN
-F 2 "" H 5650 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 5650 2850 50  0001 C CNN
 F 3 "~" H 5650 2850 50  0001 C CNN
 	1    5650 2850
 	1    0    0    -1  
@@ -936,12 +936,12 @@ $EndComp
 Wire Wire Line
 	5400 2750 5650 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C36
 U 1 1 5D4C2DA8
 P 6400 2850
-F 0 "C?" H 6492 2896 50  0000 L CNN
+F 0 "C36" H 6492 2896 50  0000 L CNN
 F 1 "100nF" H 6492 2805 50  0000 L CNN
-F 2 "" H 6400 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 6400 2850 50  0001 C CNN
 F 3 "~" H 6400 2850 50  0001 C CNN
 	1    6400 2850
 	1    0    0    -1  
@@ -960,12 +960,12 @@ $EndComp
 Wire Wire Line
 	6150 2750 6400 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C37
 U 1 1 5D4C3674
 P 7150 2850
-F 0 "C?" H 7242 2896 50  0000 L CNN
+F 0 "C37" H 7242 2896 50  0000 L CNN
 F 1 "100nF" H 7242 2805 50  0000 L CNN
-F 2 "" H 7150 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 7150 2850 50  0001 C CNN
 F 3 "~" H 7150 2850 50  0001 C CNN
 	1    7150 2850
 	1    0    0    -1  
@@ -984,12 +984,12 @@ $EndComp
 Wire Wire Line
 	6900 2750 7150 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C38
 U 1 1 5D4C472A
 P 7900 2850
-F 0 "C?" H 7992 2896 50  0000 L CNN
+F 0 "C38" H 7992 2896 50  0000 L CNN
 F 1 "100nF" H 7992 2805 50  0000 L CNN
-F 2 "" H 7900 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 7900 2850 50  0001 C CNN
 F 3 "~" H 7900 2850 50  0001 C CNN
 	1    7900 2850
 	1    0    0    -1  
@@ -1008,12 +1008,12 @@ $EndComp
 Wire Wire Line
 	7650 2750 7900 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C39
 U 1 1 5D4C549D
 P 8650 2850
-F 0 "C?" H 8742 2896 50  0000 L CNN
+F 0 "C39" H 8742 2896 50  0000 L CNN
 F 1 "100nF" H 8742 2805 50  0000 L CNN
-F 2 "" H 8650 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 8650 2850 50  0001 C CNN
 F 3 "~" H 8650 2850 50  0001 C CNN
 	1    8650 2850
 	1    0    0    -1  
@@ -1030,12 +1030,12 @@ F 3 "" H 8650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C40
 U 1 1 5D4C6A0E
 P 9400 2850
-F 0 "C?" H 9492 2896 50  0000 L CNN
+F 0 "C40" H 9492 2896 50  0000 L CNN
 F 1 "100nF" H 9492 2805 50  0000 L CNN
-F 2 "" H 9400 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 9400 2850 50  0001 C CNN
 F 3 "~" H 9400 2850 50  0001 C CNN
 	1    9400 2850
 	1    0    0    -1  
@@ -1054,12 +1054,12 @@ $EndComp
 Wire Wire Line
 	9150 2750 9400 2750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C41
 U 1 1 5D4C7A5A
 P 10150 2850
-F 0 "C?" H 10242 2896 50  0000 L CNN
+F 0 "C41" H 10242 2896 50  0000 L CNN
 F 1 "100nF" H 10242 2805 50  0000 L CNN
-F 2 "" H 10150 2850 50  0001 C CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 10150 2850 50  0001 C CNN
 F 3 "~" H 10150 2850 50  0001 C CNN
 	1    10150 2850
 	1    0    0    -1  
