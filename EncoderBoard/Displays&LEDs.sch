@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
-Rev ""
+Title "Encoder Board"
+Date "2019-07-15"
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -20,8 +20,8 @@ U 1 1 5D470BC3
 P 1050 1400
 AR Path="/5D470BC3" Ref="U?"  Part="1" 
 AR Path="/5D4582C3/5D470BC3" Ref="U9"  Part="1" 
-F 0 "U9" H 1000 2050 50  0000 L CNN
-F 1 "Display_OLED_128x32_I2C" H 550 1950 50  0000 L CNN
+F 0 "U9" H 1050 2150 50  0000 L CNN
+F 1 "Display_OLED_128x32_I2C" H 650 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 1050 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 1894 1309 50  0001 L CNN
 	1    1050 1400
@@ -59,8 +59,8 @@ U 1 1 5D47C587
 P 2200 1400
 AR Path="/5D47C587" Ref="U?"  Part="1" 
 AR Path="/5D4582C3/5D47C587" Ref="U10"  Part="1" 
-F 0 "U10" H 2150 2050 50  0000 L CNN
-F 1 "Display_OLED_128x32_I2C" H 1700 1950 50  0000 L CNN
+F 0 "U10" H 2200 2150 50  0000 L CNN
+F 1 "Display_OLED_128x32_I2C" H 1800 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 2200 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 3044 1309 50  0001 L CNN
 	1    2200 1400
@@ -98,8 +98,8 @@ U 1 1 5D47E7E6
 P 3350 1400
 AR Path="/5D47E7E6" Ref="U?"  Part="1" 
 AR Path="/5D4582C3/5D47E7E6" Ref="U11"  Part="1" 
-F 0 "U11" H 3300 2050 50  0000 L CNN
-F 1 "Display_OLED_128x32_I2C" H 2850 1950 50  0000 L CNN
+F 0 "U11" H 3400 2150 50  0000 L CNN
+F 1 "Display_OLED_128x32_I2C" H 2950 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 3350 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 4194 1309 50  0001 L CNN
 	1    3350 1400
@@ -137,8 +137,8 @@ U 1 1 5D480D01
 P 4500 1400
 AR Path="/5D480D01" Ref="U?"  Part="1" 
 AR Path="/5D4582C3/5D480D01" Ref="U12"  Part="1" 
-F 0 "U12" H 4450 2050 50  0000 L CNN
-F 1 "Display_OLED_128x32_I2C" H 4000 1950 50  0000 L CNN
+F 0 "U12" H 4550 2150 50  0000 L CNN
+F 1 "Display_OLED_128x32_I2C" H 4100 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 4500 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 5344 1309 50  0001 L CNN
 	1    4500 1400
@@ -176,8 +176,8 @@ U 1 1 5D483919
 P 5650 1400
 AR Path="/5D483919" Ref="U?"  Part="1" 
 AR Path="/5D4582C3/5D483919" Ref="U13"  Part="1" 
-F 0 "U13" H 5600 2050 50  0000 L CNN
-F 1 "Display_OLED_128x32_I2C" H 5150 1950 50  0000 L CNN
+F 0 "U13" H 5700 2150 50  0000 L CNN
+F 1 "Display_OLED_128x32_I2C" H 5250 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 5650 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 6494 1309 50  0001 L CNN
 	1    5650 1400
@@ -215,8 +215,8 @@ U 1 1 5D4868CB
 P 6800 1400
 AR Path="/5D4868CB" Ref="U?"  Part="1" 
 AR Path="/5D4582C3/5D4868CB" Ref="U14"  Part="1" 
-F 0 "U14" H 6750 2050 50  0000 L CNN
-F 1 "Display_OLED_128x32_I2C" H 6300 1950 50  0000 L CNN
+F 0 "U14" H 6850 2150 50  0000 L CNN
+F 1 "Display_OLED_128x32_I2C" H 6400 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 6800 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 7644 1309 50  0001 L CNN
 	1    6800 1400
@@ -254,8 +254,8 @@ U 1 1 5D49104D
 P 7950 1400
 AR Path="/5D49104D" Ref="U?"  Part="1" 
 AR Path="/5D4582C3/5D49104D" Ref="U15"  Part="1" 
-F 0 "U15" H 7900 2050 50  0000 L CNN
-F 1 "Display_OLED_128x32_I2C" H 7450 1950 50  0000 L CNN
+F 0 "U15" H 8000 2150 50  0000 L CNN
+F 1 "Display_OLED_128x32_I2C" H 7550 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 7950 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 8794 1309 50  0001 L CNN
 	1    7950 1400
@@ -293,8 +293,8 @@ U 1 1 5D4945C2
 P 9100 1400
 AR Path="/5D4945C2" Ref="U?"  Part="1" 
 AR Path="/5D4582C3/5D4945C2" Ref="U16"  Part="1" 
-F 0 "U16" H 9050 2050 50  0000 L CNN
-F 1 "Display_OLED_128x32_I2C" H 8600 1950 50  0000 L CNN
+F 0 "U16" H 9150 2150 50  0000 L CNN
+F 1 "Display_OLED_128x32_I2C" H 8700 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 9100 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 9944 1309 50  0001 L CNN
 	1    9100 1400
@@ -332,8 +332,8 @@ U 1 1 5D496686
 P 10250 1400
 AR Path="/5D496686" Ref="U?"  Part="1" 
 AR Path="/5D4582C3/5D496686" Ref="U17"  Part="1" 
-F 0 "U17" H 10200 2050 50  0000 L CNN
-F 1 "Display_OLED_128x32_I2C" H 9750 1950 50  0000 L CNN
+F 0 "U17" H 10300 2150 50  0000 L CNN
+F 1 "Display_OLED_128x32_I2C" H 9850 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 10250 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 11094 1309 50  0001 L CNN
 	1    10250 1400
@@ -1112,4 +1112,221 @@ Connection ~ 3150 2750
 Wire Wire Line
 	2400 2750 2400 3050
 Connection ~ 2400 2750
+$Comp
+L Device:C_Small C63
+U 1 1 5D448626
+P 1900 900
+F 0 "C63" H 1992 946 50  0000 L CNN
+F 1 "100nF" H 1992 855 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 1900 900 50  0001 C CNN
+F 3 "~" H 1900 900 50  0001 C CNN
+	1    1900 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR093
+U 1 1 5D44862C
+P 1900 1000
+F 0 "#PWR093" H 1900 750 50  0001 C CNN
+F 1 "GND" H 1905 827 50  0000 C CNN
+F 2 "" H 1900 1000 50  0001 C CNN
+F 3 "" H 1900 1000 50  0001 C CNN
+	1    1900 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 800  1900 800 
+Connection ~ 1650 800 
+$Comp
+L Device:C_Small C64
+U 1 1 5D44BFBD
+P 3050 900
+F 0 "C64" H 3142 946 50  0000 L CNN
+F 1 "100nF" H 3142 855 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 3050 900 50  0001 C CNN
+F 3 "~" H 3050 900 50  0001 C CNN
+	1    3050 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR094
+U 1 1 5D44BFC3
+P 3050 1000
+F 0 "#PWR094" H 3050 750 50  0001 C CNN
+F 1 "GND" H 3055 827 50  0000 C CNN
+F 2 "" H 3050 1000 50  0001 C CNN
+F 3 "" H 3050 1000 50  0001 C CNN
+	1    3050 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 800  3050 800 
+$Comp
+L Device:C_Small C65
+U 1 1 5D44D393
+P 4200 900
+F 0 "C65" H 4292 946 50  0000 L CNN
+F 1 "100nF" H 4292 855 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 4200 900 50  0001 C CNN
+F 3 "~" H 4200 900 50  0001 C CNN
+	1    4200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR095
+U 1 1 5D44D399
+P 4200 1000
+F 0 "#PWR095" H 4200 750 50  0001 C CNN
+F 1 "GND" H 4205 827 50  0000 C CNN
+F 2 "" H 4200 1000 50  0001 C CNN
+F 3 "" H 4200 1000 50  0001 C CNN
+	1    4200 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 800  4200 800 
+$Comp
+L Device:C_Small C66
+U 1 1 5D44E143
+P 5350 900
+F 0 "C66" H 5442 946 50  0000 L CNN
+F 1 "100nF" H 5442 855 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 5350 900 50  0001 C CNN
+F 3 "~" H 5350 900 50  0001 C CNN
+	1    5350 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR096
+U 1 1 5D44E149
+P 5350 1000
+F 0 "#PWR096" H 5350 750 50  0001 C CNN
+F 1 "GND" H 5355 827 50  0000 C CNN
+F 2 "" H 5350 1000 50  0001 C CNN
+F 3 "" H 5350 1000 50  0001 C CNN
+	1    5350 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 800  5350 800 
+$Comp
+L Device:C_Small C67
+U 1 1 5D44F52A
+P 6500 900
+F 0 "C67" H 6592 946 50  0000 L CNN
+F 1 "100nF" H 6592 855 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 6500 900 50  0001 C CNN
+F 3 "~" H 6500 900 50  0001 C CNN
+	1    6500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR097
+U 1 1 5D44F530
+P 6500 1000
+F 0 "#PWR097" H 6500 750 50  0001 C CNN
+F 1 "GND" H 6505 827 50  0000 C CNN
+F 2 "" H 6500 1000 50  0001 C CNN
+F 3 "" H 6500 1000 50  0001 C CNN
+	1    6500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 800  6500 800 
+$Comp
+L Device:C_Small C68
+U 1 1 5D450297
+P 7650 900
+F 0 "C68" H 7742 946 50  0000 L CNN
+F 1 "100nF" H 7742 855 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 7650 900 50  0001 C CNN
+F 3 "~" H 7650 900 50  0001 C CNN
+	1    7650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR098
+U 1 1 5D45029D
+P 7650 1000
+F 0 "#PWR098" H 7650 750 50  0001 C CNN
+F 1 "GND" H 7655 827 50  0000 C CNN
+F 2 "" H 7650 1000 50  0001 C CNN
+F 3 "" H 7650 1000 50  0001 C CNN
+	1    7650 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 800  7650 800 
+$Comp
+L Device:C_Small C69
+U 1 1 5D451337
+P 8800 900
+F 0 "C69" H 8892 946 50  0000 L CNN
+F 1 "100nF" H 8892 855 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 8800 900 50  0001 C CNN
+F 3 "~" H 8800 900 50  0001 C CNN
+	1    8800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR099
+U 1 1 5D45133D
+P 8800 1000
+F 0 "#PWR099" H 8800 750 50  0001 C CNN
+F 1 "GND" H 8805 827 50  0000 C CNN
+F 2 "" H 8800 1000 50  0001 C CNN
+F 3 "" H 8800 1000 50  0001 C CNN
+	1    8800 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 800  8800 800 
+$Comp
+L Device:C_Small C70
+U 1 1 5D452971
+P 9950 900
+F 0 "C70" H 10042 946 50  0000 L CNN
+F 1 "100nF" H 10042 855 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 9950 900 50  0001 C CNN
+F 3 "~" H 9950 900 50  0001 C CNN
+	1    9950 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0100
+U 1 1 5D452977
+P 9950 1000
+F 0 "#PWR0100" H 9950 750 50  0001 C CNN
+F 1 "GND" H 9955 827 50  0000 C CNN
+F 2 "" H 9950 1000 50  0001 C CNN
+F 3 "" H 9950 1000 50  0001 C CNN
+	1    9950 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 800  9950 800 
+$Comp
+L Device:C_Small C71
+U 1 1 5D454160
+P 11100 900
+F 0 "C71" H 11192 946 50  0000 L CNN
+F 1 "100nF" H 11192 855 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 11100 900 50  0001 C CNN
+F 3 "~" H 11100 900 50  0001 C CNN
+	1    11100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0183
+U 1 1 5D454166
+P 11100 1000
+F 0 "#PWR0183" H 11100 750 50  0001 C CNN
+F 1 "GND" H 11105 827 50  0000 C CNN
+F 2 "" H 11100 1000 50  0001 C CNN
+F 3 "" H 11100 1000 50  0001 C CNN
+	1    11100 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 800  11100 800 
 $EndSCHEMATC

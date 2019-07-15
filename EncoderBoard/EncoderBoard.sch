@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
+Title "Encoder Board"
+Date "2019-07-15"
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -222,14 +222,7 @@ F 3 "" H 750 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	850  2900 750  2900
-Wire Wire Line
-	750  2900 750  2950
-Wire Wire Line
 	850  2800 750  2800
-Wire Wire Line
-	750  2800 750  2900
-Connection ~ 750  2900
 Wire Wire Line
 	850  2700 750  2700
 Wire Wire Line
@@ -262,33 +255,9 @@ F 3 "" H 5750 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 2900 5750 2900
-Wire Wire Line
-	5750 2900 5750 2950
-Wire Wire Line
-	5850 2800 5750 2800
-Wire Wire Line
-	5750 2800 5750 2900
-Connection ~ 5750 2900
-Wire Wire Line
 	5850 2700 5750 2700
 Wire Wire Line
-	5750 2700 5750 2800
-Connection ~ 5750 2800
-Wire Wire Line
-	3350 2900 3250 2900
-Wire Wire Line
-	3250 2900 3250 2950
-Wire Wire Line
-	3350 2800 3250 2800
-Wire Wire Line
-	3250 2800 3250 2900
-Connection ~ 3250 2900
-Wire Wire Line
 	3350 2700 3250 2700
-Wire Wire Line
-	3250 2700 3250 2800
-Connection ~ 3250 2800
 Text GLabel 850  1500 0    50   Input ~ 0
 MOSI
 Text GLabel 3350 1500 0    50   Input ~ 0
@@ -972,11 +941,6 @@ Wire Wire Line
 Wire Wire Line
 	8450 2700 8450 2800
 Connection ~ 8450 2800
-Wire Wire Line
-	8550 2200 8450 2200
-Wire Wire Line
-	8450 2200 8450 2700
-Connection ~ 8450 2700
 $Comp
 L power:GND #PWR0132
 U 1 1 5D385803
@@ -995,11 +959,6 @@ Wire Wire Line
 Wire Wire Line
 	8450 5500 8550 5500
 Connection ~ 8450 5600
-Wire Wire Line
-	8550 5000 8450 5000
-Wire Wire Line
-	8450 5000 8450 5500
-Connection ~ 8450 5500
 $Comp
 L power:GND #PWR0133
 U 1 1 5D3BFA7F
@@ -1997,4 +1956,203 @@ Wire Wire Line
 	3700 7100 4200 7100
 Wire Wire Line
 	3700 7000 4400 7000
+$Comp
+L Device:R R89
+U 1 1 5D2E6736
+P 8150 4850
+F 0 "R89" H 8220 4896 50  0000 L CNN
+F 1 "4.7k" H 8220 4805 50  0000 L CNN
+F 2 "Resistor_BG:R_0805_2012Metric" V 8080 4850 50  0001 C CNN
+F 3 "~" H 8150 4850 50  0001 C CNN
+	1    8150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR088
+U 1 1 5D2F0707
+P 8150 4700
+F 0 "#PWR088" H 8150 4550 50  0001 C CNN
+F 1 "+3V3" H 8165 4873 50  0000 C CNN
+F 2 "" H 8150 4700 50  0001 C CNN
+F 3 "" H 8150 4700 50  0001 C CNN
+	1    8150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5000 8550 5000
+$Comp
+L Device:R R88
+U 1 1 5D2FB0B8
+P 8150 2050
+F 0 "R88" H 8220 2096 50  0000 L CNN
+F 1 "4.7k" H 8220 2005 50  0000 L CNN
+F 2 "Resistor_BG:R_0805_2012Metric" V 8080 2050 50  0001 C CNN
+F 3 "~" H 8150 2050 50  0001 C CNN
+	1    8150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR087
+U 1 1 5D2FB0BE
+P 8150 1900
+F 0 "#PWR087" H 8150 1750 50  0001 C CNN
+F 1 "+3V3" H 8165 2073 50  0000 C CNN
+F 2 "" H 8150 1900 50  0001 C CNN
+F 3 "" H 8150 1900 50  0001 C CNN
+	1    8150 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2200 8550 2200
+$Comp
+L Device:C_Small C74
+U 1 1 5D3154DA
+P 5700 5750
+F 0 "C74" H 5792 5796 50  0000 L CNN
+F 1 "100nF" H 5792 5705 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 5700 5750 50  0001 C CNN
+F 3 "~" H 5700 5750 50  0001 C CNN
+	1    5700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR091
+U 1 1 5D3154E0
+P 5700 5850
+F 0 "#PWR091" H 5700 5600 50  0001 C CNN
+F 1 "GND" H 5705 5677 50  0000 C CNN
+F 2 "" H 5700 5850 50  0001 C CNN
+F 3 "" H 5700 5850 50  0001 C CNN
+	1    5700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C72
+U 1 1 5D31F86F
+P 7800 4950
+F 0 "C72" H 7892 4996 50  0000 L CNN
+F 1 "100nF" H 7892 4905 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 7800 4950 50  0001 C CNN
+F 3 "~" H 7800 4950 50  0001 C CNN
+	1    7800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR089
+U 1 1 5D31F875
+P 7800 5050
+F 0 "#PWR089" H 7800 4800 50  0001 C CNN
+F 1 "GND" H 7805 4877 50  0000 C CNN
+F 2 "" H 7800 5050 50  0001 C CNN
+F 3 "" H 7800 5050 50  0001 C CNN
+	1    7800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C73
+U 1 1 5D32BDAE
+P 5200 5750
+F 0 "C73" H 5292 5796 50  0000 L CNN
+F 1 "100nF" H 5292 5705 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 5200 5750 50  0001 C CNN
+F 3 "~" H 5200 5750 50  0001 C CNN
+	1    5200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR090
+U 1 1 5D32BDB4
+P 5200 5850
+F 0 "#PWR090" H 5200 5600 50  0001 C CNN
+F 1 "GND" H 5205 5677 50  0000 C CNN
+F 2 "" H 5200 5850 50  0001 C CNN
+F 3 "" H 5200 5850 50  0001 C CNN
+	1    5200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C75
+U 1 1 5D33E336
+P 6050 6800
+F 0 "C75" H 6142 6846 50  0000 L CNN
+F 1 "100nF" H 6142 6755 50  0000 L CNN
+F 2 "Capacitor_BG:C_0805_2012Metric" H 6050 6800 50  0001 C CNN
+F 3 "~" H 6050 6800 50  0001 C CNN
+	1    6050 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR092
+U 1 1 5D33E33C
+P 6050 6900
+F 0 "#PWR092" H 6050 6650 50  0001 C CNN
+F 1 "GND" H 6055 6727 50  0000 C CNN
+F 2 "" H 6050 6900 50  0001 C CNN
+F 3 "" H 6050 6900 50  0001 C CNN
+	1    6050 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 6700 5550 6700
+Connection ~ 5550 6700
+Wire Wire Line
+	5200 5650 4750 5650
+Connection ~ 4750 5650
+Wire Wire Line
+	5700 5650 6300 5650
+Connection ~ 6300 5650
+Wire Wire Line
+	7800 4850 7200 4850
+Connection ~ 7200 4850
+Wire Wire Line
+	750  2800 750  2900
+$Comp
+L power:+3V3 #PWR0181
+U 1 1 5D3E3BE4
+P 3100 2700
+F 0 "#PWR0181" H 3100 2550 50  0001 C CNN
+F 1 "+3V3" H 3115 2873 50  0000 C CNN
+F 2 "" H 3100 2700 50  0001 C CNN
+F 3 "" H 3100 2700 50  0001 C CNN
+	1    3100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0182
+U 1 1 5D3EE41A
+P 5600 2700
+F 0 "#PWR0182" H 5600 2550 50  0001 C CNN
+F 1 "+3V3" H 5615 2873 50  0000 C CNN
+F 2 "" H 5600 2700 50  0001 C CNN
+F 3 "" H 5600 2700 50  0001 C CNN
+	1    5600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  2900 850  2900
+Connection ~ 750  2900
+Wire Wire Line
+	750  2900 750  2950
+Wire Wire Line
+	3250 2700 3250 2800
+Wire Wire Line
+	3350 2900 3100 2900
+Wire Wire Line
+	3100 2700 3100 2900
+Wire Wire Line
+	3350 2800 3250 2800
+Connection ~ 3250 2800
+Wire Wire Line
+	3250 2800 3250 2950
+Wire Wire Line
+	5600 2700 5600 2800
+Wire Wire Line
+	5750 2700 5750 2900
+Wire Wire Line
+	5850 2800 5600 2800
+Wire Wire Line
+	5850 2900 5750 2900
+Connection ~ 5750 2900
+Wire Wire Line
+	5750 2900 5750 2950
 $EndSCHEMATC
