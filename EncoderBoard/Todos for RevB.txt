@@ -1,0 +1,2 @@
+* Enlarge button-top cut-outs on acrylic by 0.5mm - it's a bit too snug for the button travel.
+* Add 10k pull-up resistors to the push-buttons (just like on the encoder buttons).
