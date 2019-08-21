@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "name": "VisualTeensy",
+      "includePath": [
+        "src/**",
+        "core/**",
+        "lib/Adafruit_SSD1306/**",
+        "lib/Adafruit_GFX/**",
+        "lib/MCP23S17",
+        "lib/i2c_t3/**",
+        "lib/OSC/**",
+        "lib/SPI/**",
+        "lib/WS2812Serial/**"
+      ],
+      "forcedInclude": [],
+      "defines": [
+        "__MK20DX256__",
+        "TEENSYDUINO=150",
+        "F_CPU=72000000",
+        "USB_SERIAL",
+        "LAYOUT_US_ENGLISH",
+        "ARDUINO=10807"
+      ],
+      "compilerPath": "C:/Users/blake/toolchain/gcc/gcc-arm-none-eabi-5_4_1/bin/arm-none-eabi-gcc.exe",
+      "intelliSenseMode": "gcc-x64"
+    }
+  ],
+  "version": 4
+}

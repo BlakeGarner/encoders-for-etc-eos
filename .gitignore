@@ -19,3 +19,6 @@ EncoderBoard/*.net
 # Autorouter files (exported from Pcbnew)
 EncoderBoard/*.dsn
 EncoderBoard/*.ses
+
+# VS Code settings.
+Firmware/.vsteensy/build/

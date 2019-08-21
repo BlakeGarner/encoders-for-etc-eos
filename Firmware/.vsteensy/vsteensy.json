@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "target": "vsCode",
+  "buildSystem": "makefile",
+  "debugSupport": "none",
+  "configurations": [
+    {
+      "name": "default",
+      "guid": "b5055af8-61e1-4c04-8d7d-2456a80c11a3",
+      "setupType": "expert",
+      "coreBase": "C:\\Users\\blake\\toolchain\\Teensyduino\\td_150_core",
+      "compilerBase": "C:\\Users\\blake\\toolchain\\gcc\\gcc-arm-none-eabi-5_4_1",
+      "makefileExtension": null,
+      "copyCore": true,
+      "projectLibraries": [
+        "Adafruit_SSD1306",
+        "Adafruit_GFX",
+        "gpio_MCP23S17",
+        "OSC",
+        "i2c_t3",
+        "SPI",
+        "WS2812Serial"
+      ],
+      "board": {
+        "name": "Teensy 3.2 / 3.1",
+        "options": {
+          "USB Type": "Serial",
+          "CPU Speed": "72 MHz",
+          "Optimize": "Faster",
+          "Keyboard Layout": "US English"
+        }
+      }
+    }
+  ]
+}

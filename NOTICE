@@ -1,0 +1,3 @@
+Library code in the Firmware/lib and Firmware/core directories were developed
+seperately under a variety licenses. See the LICENSE file in each library's
+folder, or header text of each code file for attribution and license details.
