@@ -17,6 +17,9 @@
 #pragma once
 #include <Arduino.h>
 
+#define STRINGIZE2(s) #s
+#define STRINGIZE(s) STRINGIZE2(s)
+
 
 /**********************************************
  *                 QUANTITIES                 *
@@ -36,8 +39,17 @@ static const int NUM_OUTPUTS_PER_TCA9958A = 8;
 static const int NUM_OUTPUTS_PER_MCP23S17 = 16;
 
 // Version
-static const String FIRMWARE_VERSION = "1.0.0";
-static const String FIRMWARE_DATE    = "30 May 2020";
+#ifdef VERSION // VERSION set in makefile
+#define BUILD_VERSION_STRING STRINGIZE(VERSION)
+#else
+#define BUILD_VERSION_STRING "0.0.0"
+#endif
+static const String FIRMWARE_VERSION = BUILD_VERSION_STRING;
+static const String DATE_US_FORMAT = __DATE__; // Is in mmm dd yyyy format.
+// Reformat it to dd mmm yyyy
+static const String FIRMWARE_DATE = DATE_US_FORMAT.substring(4,6) + ' ' + 
+                                    DATE_US_FORMAT.substring(0,3) + ' ' + 
+                                    DATE_US_FORMAT.substring(7,11);
 
 
 /************************************************
@@ -183,7 +195,7 @@ static const String WELCOME_MESSAGE[NUM_KNOBS] = {
     "EOS\nEncoder", 
     "",
     "Version\n" + FIRMWARE_VERSION,
-    FIRMWARE_DATE,
+    FIRMWARE_DATE.substring(0,6) + '\n' + FIRMWARE_DATE.substring(7,11),
     "Designed\nby",
     "Blake\nGarner",
     "",

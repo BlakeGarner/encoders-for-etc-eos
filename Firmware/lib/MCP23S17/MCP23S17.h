@@ -18,8 +18,7 @@
 
 #include <SPI.h>
 
-// TODO: Set speed of SPI (depends on processor?)
-#define MCP23S17_MAX_SPI 10000000UL // 10MHz
+#define MCP23S17_MAX_SPI 10000000UL // 10MHz - as per MCP23S17 datasheet
 
 #ifndef MCP23S17_BANK
 #define MCP23S17_BANK 0

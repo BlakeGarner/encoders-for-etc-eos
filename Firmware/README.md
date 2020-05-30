@@ -104,7 +104,7 @@ Adjust the paths used in the makefile to match your system paths for the above t
 From within the Firmware folder, the following commands are available using make:
 
 - `make clean`
-- `make build`
+- `make all`
 - `make upload` - Uploads using the Teensy.exe program.
 - `make uploadTy` - Uploads using the TyCommanderC.exe program.
 Everything is built to the .vsteensy/build folder.
