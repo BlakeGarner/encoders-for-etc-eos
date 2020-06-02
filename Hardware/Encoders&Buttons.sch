@@ -6,9 +6,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "Encoder Board"
-Date "2019-07-15"
-Rev "A"
-Comp ""
+Date "2020-06-02"
+Rev "B"
+Comp "Blake Garner"
 Comment1 ""
 Comment2 ""
 Comment3 ""
