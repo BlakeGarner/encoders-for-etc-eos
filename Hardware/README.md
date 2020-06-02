@@ -140,9 +140,7 @@ Please log an issue and/or pull request for any bugs or feature changes you may 
 
 ## License
 
-All hardware files (inside `EncoderBoard`) and original source code (inside `Firmware/src`) uses the Apache 2.0 license. See [LICENSE](LICENSE) for more information.
-
-Libraries inside `Firmare/lib` and `Firmware/core` have been licensed separately by their respective authors and include a mixture of BSD, MIT, public domain, LGPLv2 and other licenses. More information on each can be found in the relevant source files.
+All hardware files (inside `EncoderBoard`) uses the Apache 2.0 license. See [LICENSE](../LICENSE) for more information.
 
 [lighthack]: https://github.com/ETCLabs/lighthack
 [etceos]: https://www.etcconnect.com/Products/Consoles/Eos-Family/
