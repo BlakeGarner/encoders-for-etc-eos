@@ -30,11 +30,11 @@ This is an independent project that is designed to work with the [ETC Eos][etceo
 
 #### PCB
 
-The schematic and PCB files were built using KiCad 5.1. But you only need the PCB Gerbers located in the `EncoderBoard_RevA_Gerbers` folder to order your PCB. I ordered a black PCB so it matched(-ish) the black of my acrylic case.
+The schematic and PCB files were built using KiCad 5.1. But you only need the PCB Gerbers located in the `Gerbers` folder to order your PCB. I ordered a black PCB so it matched(-ish) the black of my acrylic case.
 
 #### Electronic Parts
 
-A list of the required components can be found in the BOM folder in either [csv](bom/EncoderBoard_revA.csv) or [xlsx](bom/EncoderBoard_revA.xlsx) format.
+A list of the required components can be found in the BOM folder in either [csv](bom/EncoderBoard_revB.csv) or [xlsx](bom/EncoderBoard_revB.xlsx) format.
 
 - You may need to choose an encoder with a different shaft height than the 20mm I used depending on the internal height of your encoder knobs and space taken up by the acrylic case.
 - Don't forget 0.1" headers to solder the Teensy and OLEDs to the PCB.
@@ -63,7 +63,7 @@ The laser-cut acrylic case is quite an expensive solution compared to off-the-sh
 
 ### Step 2: Assemble the PCB
 
-- Solder all parts **except the OLED displays** to the PCB. I found it easier to do the underside SMT parts first and then the top side SMT parts and finally the PTH parts. The [Interactive HTML BOM page](bom/BOM%20-%20Encoder%20Board,%20Rev%20A.html) in the bom folder should assist when placing components.
+- Solder all parts **except the OLED displays** to the PCB. I found it easier to do the underside SMT parts first and then the top side SMT parts and finally the PTH parts. The [Interactive HTML BOM page](bom/BOM%20-%20Encoder%20Board,%20Rev%20B.html) in the bom folder should assist when placing components.
 
   ![Encoder PCB Bottom Side](images/encoder-components-bottomside.jpg)
   
@@ -125,9 +125,9 @@ The encoder board should now be working. Connect it to an Eos family console, or
 
 ## Issues
 
-- In revA of the board, there are some missing pull-up resistors for the push buttons that need to be bodged onto the PCB - it's a real pain to fix, so better to fix that before getting the PCB printed.
+- In revA of the board, there are some missing pull-up resistors for the push buttons that need to be bodged onto the PCB - fixed in RevB of the board.
 - Some of the acrylic can be a tight fit, depending on your laser-cutter's tolerances. Best to approach the fitting of the board on a day when you have plenty of paitence! I will try to make it more forgiving in later revisions.
-- See the [Todo text file](Todos%20for%20RevB.txt) for a list of issues found when building the most recent revision of the board, as well as desired improvements for future versions.
+- See the [Todo text file](Todos%20for%20RevC.txt) for a list of issues found when building the most recent revision of the board, as well as desired improvements for future versions.
 
 ## Contributing
 
