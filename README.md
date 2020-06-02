@@ -19,7 +19,7 @@ This is an independent project that is designed to work with the [ETC Eos][etceo
 
 ## Quick Start
 
-*To build the hardware, consult the README located in the [EncoderBoard](EncoderBoard/README.md) folder.*\
+*To build the hardware, consult the README located in the [Hardware](Hardware/README.md) folder.*\
 *To make changes to the firmware, consult the README located in the [Firmware](Firmware/README.md) folder.*
 
 1. Connect the encoders to your console, PC or Mac using a USB-A to micro-USB cable.
@@ -102,7 +102,7 @@ Please log an issue and/or pull request for any bugs or feature changes you may 
 
 ## License
 
-All hardware files (inside `EncoderBoard`) and original source code (inside `Firmware/src`) uses the Apache 2.0 license. See [LICENSE](LICENSE) for more information.
+All hardware files (inside `Hardware`) and original source code (inside `Firmware/src`) uses the Apache 2.0 license. See [LICENSE](LICENSE) for more information.
 
 Libraries inside `Firmare/lib` and `Firmware/core` have been licensed separately by their respective authors and include a mixture of BSD, MIT, public domain, LGPLv2 and other licenses. More information on each can be found in the relevant source files.
 

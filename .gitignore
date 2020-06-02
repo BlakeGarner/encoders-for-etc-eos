@@ -2,23 +2,23 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
-EncoderBoard/*.000
-EncoderBoard/*.bak
-EncoderBoard/*.bck
-EncoderBoard/*.kicad_pcb-bak
-EncoderBoard/*~
-EncoderBoard/_autosave-*
-EncoderBoard/*.tmp
-EncoderBoard/*-save.pro
-EncoderBoard/*-save.kicad_pcb
-EncoderBoard/fp-info-cache
+Hardware/*.000
+Hardware/*.bak
+Hardware/*.bck
+Hardware/*.kicad_pcb-bak
+Hardware/*~
+Hardware/_autosave-*
+Hardware/*.tmp
+Hardware/*-save.pro
+Hardware/*-save.kicad_pcb
+Hardware/fp-info-cache
 
 # Netlist files (exported from Eeschema)
-EncoderBoard/*.net
+Hardware/*.net
 
 # Autorouter files (exported from Pcbnew)
-EncoderBoard/*.dsn
-EncoderBoard/*.ses
+Hardware/*.dsn
+Hardware/*.ses
 
 # VS Code settings.
 Firmware/.vsteensy/build/

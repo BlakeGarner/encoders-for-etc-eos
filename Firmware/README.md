@@ -2,7 +2,7 @@
 
 This folder contains all the source and library files required to build the Encoders for [ETC Eos][etceos] firmware - useful for those who need to modify the code and build their own firmware.
 
-If you only need to upload an existing firmware file to your hardware, see README.md in the EncoderBoard folder.
+If you only need to upload an existing firmware file to your hardware, see README.md in the Hardware folder.
 
 This is an independent project that is designed to work with the [ETC Eos][etceos], but is not affiliated with Electronic Theatre Controls.
 
@@ -24,7 +24,7 @@ This is an independent project that is designed to work with the [ETC Eos][etceo
 
 The basic installation runs through the steps to get everything set up more-or-less the same as I did for my development.
 
-You only need to follow these steps if you wish to build your own version of the firmware. Instructions to upload existing firmware is available in the [EncoderBoard folder](../EncoderBoard/README.md). To adjust the code, you're going to need some knowledge of C++.
+You only need to follow these steps if you wish to build your own version of the firmware. Instructions to upload existing firmware is available in the [Hardware folder](../Hardware/README.md). To adjust the code, you're going to need some knowledge of C++.
 
 ### Install Software
 
@@ -66,8 +66,8 @@ CTRL+SHIFT+B opens the build/deploy options in the top of the window.
 
 - **Build** - builds the project and writes the final file to .vsteensy\build\Firmware.hex (or whatever `TARGET_NAME` was set to in the makefile.
 - **Clean** - Remove previous object and linker files - run before `Build` to force a recompile of everything.
-- **Upload (teensy.exe)** - Upload the built code to your Teensy using the `teensy.exe` program. Before running Upload, place the Teensy in programming mode by pressing the on-board push-button just before selecting Upload (if your project is already assembled, a small hole has been included in the enclosure for a paperclip). See the upload instructions in the `EncoderBoard` folder's [README](../EncoderBoard/README.md) for more details on uploading a built hex file.
-- **Upload (TyCommander)** - Upload the code to your Teensy using the `TyCommanderC.exe` program. This will use whatever firmware file was last generated using the `Build` command. Before running Upload, place the Teensy in programming mode by pressing the on-board push-button just before selecting Upload (if your project is already assembled, a small hole has been included in the enclosure for a paperclip). See the upload instructions in the `EncoderBoard` folder's [README](../EncoderBoard/README.md) for more details on uploading a built hex file.
+- **Upload (teensy.exe)** - Upload the built code to your Teensy using the `teensy.exe` program. Before running Upload, place the Teensy in programming mode by pressing the on-board push-button just before selecting Upload (if your project is already assembled, a small hole has been included in the enclosure for a paperclip). See the upload instructions in the `Hardware` folder's [README](../Hardware/README.md) for more details on uploading a built hex file.
+- **Upload (TyCommander)** - Upload the code to your Teensy using the `TyCommanderC.exe` program. This will use whatever firmware file was last generated using the `Build` command. Before running Upload, place the Teensy in programming mode by pressing the on-board push-button just before selecting Upload (if your project is already assembled, a small hole has been included in the enclosure for a paperclip). See the upload instructions in the `Hardware` folder's [README](../Hardware/README.md) for more details on uploading a built hex file.
 
 ## Installation - Advanced
 
