@@ -30,7 +30,7 @@ This is an independent project that is designed to work with the [ETC Eos][etceo
 
 #### PCB
 
-The schematic and PCB files were built using KiCad 5.1. But you only need the PCB Gerbers located in [EncoderBoard_RevA_Gerbers](./EncoderBoard_RevA_Gerbers/) to order your PCB. I ordered a black PCB so it matched(-ish) the black of my acrylic case.
+The schematic and PCB files were built using KiCad 5.1. But you only need the PCB Gerbers located in the `EncoderBoard_RevA_Gerbers` folder to order your PCB. I ordered a black PCB so it matched(-ish) the black of my acrylic case.
 
 #### Electronic Parts
 
@@ -52,7 +52,7 @@ The laser-cut acrylic case is quite an expensive solution compared to off-the-sh
   - Layer 3: This is essentially a spacer between the PCB and layer 2 so none of the electronic components get in the way. It needs to be thicker than the height of your tallest component - 4.5mm was used in the drawings.
   - Layer 4: This is the spacer for your electronic components on the rear side of the board. 4.5mm acrylic was chosen to match that of layer 3.
   - Layer 5: This is a cover plate for the rear side - 2mm was selected to match that of layer 2.
-- You should be able to order the acrylic from your local laser-cutter supplier. Make sure the requirements in file format and line colours from your laser cutter matches what is supplied. You can find various files in the [SVG folder](SVGs) that show the cutouts in a few different layouts.
+- You should be able to order the acrylic from your local laser-cutter supplier. Make sure the requirements in file format and line colours from your laser cutter matches what is supplied. You can find various files in the `SVG` folder that show the cutouts in a few different layouts.
 
 #### Extras
 
@@ -99,7 +99,7 @@ The laser-cut acrylic case is quite an expensive solution compared to off-the-sh
   ![Encoders Programming Button](images/encoders-programming-button.jpg)
 - The Teensy should show as in bootloader mode and the upload button should become available. Click the drop-down menu on the upload button and choose "Upload New Firmware".\
   ![TyCommander Upload Button](images/tycommander-upload-button.png)
-- Navigate to this project folder and select the Firmware_x.x.x.hex file in the [Firmware folder](../Firmware) that matches the version you want to upload (probably the latest version).\
+- Navigate to this project folder and select the `Firmware_x.x.x.hex` file in the `Firmware` folder that matches the version you want to upload (probably the latest version).\
   ![TyCommander HEX File Select](images/tycommander-select-hex-file.png)
 - The firmware will take a couple of seconds to upload, and then the board should automatically reboot.
 
@@ -110,7 +110,7 @@ The laser-cut acrylic case is quite an expensive solution compared to off-the-sh
 - Open the Teensy.exe file from the Teensyduino installation directory, or via the Arduino software.
 - Click the "Open HEX File" button.\
   ![Encoders Load HEX File](images/teensy-open-hex-file.png)
-- Navigate to this project folder and select the [Firmware_x.x.x.hex file in the Firmware folder](../Firmware) that matches the version you want to upload (probably the latest version).
+- Navigate to this project folder and select the `Firmware_x.x.x.hex` file in the `Firmware` folder that matches the version you want to upload (probably the latest version).
 - Place the Teensy board in programming mode by pressing the push-button on top of the Teensy (still accessible using a paperclip with the case in place).\
 ![Encoders Programming Button](images/encoders-programming-button.jpg)
 - Program the Teensy by pressing the Program button in the Teensy utility.\
