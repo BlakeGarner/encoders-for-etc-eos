@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:EncoderBoard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -24,6 +23,8 @@ F 0 "U9" H 1050 2150 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 650 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 1050 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 1894 1309 50  0001 L CNN
+F 4 "Unbranded" H 1050 1400 50  0001 C CNN "MFR"
+F 5 "128x32_I2C_OLED_SSD1306" H 1050 1400 50  0001 C CNN "MPN"
 	1    1050 1400
 	1    0    0    -1  
 $EndComp
@@ -63,6 +64,8 @@ F 0 "U10" H 2200 2150 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 1800 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 2200 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 3044 1309 50  0001 L CNN
+F 4 "Unbranded" H 2200 1400 50  0001 C CNN "MFR"
+F 5 "128x32_I2C_OLED_SSD1306" H 2200 1400 50  0001 C CNN "MPN"
 	1    2200 1400
 	1    0    0    -1  
 $EndComp
@@ -102,6 +105,8 @@ F 0 "U11" H 3400 2150 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 2950 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 3350 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 4194 1309 50  0001 L CNN
+F 4 "Unbranded" H 3350 1400 50  0001 C CNN "MFR"
+F 5 "128x32_I2C_OLED_SSD1306" H 3350 1400 50  0001 C CNN "MPN"
 	1    3350 1400
 	1    0    0    -1  
 $EndComp
@@ -141,6 +146,8 @@ F 0 "U12" H 4550 2150 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 4100 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 4500 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 5344 1309 50  0001 L CNN
+F 4 "Unbranded" H 4500 1400 50  0001 C CNN "MFR"
+F 5 "128x32_I2C_OLED_SSD1306" H 4500 1400 50  0001 C CNN "MPN"
 	1    4500 1400
 	1    0    0    -1  
 $EndComp
@@ -180,6 +187,8 @@ F 0 "U13" H 5700 2150 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 5250 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 5650 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 6494 1309 50  0001 L CNN
+F 4 "Unbranded" H 5650 1400 50  0001 C CNN "MFR"
+F 5 "128x32_I2C_OLED_SSD1306" H 5650 1400 50  0001 C CNN "MPN"
 	1    5650 1400
 	1    0    0    -1  
 $EndComp
@@ -219,6 +228,8 @@ F 0 "U14" H 6850 2150 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 6400 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 6800 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 7644 1309 50  0001 L CNN
+F 4 "Unbranded" H 6800 1400 50  0001 C CNN "MFR"
+F 5 "128x32_I2C_OLED_SSD1306" H 6800 1400 50  0001 C CNN "MPN"
 	1    6800 1400
 	1    0    0    -1  
 $EndComp
@@ -258,6 +269,8 @@ F 0 "U15" H 8000 2150 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 7550 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 7950 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 8794 1309 50  0001 L CNN
+F 4 "Unbranded" H 7950 1400 50  0001 C CNN "MFR"
+F 5 "128x32_I2C_OLED_SSD1306" H 7950 1400 50  0001 C CNN "MPN"
 	1    7950 1400
 	1    0    0    -1  
 $EndComp
@@ -297,6 +310,8 @@ F 0 "U16" H 9150 2150 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 8700 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 9100 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 9944 1309 50  0001 L CNN
+F 4 "Unbranded" H 9100 1400 50  0001 C CNN "MFR"
+F 5 "128x32_I2C_OLED_SSD1306" H 9100 1400 50  0001 C CNN "MPN"
 	1    9100 1400
 	1    0    0    -1  
 $EndComp
@@ -336,6 +351,8 @@ F 0 "U17" H 10300 2150 50  0000 L CNN
 F 1 "Display_OLED_128x32_I2C" H 9850 2050 50  0000 L CNN
 F 2 "Display_BG:Display_OLED_128x32_I2C" H 10250 1400 50  0001 C CNN
 F 3 "https://learn.adafruit.com/monochrome-oled-breakouts/downloads" H 11094 1309 50  0001 L CNN
+F 4 "Unbranded" H 10250 1400 50  0001 C CNN "MFR"
+F 5 "128x32_I2C_OLED_SSD1306" H 10250 1400 50  0001 C CNN "MPN"
 	1    10250 1400
 	1    0    0    -1  
 $EndComp
@@ -373,6 +390,8 @@ F 0 "D1" H 1600 3800 50  0000 L CNN
 F 1 "WS2812B" H 1450 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1700 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1750 2975 50  0001 L TNN
+F 4 "World Semi" H 1650 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 1650 3350 50  0001 C CNN "MPN"
 	1    1650 3350
 	1    0    0    -1  
 $EndComp
@@ -406,6 +425,8 @@ F 0 "D2" H 2350 3800 50  0000 L CNN
 F 1 "WS2812B" H 2200 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2450 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2500 2975 50  0001 L TNN
+F 4 "World Semi" H 2400 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 2400 3350 50  0001 C CNN "MPN"
 	1    2400 3350
 	1    0    0    -1  
 $EndComp
@@ -439,6 +460,8 @@ F 0 "D3" H 3100 3800 50  0000 L CNN
 F 1 "WS2812B" H 2950 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3200 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3250 2975 50  0001 L TNN
+F 4 "World Semi" H 3150 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 3150 3350 50  0001 C CNN "MPN"
 	1    3150 3350
 	1    0    0    -1  
 $EndComp
@@ -472,6 +495,8 @@ F 0 "D4" H 3850 3800 50  0000 L CNN
 F 1 "WS2812B" H 3700 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3950 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4000 2975 50  0001 L TNN
+F 4 "World Semi" H 3900 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 3900 3350 50  0001 C CNN "MPN"
 	1    3900 3350
 	1    0    0    -1  
 $EndComp
@@ -505,6 +530,8 @@ F 0 "D5" H 4600 3800 50  0000 L CNN
 F 1 "WS2812B" H 4450 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4700 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4750 2975 50  0001 L TNN
+F 4 "World Semi" H 4650 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 4650 3350 50  0001 C CNN "MPN"
 	1    4650 3350
 	1    0    0    -1  
 $EndComp
@@ -538,6 +565,8 @@ F 0 "D6" H 5350 3800 50  0000 L CNN
 F 1 "WS2812B" H 5200 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5450 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5500 2975 50  0001 L TNN
+F 4 "World Semi" H 5400 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 5400 3350 50  0001 C CNN "MPN"
 	1    5400 3350
 	1    0    0    -1  
 $EndComp
@@ -571,6 +600,8 @@ F 0 "D7" H 6100 3800 50  0000 L CNN
 F 1 "WS2812B" H 5950 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6200 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6250 2975 50  0001 L TNN
+F 4 "World Semi" H 6150 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 6150 3350 50  0001 C CNN "MPN"
 	1    6150 3350
 	1    0    0    -1  
 $EndComp
@@ -604,6 +635,8 @@ F 0 "D8" H 6850 3800 50  0000 L CNN
 F 1 "WS2812B" H 6700 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6950 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7000 2975 50  0001 L TNN
+F 4 "World Semi" H 6900 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 6900 3350 50  0001 C CNN "MPN"
 	1    6900 3350
 	1    0    0    -1  
 $EndComp
@@ -637,6 +670,8 @@ F 0 "D9" H 7600 3800 50  0000 L CNN
 F 1 "WS2812B" H 7450 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7700 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7750 2975 50  0001 L TNN
+F 4 "World Semi" H 7650 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 7650 3350 50  0001 C CNN "MPN"
 	1    7650 3350
 	1    0    0    -1  
 $EndComp
@@ -670,6 +705,8 @@ F 0 "D10" H 8350 3800 50  0000 L CNN
 F 1 "WS2812B" H 8200 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8450 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8500 2975 50  0001 L TNN
+F 4 "World Semi" H 8400 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 8400 3350 50  0001 C CNN "MPN"
 	1    8400 3350
 	1    0    0    -1  
 $EndComp
@@ -703,6 +740,8 @@ F 0 "D11" H 9100 3800 50  0000 L CNN
 F 1 "WS2812B" H 8950 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9200 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9250 2975 50  0001 L TNN
+F 4 "World Semi" H 9150 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 9150 3350 50  0001 C CNN "MPN"
 	1    9150 3350
 	1    0    0    -1  
 $EndComp
@@ -736,6 +775,8 @@ F 0 "D12" H 9850 3800 50  0000 L CNN
 F 1 "WS2812B" H 9700 3700 50  0000 L CNN
 F 2 "LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9950 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10000 2975 50  0001 L TNN
+F 4 "World Semi" H 9900 3350 50  0001 C CNN "MFR"
+F 5 "WS2812B" H 9900 3350 50  0001 C CNN "MPN"
 	1    9900 3350
 	1    0    0    -1  
 $EndComp
@@ -795,7 +836,9 @@ P 1900 2850
 F 0 "C30" H 1992 2896 50  0000 L CNN
 F 1 "100nF" H 1992 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1900 2850 50  0001 C CNN
-F 3 "~" H 1900 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1900 2850 50  0001 C CNN
+F 4 "Samsung" H 1900 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 1900 2850 50  0001 C CNN "MPN"
 	1    1900 2850
 	1    0    0    -1  
 $EndComp
@@ -822,7 +865,9 @@ P 2650 2850
 F 0 "C31" H 2742 2896 50  0000 L CNN
 F 1 "100nF" H 2742 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 2650 2850 50  0001 C CNN
-F 3 "~" H 2650 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2650 2850 50  0001 C CNN
+F 4 "Samsung" H 2650 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 2650 2850 50  0001 C CNN "MPN"
 	1    2650 2850
 	1    0    0    -1  
 $EndComp
@@ -846,7 +891,9 @@ P 3400 2850
 F 0 "C32" H 3492 2896 50  0000 L CNN
 F 1 "100nF" H 3492 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 3400 2850 50  0001 C CNN
-F 3 "~" H 3400 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3400 2850 50  0001 C CNN
+F 4 "Samsung" H 3400 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 3400 2850 50  0001 C CNN "MPN"
 	1    3400 2850
 	1    0    0    -1  
 $EndComp
@@ -870,7 +917,9 @@ P 4150 2850
 F 0 "C33" H 4242 2896 50  0000 L CNN
 F 1 "100nF" H 4242 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 4150 2850 50  0001 C CNN
-F 3 "~" H 4150 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 4150 2850 50  0001 C CNN
+F 4 "Samsung" H 4150 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 4150 2850 50  0001 C CNN "MPN"
 	1    4150 2850
 	1    0    0    -1  
 $EndComp
@@ -894,7 +943,9 @@ P 4900 2850
 F 0 "C34" H 4992 2896 50  0000 L CNN
 F 1 "100nF" H 4992 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 4900 2850 50  0001 C CNN
-F 3 "~" H 4900 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 4900 2850 50  0001 C CNN
+F 4 "Samsung" H 4900 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 4900 2850 50  0001 C CNN "MPN"
 	1    4900 2850
 	1    0    0    -1  
 $EndComp
@@ -918,7 +969,9 @@ P 5650 2850
 F 0 "C35" H 5742 2896 50  0000 L CNN
 F 1 "100nF" H 5742 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5650 2850 50  0001 C CNN
-F 3 "~" H 5650 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5650 2850 50  0001 C CNN
+F 4 "Samsung" H 5650 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 5650 2850 50  0001 C CNN "MPN"
 	1    5650 2850
 	1    0    0    -1  
 $EndComp
@@ -942,7 +995,9 @@ P 6400 2850
 F 0 "C36" H 6492 2896 50  0000 L CNN
 F 1 "100nF" H 6492 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 6400 2850 50  0001 C CNN
-F 3 "~" H 6400 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6400 2850 50  0001 C CNN
+F 4 "Samsung" H 6400 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 6400 2850 50  0001 C CNN "MPN"
 	1    6400 2850
 	1    0    0    -1  
 $EndComp
@@ -966,7 +1021,9 @@ P 7150 2850
 F 0 "C37" H 7242 2896 50  0000 L CNN
 F 1 "100nF" H 7242 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 7150 2850 50  0001 C CNN
-F 3 "~" H 7150 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7150 2850 50  0001 C CNN
+F 4 "Samsung" H 7150 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 7150 2850 50  0001 C CNN "MPN"
 	1    7150 2850
 	1    0    0    -1  
 $EndComp
@@ -990,7 +1047,9 @@ P 7900 2850
 F 0 "C38" H 7992 2896 50  0000 L CNN
 F 1 "100nF" H 7992 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 7900 2850 50  0001 C CNN
-F 3 "~" H 7900 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7900 2850 50  0001 C CNN
+F 4 "Samsung" H 7900 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 7900 2850 50  0001 C CNN "MPN"
 	1    7900 2850
 	1    0    0    -1  
 $EndComp
@@ -1014,7 +1073,9 @@ P 8650 2850
 F 0 "C39" H 8742 2896 50  0000 L CNN
 F 1 "100nF" H 8742 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 8650 2850 50  0001 C CNN
-F 3 "~" H 8650 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 8650 2850 50  0001 C CNN
+F 4 "Samsung" H 8650 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 8650 2850 50  0001 C CNN "MPN"
 	1    8650 2850
 	1    0    0    -1  
 $EndComp
@@ -1036,7 +1097,9 @@ P 9400 2850
 F 0 "C40" H 9492 2896 50  0000 L CNN
 F 1 "100nF" H 9492 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 9400 2850 50  0001 C CNN
-F 3 "~" H 9400 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9400 2850 50  0001 C CNN
+F 4 "Samsung" H 9400 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 9400 2850 50  0001 C CNN "MPN"
 	1    9400 2850
 	1    0    0    -1  
 $EndComp
@@ -1060,7 +1123,9 @@ P 10150 2850
 F 0 "C41" H 10242 2896 50  0000 L CNN
 F 1 "100nF" H 10242 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 10150 2850 50  0001 C CNN
-F 3 "~" H 10150 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 10150 2850 50  0001 C CNN
+F 4 "Samsung" H 10150 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 10150 2850 50  0001 C CNN "MPN"
 	1    10150 2850
 	1    0    0    -1  
 $EndComp
@@ -1119,7 +1184,9 @@ P 1900 900
 F 0 "C63" H 1992 946 50  0000 L CNN
 F 1 "100nF" H 1992 855 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1900 900 50  0001 C CNN
-F 3 "~" H 1900 900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1900 900 50  0001 C CNN
+F 4 "Samsung" H 1900 900 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 1900 900 50  0001 C CNN "MPN"
 	1    1900 900 
 	1    0    0    -1  
 $EndComp
@@ -1144,7 +1211,9 @@ P 3050 900
 F 0 "C64" H 3142 946 50  0000 L CNN
 F 1 "100nF" H 3142 855 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 3050 900 50  0001 C CNN
-F 3 "~" H 3050 900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3050 900 50  0001 C CNN
+F 4 "Samsung" H 3050 900 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 3050 900 50  0001 C CNN "MPN"
 	1    3050 900 
 	1    0    0    -1  
 $EndComp
@@ -1168,7 +1237,9 @@ P 4200 900
 F 0 "C65" H 4292 946 50  0000 L CNN
 F 1 "100nF" H 4292 855 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 4200 900 50  0001 C CNN
-F 3 "~" H 4200 900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 4200 900 50  0001 C CNN
+F 4 "Samsung" H 4200 900 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 4200 900 50  0001 C CNN "MPN"
 	1    4200 900 
 	1    0    0    -1  
 $EndComp
@@ -1192,7 +1263,9 @@ P 5350 900
 F 0 "C66" H 5442 946 50  0000 L CNN
 F 1 "100nF" H 5442 855 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5350 900 50  0001 C CNN
-F 3 "~" H 5350 900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5350 900 50  0001 C CNN
+F 4 "Samsung" H 5350 900 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 5350 900 50  0001 C CNN "MPN"
 	1    5350 900 
 	1    0    0    -1  
 $EndComp
@@ -1216,7 +1289,9 @@ P 6500 900
 F 0 "C67" H 6592 946 50  0000 L CNN
 F 1 "100nF" H 6592 855 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 6500 900 50  0001 C CNN
-F 3 "~" H 6500 900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6500 900 50  0001 C CNN
+F 4 "Samsung" H 6500 900 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 6500 900 50  0001 C CNN "MPN"
 	1    6500 900 
 	1    0    0    -1  
 $EndComp
@@ -1240,7 +1315,9 @@ P 7650 900
 F 0 "C68" H 7742 946 50  0000 L CNN
 F 1 "100nF" H 7742 855 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 7650 900 50  0001 C CNN
-F 3 "~" H 7650 900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7650 900 50  0001 C CNN
+F 4 "Samsung" H 7650 900 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 7650 900 50  0001 C CNN "MPN"
 	1    7650 900 
 	1    0    0    -1  
 $EndComp
@@ -1264,7 +1341,9 @@ P 8800 900
 F 0 "C69" H 8892 946 50  0000 L CNN
 F 1 "100nF" H 8892 855 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 8800 900 50  0001 C CNN
-F 3 "~" H 8800 900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 8800 900 50  0001 C CNN
+F 4 "Samsung" H 8800 900 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 8800 900 50  0001 C CNN "MPN"
 	1    8800 900 
 	1    0    0    -1  
 $EndComp
@@ -1288,7 +1367,9 @@ P 9950 900
 F 0 "C70" H 10042 946 50  0000 L CNN
 F 1 "100nF" H 10042 855 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 9950 900 50  0001 C CNN
-F 3 "~" H 9950 900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9950 900 50  0001 C CNN
+F 4 "Samsung" H 9950 900 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 9950 900 50  0001 C CNN "MPN"
 	1    9950 900 
 	1    0    0    -1  
 $EndComp
@@ -1312,7 +1393,9 @@ P 11100 900
 F 0 "C71" H 11192 946 50  0000 L CNN
 F 1 "100nF" H 11192 855 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 11100 900 50  0001 C CNN
-F 3 "~" H 11100 900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 11100 900 50  0001 C CNN
+F 4 "Samsung" H 11100 900 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 11100 900 50  0001 C CNN "MPN"
 	1    11100 900 
 	1    0    0    -1  
 $EndComp

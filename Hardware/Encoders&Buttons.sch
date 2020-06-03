@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:EncoderBoard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,7 +22,9 @@ AR Path="/5CFF3BEB/5D0037F5" Ref="SW1"  Part="1"
 F 0 "SW1" H 2850 1450 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 2850 1650 50  0001 C CNN
 F 2 "Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm" H 2700 1360 50  0001 C CNN
-F 3 "~" H 2850 1460 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf" H 2850 1460 50  0001 C CNN
+F 4 "Bourns Inc." H 2850 1200 50  0001 C CNN "MFR"
+F 5 "PEC12R-4025F-S0024" H 2850 1200 50  0001 C CNN "MPN"
 	1    2850 1200
 	1    0    0    -1  
 $EndComp
@@ -36,7 +37,9 @@ AR Path="/5CFF3BEB/5D0037FB" Ref="R27"  Part="1"
 F 0 "R27" V 1693 900 50  0000 C CNN
 F 1 "10k" V 1784 900 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 1830 900 50  0001 C CNN
-F 3 "~" H 1900 900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 900 50  0001 C CNN
+F 4 "Yageo" H 1900 900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 1900 900 50  0001 C CNN "MPN"
 	1    1900 900 
 	0    1    1    0   
 $EndComp
@@ -49,7 +52,9 @@ AR Path="/5CFF3BEB/5D003801" Ref="R29"  Part="1"
 F 0 "R29" V 1693 1300 50  0000 C CNN
 F 1 "10k" V 1784 1300 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 1830 1300 50  0001 C CNN
-F 3 "~" H 1900 1300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 1300 50  0001 C CNN
+F 4 "Yageo" H 1900 1300 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 1900 1300 50  0001 C CNN "MPN"
 	1    1900 1300
 	0    1    1    0   
 $EndComp
@@ -62,7 +67,9 @@ AR Path="/5CFF3BEB/5D003807" Ref="R22"  Part="1"
 F 0 "R22" H 2250 950 50  0000 R CNN
 F 1 "10k" H 2250 850 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 2230 900 50  0001 C CNN
-F 3 "~" H 2300 900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2300 900 50  0001 C CNN
+F 4 "Yageo" H 2300 900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 2300 900 50  0001 C CNN "MPN"
 	1    2300 900 
 	1    0    0    -1  
 $EndComp
@@ -75,7 +82,9 @@ AR Path="/5CFF3BEB/5D00380D" Ref="R23"  Part="1"
 F 0 "R23" H 2520 946 50  0000 L CNN
 F 1 "10k" H 2520 855 50  0000 L CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 2380 900 50  0001 C CNN
-F 3 "~" H 2450 900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2450 900 50  0001 C CNN
+F 4 "Yageo" H 2450 900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 2450 900 50  0001 C CNN "MPN"
 	1    2450 900 
 	1    0    0    -1  
 $EndComp
@@ -118,7 +127,9 @@ AR Path="/5CFF3BEB/5D00382D" Ref="C13"  Part="1"
 F 0 "C13" H 1865 1646 50  0000 L CNN
 F 1 "10nF" H 1865 1555 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1788 1450 50  0001 C CNN
-F 3 "~" H 1750 1600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1750 1600 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 1750 1600 50  0001 C CNN "MPN"
+F 5 "Samsung" H 1750 1600 50  0001 C CNN "MFR"
 	1    1750 1600
 	1    0    0    -1  
 $EndComp
@@ -135,7 +146,9 @@ AR Path="/5CFF3BEB/5D003835" Ref="C12"  Part="1"
 F 0 "C12" H 1400 1650 50  0000 R CNN
 F 1 "10nF" H 1400 1550 50  0000 R CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1538 1450 50  0001 C CNN
-F 3 "~" H 1500 1600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1500 1600 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 1500 1600 50  0001 C CNN "MPN"
+F 5 "Samsung" H 1500 1600 50  0001 C CNN "MFR"
 	1    1500 1600
 	1    0    0    -1  
 $EndComp
@@ -200,7 +213,9 @@ AR Path="/5CFF3BEB/5D023821" Ref="SW2"  Part="1"
 F 0 "SW2" H 2850 2817 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 2850 2726 50  0001 C CNN
 F 2 "Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm" H 2700 2610 50  0001 C CNN
-F 3 "~" H 2850 2710 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf" H 2850 2710 50  0001 C CNN
+F 4 "Bourns Inc." H 2850 2450 50  0001 C CNN "MFR"
+F 5 "PEC12R-4025F-S0024" H 2850 2450 50  0001 C CNN "MPN"
 	1    2850 2450
 	1    0    0    -1  
 $EndComp
@@ -215,7 +230,9 @@ AR Path="/5CFF3BEB/5D02E4B0" Ref="SW3"  Part="1"
 F 0 "SW3" H 2850 4067 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 2850 3976 50  0001 C CNN
 F 2 "Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm" H 2700 3860 50  0001 C CNN
-F 3 "~" H 2850 3960 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf" H 2850 3960 50  0001 C CNN
+F 4 "Bourns Inc." H 2850 3700 50  0001 C CNN "MFR"
+F 5 "PEC12R-4025F-S0024" H 2850 3700 50  0001 C CNN "MPN"
 	1    2850 3700
 	1    0    0    -1  
 $EndComp
@@ -230,7 +247,9 @@ AR Path="/5CFF3BEB/5D03752C" Ref="SW4"  Part="1"
 F 0 "SW4" H 2850 5267 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 2850 5176 50  0000 C CNN
 F 2 "Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm" H 2700 5060 50  0001 C CNN
-F 3 "~" H 2850 5160 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf" H 2850 5160 50  0001 C CNN
+F 4 "Bourns Inc." H 2850 4900 50  0001 C CNN "MFR"
+F 5 "PEC12R-4025F-S0024" H 2850 4900 50  0001 C CNN "MPN"
 	1    2850 4900
 	1    0    0    -1  
 $EndComp
@@ -245,7 +264,9 @@ AR Path="/5CFF3BEB/5D042B2C" Ref="SW5"  Part="1"
 F 0 "SW5" H 2850 6367 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 2850 6276 50  0001 C CNN
 F 2 "Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm" H 2700 6160 50  0001 C CNN
-F 3 "~" H 2850 6260 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf" H 2850 6260 50  0001 C CNN
+F 4 "Bourns Inc." H 2850 6000 50  0001 C CNN "MFR"
+F 5 "PEC12R-4025F-S0024" H 2850 6000 50  0001 C CNN "MPN"
 	1    2850 6000
 	1    0    0    -1  
 $EndComp
@@ -260,7 +281,9 @@ AR Path="/5CFF3BEB/5D06A5DF" Ref="SW6"  Part="1"
 F 0 "SW6" H 6600 1567 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 6600 1476 50  0001 C CNN
 F 2 "Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm" H 6450 1360 50  0001 C CNN
-F 3 "~" H 6600 1460 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf" H 6600 1460 50  0001 C CNN
+F 4 "Bourns Inc." H 6600 1200 50  0001 C CNN "MFR"
+F 5 "PEC12R-4025F-S0024" H 6600 1200 50  0001 C CNN "MPN"
 	1    6600 1200
 	1    0    0    -1  
 $EndComp
@@ -279,7 +302,9 @@ AR Path="/5CFF3BEB/5D074D4F" Ref="SW7"  Part="1"
 F 0 "SW7" H 6600 2817 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 6600 2726 50  0001 C CNN
 F 2 "Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm" H 6450 2610 50  0001 C CNN
-F 3 "~" H 6600 2710 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf" H 6600 2710 50  0001 C CNN
+F 4 "Bourns Inc." H 6600 2450 50  0001 C CNN "MFR"
+F 5 "PEC12R-4025F-S0024" H 6600 2450 50  0001 C CNN "MPN"
 	1    6600 2450
 	1    0    0    -1  
 $EndComp
@@ -298,7 +323,9 @@ AR Path="/5CFF3BEB/5D080EA1" Ref="SW8"  Part="1"
 F 0 "SW8" H 6600 4067 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 6600 3976 50  0001 C CNN
 F 2 "Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm" H 6450 3860 50  0001 C CNN
-F 3 "~" H 6600 3960 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf" H 6600 3960 50  0001 C CNN
+F 4 "Bourns Inc." H 6600 3700 50  0001 C CNN "MFR"
+F 5 "PEC12R-4025F-S0024" H 6600 3700 50  0001 C CNN "MPN"
 	1    6600 3700
 	1    0    0    -1  
 $EndComp
@@ -317,7 +344,9 @@ AR Path="/5CFF3BEB/5D08ED28" Ref="SW9"  Part="1"
 F 0 "SW9" H 6600 5317 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 6600 5226 50  0001 C CNN
 F 2 "Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm" H 6450 5110 50  0001 C CNN
-F 3 "~" H 6600 5210 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf" H 6600 5210 50  0001 C CNN
+F 4 "Bourns Inc." H 6600 4950 50  0001 C CNN "MFR"
+F 5 "PEC12R-4025F-S0024" H 6600 4950 50  0001 C CNN "MPN"
 	1    6600 4950
 	1    0    0    -1  
 $EndComp
@@ -336,7 +365,9 @@ AR Path="/5CFF3BEB/5D0B0E37" Ref="SW12"  Part="1"
 F 0 "SW12" H 8850 4185 50  0000 C CNN
 F 1 "SW_Push_LED_Red" H 8850 4094 50  0000 C CNN
 F 2 "Button_Switch_BG:E-Switch_SPST_Red_LED_SquareCap_TL3240F160R" H 8850 4100 50  0001 C CNN
-F 3 "~" H 8850 4100 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 4100 50  0001 C CNN
+F 4 "E-Switch" H 8850 3800 50  0001 C CNN "MFR"
+F 5 "TL3240F160R;TL3240S1CAPIVR" H 8850 3800 50  0001 C CNN "MPN"
 	1    8850 3800
 	1    0    0    -1  
 $EndComp
@@ -353,7 +384,9 @@ AR Path="/5CFF3BEB/5D0FBD90" Ref="SW13"  Part="1"
 F 0 "SW13" H 8850 4885 50  0000 C CNN
 F 1 "SW_Push_LED_Yellow" H 8850 4794 50  0000 C CNN
 F 2 "Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x" H 8850 4800 50  0001 C CNN
-F 3 "~" H 8850 4800 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 4800 50  0001 C CNN
+F 4 "E-Switch" H 8850 4500 50  0001 C CNN "MFR"
+F 5 "TL3240F160Y;TL3240S1CAPIVR" H 8850 4500 50  0001 C CNN "MPN"
 	1    8850 4500
 	1    0    0    -1  
 $EndComp
@@ -368,7 +401,9 @@ AR Path="/5CFF3BEB/5D107F09" Ref="SW14"  Part="1"
 F 0 "SW14" H 8850 5835 50  0000 C CNN
 F 1 "SW_Push_LED_Green" H 8850 5744 50  0000 C CNN
 F 2 "Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x" H 8850 5750 50  0001 C CNN
-F 3 "~" H 8850 5750 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 5750 50  0001 C CNN
+F 4 "E-Switch" H 8850 5450 50  0001 C CNN "MFR"
+F 5 "TL3240F160G;TL3240S1CAPIVR" H 8850 5450 50  0001 C CNN "MPN"
 	1    8850 5450
 	1    0    0    -1  
 $EndComp
@@ -383,7 +418,9 @@ AR Path="/5CFF3BEB/5D107F18" Ref="SW15"  Part="1"
 F 0 "SW15" H 8850 6535 50  0000 C CNN
 F 1 "SW_Push_LED_Blue" H 8850 6444 50  0000 C CNN
 F 2 "Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x" H 8850 6450 50  0001 C CNN
-F 3 "~" H 8850 6450 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 6450 50  0001 C CNN
+F 4 "E-Switch" H 8850 6150 50  0001 C CNN "MFR"
+F 5 "TL3240F160B;TL3240S1CAPIVR" H 8850 6150 50  0001 C CNN "MPN"
 	1    8850 6150
 	1    0    0    -1  
 $EndComp
@@ -404,7 +441,9 @@ P 8350 3900
 F 0 "R38" V 8143 3900 50  0000 C CNN
 F 1 "150" V 8234 3900 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 8280 3900 50  0001 C CNN
-F 3 "~" H 8350 3900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8350 3900 50  0001 C CNN
+F 4 "Yageo" H 8350 3900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-07150RL" H 8350 3900 50  0001 C CNN "MPN"
 	1    8350 3900
 	0    1    1    0   
 $EndComp
@@ -415,7 +454,9 @@ P 8350 4600
 F 0 "R41" V 8143 4600 50  0000 C CNN
 F 1 "120" V 8234 4600 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 8280 4600 50  0001 C CNN
-F 3 "~" H 8350 4600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8350 4600 50  0001 C CNN
+F 4 "Yageo" H 8350 4600 50  0001 C CNN "MFR"
+F 5 "RC0805FR-07120RL" H 8350 4600 50  0001 C CNN "MPN"
 	1    8350 4600
 	0    1    1    0   
 $EndComp
@@ -426,7 +467,9 @@ P 8350 5550
 F 0 "R48" V 8143 5550 50  0000 C CNN
 F 1 "120" V 8234 5550 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 8280 5550 50  0001 C CNN
-F 3 "~" H 8350 5550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8350 5550 50  0001 C CNN
+F 4 "Yageo" H 8350 5550 50  0001 C CNN "MFR"
+F 5 "RC0805FR-07120RL" H 8350 5550 50  0001 C CNN "MPN"
 	1    8350 5550
 	0    1    1    0   
 $EndComp
@@ -437,7 +480,9 @@ P 8350 6250
 F 0 "R51" V 8143 6250 50  0000 C CNN
 F 1 "33" V 8234 6250 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 8280 6250 50  0001 C CNN
-F 3 "~" H 8350 6250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8350 6250 50  0001 C CNN
+F 4 "Yageo" H 8350 6250 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0733RL" H 8350 6250 50  0001 C CNN "MPN"
 	1    8350 6250
 	0    1    1    0   
 $EndComp
@@ -530,7 +575,9 @@ AR Path="/5CFF3BEB/5CF7287A" Ref="SW11"  Part="1"
 F 0 "SW11" H 8850 3235 50  0000 C CNN
 F 1 "SW_Push_LED_Blue" H 8850 3144 50  0000 C CNN
 F 2 "Button_Switch_BG:E-Switch_SPST_LED_RoundCap_TL3240F160x" H 8850 3150 50  0001 C CNN
-F 3 "~" H 8850 3150 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 3150 50  0001 C CNN
+F 4 "E-Switch" H 8850 2850 50  0001 C CNN "MFR"
+F 5 "TL3240F160B;TL3240R1CAPBLU" H 8850 2850 50  0001 C CNN "MPN"
 	1    8850 2850
 	1    0    0    -1  
 $EndComp
@@ -543,7 +590,9 @@ AR Path="/5CFF3BEB/5CF7337F" Ref="SW10"  Part="1"
 F 0 "SW10" H 8850 1985 50  0000 C CNN
 F 1 "SW_Push_LED_Red" H 8850 1894 50  0000 C CNN
 F 2 "Button_Switch_BG:E-Switch_SPST_Red_LED_RoundCap_TL3240F160R" H 8850 1900 50  0001 C CNN
-F 3 "~" H 8850 1900 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 1900 50  0001 C CNN
+F 4 "E-Switch" H 8850 1600 50  0001 C CNN "MFR"
+F 5 "TL3240F160R;TL3240R1CAPBLK" H 8850 1600 50  0001 C CNN "MPN"
 	1    8850 1600
 	1    0    0    -1  
 $EndComp
@@ -558,7 +607,9 @@ P 8350 2950
 F 0 "R31" V 8143 2950 50  0000 C CNN
 F 1 "33" V 8234 2950 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 8280 2950 50  0001 C CNN
-F 3 "~" H 8350 2950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8350 2950 50  0001 C CNN
+F 4 "Yageo" H 8350 2950 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0733RL" H 8350 2950 50  0001 C CNN "MPN"
 	1    8350 2950
 	0    1    1    0   
 $EndComp
@@ -569,7 +620,9 @@ P 8350 1700
 F 0 "R26" V 8143 1700 50  0000 C CNN
 F 1 "150" V 8234 1700 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 8280 1700 50  0001 C CNN
-F 3 "~" H 8350 1700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8350 1700 50  0001 C CNN
+F 4 "Yageo" H 8350 1700 50  0001 C CNN "MFR"
+F 5 "RC0805FR-07150RL" H 8350 1700 50  0001 C CNN "MPN"
 	1    8350 1700
 	0    1    1    0   
 $EndComp
@@ -660,7 +713,9 @@ AR Path="/5CFF3BEB/5D28780A" Ref="R30"  Part="1"
 F 0 "R30" H 3200 1000 50  0000 R CNN
 F 1 "10k" H 3200 900 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 3180 950 50  0001 C CNN
-F 3 "~" H 3250 950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3250 950 50  0001 C CNN
+F 4 "Yageo" H 3250 950 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 3250 950 50  0001 C CNN "MPN"
 	1    3250 950 
 	1    0    0    -1  
 $EndComp
@@ -684,7 +739,9 @@ AR Path="/5CFF3BEB/5D43D737" Ref="R33"  Part="1"
 F 0 "R33" V 3193 1100 50  0000 C CNN
 F 1 "10k" V 3284 1100 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 3330 1100 50  0001 C CNN
-F 3 "~" H 3400 1100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3400 1100 50  0001 C CNN
+F 4 "Yageo" H 3400 1100 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 3400 1100 50  0001 C CNN "MPN"
 	1    3400 1100
 	0    1    1    0   
 $EndComp
@@ -697,7 +754,9 @@ AR Path="/5CFF3BEB/5D43DBD4" Ref="C14"  Part="1"
 F 0 "C14" H 3600 1150 50  0000 L CNN
 F 1 "100nF" H 3600 1050 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 3588 1050 50  0001 C CNN
-F 3 "~" H 3550 1200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3550 1200 50  0001 C CNN
+F 4 "Samsung" H 3550 1200 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 3550 1200 50  0001 C CNN "MPN"
 	1    3550 1200
 	1    0    0    -1  
 $EndComp
@@ -723,7 +782,9 @@ AR Path="/5CFF3BEB/5D541A1F" Ref="R36"  Part="1"
 F 0 "R36" V 9493 1500 50  0000 C CNN
 F 1 "10k" V 9584 1500 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9630 1500 50  0001 C CNN
-F 3 "~" H 9700 1500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 1500 50  0001 C CNN
+F 4 "Yageo" H 9700 1500 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9700 1500 50  0001 C CNN "MPN"
 	1    9700 1500
 	0    1    1    0   
 $EndComp
@@ -736,7 +797,9 @@ AR Path="/5CFF3BEB/5D541A25" Ref="C18"  Part="1"
 F 0 "C18" H 9965 1646 50  0000 L CNN
 F 1 "100nF" H 9965 1555 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 9888 1450 50  0001 C CNN
-F 3 "~" H 9850 1600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9850 1600 50  0001 C CNN
+F 4 "Samsung" H 9850 1600 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 9850 1600 50  0001 C CNN "MPN"
 	1    9850 1600
 	1    0    0    -1  
 $EndComp
@@ -771,7 +834,9 @@ AR Path="/5CFF3BEB/5D57E958" Ref="R53"  Part="1"
 F 0 "R53" V 9493 2750 50  0000 C CNN
 F 1 "10k" V 9584 2750 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9630 2750 50  0001 C CNN
-F 3 "~" H 9700 2750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 2750 50  0001 C CNN
+F 4 "Yageo" H 9700 2750 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9700 2750 50  0001 C CNN "MPN"
 	1    9700 2750
 	0    1    1    0   
 $EndComp
@@ -784,7 +849,9 @@ AR Path="/5CFF3BEB/5D57E95E" Ref="C25"  Part="1"
 F 0 "C25" H 9965 2896 50  0000 L CNN
 F 1 "100nF" H 9965 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 9888 2700 50  0001 C CNN
-F 3 "~" H 9850 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9850 2850 50  0001 C CNN
+F 4 "Samsung" H 9850 2850 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 9850 2850 50  0001 C CNN "MPN"
 	1    9850 2850
 	1    0    0    -1  
 $EndComp
@@ -817,7 +884,9 @@ AR Path="/5CFF3BEB/5D58CEC7" Ref="R64"  Part="1"
 F 0 "R64" V 9493 3700 50  0000 C CNN
 F 1 "10k" V 9584 3700 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9630 3700 50  0001 C CNN
-F 3 "~" H 9700 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 3700 50  0001 C CNN
+F 4 "Yageo" H 9700 3700 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9700 3700 50  0001 C CNN "MPN"
 	1    9700 3700
 	0    1    1    0   
 $EndComp
@@ -830,7 +899,9 @@ AR Path="/5CFF3BEB/5D58CECD" Ref="C28"  Part="1"
 F 0 "C28" H 9965 3846 50  0000 L CNN
 F 1 "100nF" H 9965 3755 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 9888 3650 50  0001 C CNN
-F 3 "~" H 9850 3800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9850 3800 50  0001 C CNN
+F 4 "Samsung" H 9850 3800 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 9850 3800 50  0001 C CNN "MPN"
 	1    9850 3800
 	1    0    0    -1  
 $EndComp
@@ -863,7 +934,9 @@ AR Path="/5CFF3BEB/5D59B6BD" Ref="R67"  Part="1"
 F 0 "R67" V 9493 4400 50  0000 C CNN
 F 1 "10k" V 9584 4400 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9630 4400 50  0001 C CNN
-F 3 "~" H 9700 4400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 4400 50  0001 C CNN
+F 4 "Yageo" H 9700 4400 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9700 4400 50  0001 C CNN "MPN"
 	1    9700 4400
 	0    1    1    0   
 $EndComp
@@ -876,7 +949,9 @@ AR Path="/5CFF3BEB/5D59B6C3" Ref="C45"  Part="1"
 F 0 "C45" H 9965 4546 50  0000 L CNN
 F 1 "100nF" H 9965 4455 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 9888 4350 50  0001 C CNN
-F 3 "~" H 9850 4500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9850 4500 50  0001 C CNN
+F 4 "Samsung" H 9850 4500 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 9850 4500 50  0001 C CNN "MPN"
 	1    9850 4500
 	1    0    0    -1  
 $EndComp
@@ -909,7 +984,9 @@ AR Path="/5CFF3BEB/5D5AA24B" Ref="R80"  Part="1"
 F 0 "R80" V 9493 5350 50  0000 C CNN
 F 1 "10k" V 9584 5350 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9630 5350 50  0001 C CNN
-F 3 "~" H 9700 5350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 5350 50  0001 C CNN
+F 4 "Yageo" H 9700 5350 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9700 5350 50  0001 C CNN "MPN"
 	1    9700 5350
 	0    1    1    0   
 $EndComp
@@ -922,7 +999,9 @@ AR Path="/5CFF3BEB/5D5AA251" Ref="C52"  Part="1"
 F 0 "C52" H 9965 5496 50  0000 L CNN
 F 1 "100nF" H 9965 5405 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 9888 5300 50  0001 C CNN
-F 3 "~" H 9850 5450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9850 5450 50  0001 C CNN
+F 4 "Samsung" H 9850 5450 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 9850 5450 50  0001 C CNN "MPN"
 	1    9850 5450
 	1    0    0    -1  
 $EndComp
@@ -955,7 +1034,9 @@ AR Path="/5CFF3BEB/5D5B94DA" Ref="R86"  Part="1"
 F 0 "R86" V 9493 6050 50  0000 C CNN
 F 1 "10k" V 9584 6050 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9630 6050 50  0001 C CNN
-F 3 "~" H 9700 6050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 6050 50  0001 C CNN
+F 4 "Yageo" H 9700 6050 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9700 6050 50  0001 C CNN "MPN"
 	1    9700 6050
 	0    1    1    0   
 $EndComp
@@ -968,7 +1049,9 @@ AR Path="/5CFF3BEB/5D5B94E0" Ref="C54"  Part="1"
 F 0 "C54" H 9965 6196 50  0000 L CNN
 F 1 "100nF" H 9965 6105 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 9888 6000 50  0001 C CNN
-F 3 "~" H 9850 6150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9850 6150 50  0001 C CNN
+F 4 "Samsung" H 9850 6150 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 9850 6150 50  0001 C CNN "MPN"
 	1    9850 6150
 	1    0    0    -1  
 $EndComp
@@ -1000,6 +1083,8 @@ F 0 "U18" H 3950 2600 50  0000 C CNN
 F 1 "74LVC14" H 3950 2500 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 3850 2350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 3850 2350 50  0001 C CNN
+F 4 "Texas Instruments" H 3850 2350 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 3850 2350 50  0001 C CNN "MPN"
 	1    3850 2350
 	1    0    0    -1  
 $EndComp
@@ -1011,6 +1096,8 @@ F 0 "U18" H 1250 2300 50  0000 C CNN
 F 1 "74LVC14" H 1250 2400 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 1150 2550 50  0001 C CNN
+F 4 "Texas Instruments" H 1150 2550 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 1150 2550 50  0001 C CNN "MPN"
 	2    1150 2550
 	-1   0    0    1   
 $EndComp
@@ -1022,6 +1109,8 @@ F 0 "U18" H 1250 1900 50  0000 C CNN
 F 1 "74LVC14" H 1250 2000 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 1150 2150 50  0001 C CNN
+F 4 "Texas Instruments" H 1150 2150 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 1150 2150 50  0001 C CNN "MPN"
 	3    1150 2150
 	-1   0    0    1   
 $EndComp
@@ -1033,6 +1122,8 @@ F 0 "U19" H 1250 3550 50  0000 C CNN
 F 1 "74LVC14" H 1250 3650 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 3800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 1150 3800 50  0001 C CNN
+F 4 "Texas Instruments" H 1150 3800 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 1150 3800 50  0001 C CNN "MPN"
 	4    1150 3800
 	-1   0    0    1   
 $EndComp
@@ -1044,6 +1135,8 @@ F 0 "U19" H 1250 3150 50  0000 C CNN
 F 1 "74LVC14" H 1250 3250 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 3400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 1150 3400 50  0001 C CNN
+F 4 "Texas Instruments" H 1150 3400 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 1150 3400 50  0001 C CNN "MPN"
 	5    1150 3400
 	-1   0    0    1   
 $EndComp
@@ -1055,6 +1148,8 @@ F 0 "U19" H 3950 3850 50  0000 C CNN
 F 1 "74LVC14" H 3950 3750 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 3850 3600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 3850 3600 50  0001 C CNN
+F 4 "Texas Instruments" H 3850 3600 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 3850 3600 50  0001 C CNN "MPN"
 	6    3850 3600
 	1    0    0    -1  
 $EndComp
@@ -1066,6 +1161,8 @@ F 0 "U20" H 4250 7150 50  0000 L CNN
 F 1 "74LVC14" H 4250 7050 50  0000 L CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 3950 7100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 3950 7100 50  0001 C CNN
+F 4 "Texas Instruments" H 3950 7100 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 3950 7100 50  0001 C CNN "MPN"
 	7    3950 7100
 	1    0    0    -1  
 $EndComp
@@ -1130,7 +1227,9 @@ AR Path="/5CFF3BEB/5D874B09" Ref="R37"  Part="1"
 F 0 "R37" V 1693 2150 50  0000 C CNN
 F 1 "10k" V 1784 2150 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 1830 2150 50  0001 C CNN
-F 3 "~" H 1900 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 2150 50  0001 C CNN
+F 4 "Yageo" H 1900 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 1900 2150 50  0001 C CNN "MPN"
 	1    1900 2150
 	0    1    1    0   
 $EndComp
@@ -1143,7 +1242,9 @@ AR Path="/5CFF3BEB/5D874B0F" Ref="R50"  Part="1"
 F 0 "R50" V 1693 2550 50  0000 C CNN
 F 1 "10k" V 1784 2550 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 1830 2550 50  0001 C CNN
-F 3 "~" H 1900 2550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 2550 50  0001 C CNN
+F 4 "Yageo" H 1900 2550 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 1900 2550 50  0001 C CNN "MPN"
 	1    1900 2550
 	0    1    1    0   
 $EndComp
@@ -1156,7 +1257,9 @@ AR Path="/5CFF3BEB/5D874B15" Ref="R39"  Part="1"
 F 0 "R39" H 2250 2200 50  0000 R CNN
 F 1 "10k" H 2250 2100 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 2230 2150 50  0001 C CNN
-F 3 "~" H 2300 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2300 2150 50  0001 C CNN
+F 4 "Yageo" H 2300 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 2300 2150 50  0001 C CNN "MPN"
 	1    2300 2150
 	1    0    0    -1  
 $EndComp
@@ -1169,7 +1272,9 @@ AR Path="/5CFF3BEB/5D874B1B" Ref="R40"  Part="1"
 F 0 "R40" H 2520 2196 50  0000 L CNN
 F 1 "10k" H 2520 2105 50  0000 L CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 2380 2150 50  0001 C CNN
-F 3 "~" H 2450 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2450 2150 50  0001 C CNN
+F 4 "Yageo" H 2450 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 2450 2150 50  0001 C CNN "MPN"
 	1    2450 2150
 	1    0    0    -1  
 $EndComp
@@ -1195,7 +1300,9 @@ AR Path="/5CFF3BEB/5D874B27" Ref="C22"  Part="1"
 F 0 "C22" H 1865 2896 50  0000 L CNN
 F 1 "10nF" H 1865 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1788 2700 50  0001 C CNN
-F 3 "~" H 1750 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1750 2850 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 1750 2850 50  0001 C CNN "MPN"
+F 5 "Samsung" H 1750 2850 50  0001 C CNN "MFR"
 	1    1750 2850
 	1    0    0    -1  
 $EndComp
@@ -1208,7 +1315,9 @@ AR Path="/5CFF3BEB/5D874B2D" Ref="C21"  Part="1"
 F 0 "C21" H 1400 2900 50  0000 R CNN
 F 1 "10nF" H 1400 2800 50  0000 R CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1538 2700 50  0001 C CNN
-F 3 "~" H 1500 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1500 2850 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 1500 2850 50  0001 C CNN "MPN"
+F 5 "Samsung" H 1500 2850 50  0001 C CNN "MFR"
 	1    1500 2850
 	1    0    0    -1  
 $EndComp
@@ -1301,7 +1410,9 @@ AR Path="/5CFF3BEB/5D894A7A" Ref="R54"  Part="1"
 F 0 "R54" V 1693 3400 50  0000 C CNN
 F 1 "10k" V 1784 3400 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 1830 3400 50  0001 C CNN
-F 3 "~" H 1900 3400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 3400 50  0001 C CNN
+F 4 "Yageo" H 1900 3400 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 1900 3400 50  0001 C CNN "MPN"
 	1    1900 3400
 	0    1    1    0   
 $EndComp
@@ -1314,7 +1425,9 @@ AR Path="/5CFF3BEB/5D894A80" Ref="R65"  Part="1"
 F 0 "R65" V 1693 3800 50  0000 C CNN
 F 1 "10k" V 1784 3800 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 1830 3800 50  0001 C CNN
-F 3 "~" H 1900 3800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 3800 50  0001 C CNN
+F 4 "Yageo" H 1900 3800 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 1900 3800 50  0001 C CNN "MPN"
 	1    1900 3800
 	0    1    1    0   
 $EndComp
@@ -1327,7 +1440,9 @@ AR Path="/5CFF3BEB/5D894A86" Ref="R55"  Part="1"
 F 0 "R55" H 2250 3450 50  0000 R CNN
 F 1 "10k" H 2250 3350 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 2230 3400 50  0001 C CNN
-F 3 "~" H 2300 3400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2300 3400 50  0001 C CNN
+F 4 "Yageo" H 2300 3400 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 2300 3400 50  0001 C CNN "MPN"
 	1    2300 3400
 	1    0    0    -1  
 $EndComp
@@ -1340,7 +1455,9 @@ AR Path="/5CFF3BEB/5D894A8C" Ref="R56"  Part="1"
 F 0 "R56" H 2520 3446 50  0000 L CNN
 F 1 "10k" H 2520 3355 50  0000 L CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 2380 3400 50  0001 C CNN
-F 3 "~" H 2450 3400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2450 3400 50  0001 C CNN
+F 4 "Yageo" H 2450 3400 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 2450 3400 50  0001 C CNN "MPN"
 	1    2450 3400
 	1    0    0    -1  
 $EndComp
@@ -1366,7 +1483,9 @@ AR Path="/5CFF3BEB/5D894A98" Ref="C42"  Part="1"
 F 0 "C42" H 1865 4146 50  0000 L CNN
 F 1 "10nF" H 1865 4055 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1788 3950 50  0001 C CNN
-F 3 "~" H 1750 4100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1750 4100 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 1750 4100 50  0001 C CNN "MPN"
+F 5 "Samsung" H 1750 4100 50  0001 C CNN "MFR"
 	1    1750 4100
 	1    0    0    -1  
 $EndComp
@@ -1379,7 +1498,9 @@ AR Path="/5CFF3BEB/5D894A9E" Ref="C29"  Part="1"
 F 0 "C29" H 1400 4150 50  0000 R CNN
 F 1 "10nF" H 1400 4050 50  0000 R CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1538 3950 50  0001 C CNN
-F 3 "~" H 1500 4100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1500 4100 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 1500 4100 50  0001 C CNN "MPN"
+F 5 "Samsung" H 1500 4100 50  0001 C CNN "MFR"
 	1    1500 4100
 	1    0    0    -1  
 $EndComp
@@ -1441,6 +1562,8 @@ F 0 "U21" H 7700 3850 50  0000 C CNN
 F 1 "74LVC14" H 7700 3750 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 7600 3600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 7600 3600 50  0001 C CNN
+F 4 "Texas Instruments" H 7600 3600 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 7600 3600 50  0001 C CNN "MPN"
 	1    7600 3600
 	1    0    0    -1  
 $EndComp
@@ -1452,6 +1575,8 @@ F 0 "U21" H 5000 3550 50  0000 C CNN
 F 1 "74LVC14" H 5000 3650 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 3800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 4900 3800 50  0001 C CNN
+F 4 "Texas Instruments" H 4900 3800 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 4900 3800 50  0001 C CNN "MPN"
 	2    4900 3800
 	-1   0    0    1   
 $EndComp
@@ -1463,6 +1588,8 @@ F 0 "U22" H 5000 4800 50  0000 C CNN
 F 1 "74LVC14" H 5000 4900 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 5050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 4900 5050 50  0001 C CNN
+F 4 "Texas Instruments" H 4900 5050 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 4900 5050 50  0001 C CNN "MPN"
 	4    4900 5050
 	-1   0    0    1   
 $EndComp
@@ -1474,6 +1601,8 @@ F 0 "U21" H 5000 1900 50  0000 C CNN
 F 1 "74LVC14" H 5000 2000 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 4900 2150 50  0001 C CNN
+F 4 "Texas Instruments" H 4900 2150 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 4900 2150 50  0001 C CNN "MPN"
 	5    4900 2150
 	-1   0    0    1   
 $EndComp
@@ -1516,7 +1645,9 @@ AR Path="/5CFF3BEB/5D894AE6" Ref="R68"  Part="1"
 F 0 "R68" V 1693 4600 50  0000 C CNN
 F 1 "10k" V 1784 4600 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 1830 4600 50  0001 C CNN
-F 3 "~" H 1900 4600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 4600 50  0001 C CNN
+F 4 "Yageo" H 1900 4600 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 1900 4600 50  0001 C CNN "MPN"
 	1    1900 4600
 	0    1    1    0   
 $EndComp
@@ -1529,7 +1660,9 @@ AR Path="/5CFF3BEB/5D894AEC" Ref="R78"  Part="1"
 F 0 "R78" V 1693 5000 50  0000 C CNN
 F 1 "10k" V 1784 5000 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 1830 5000 50  0001 C CNN
-F 3 "~" H 1900 5000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 5000 50  0001 C CNN
+F 4 "Yageo" H 1900 5000 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 1900 5000 50  0001 C CNN "MPN"
 	1    1900 5000
 	0    1    1    0   
 $EndComp
@@ -1542,7 +1675,9 @@ AR Path="/5CFF3BEB/5D894AF2" Ref="R69"  Part="1"
 F 0 "R69" H 2250 4650 50  0000 R CNN
 F 1 "10k" H 2250 4550 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 2230 4600 50  0001 C CNN
-F 3 "~" H 2300 4600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2300 4600 50  0001 C CNN
+F 4 "Yageo" H 2300 4600 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 2300 4600 50  0001 C CNN "MPN"
 	1    2300 4600
 	1    0    0    -1  
 $EndComp
@@ -1555,7 +1690,9 @@ AR Path="/5CFF3BEB/5D894AF8" Ref="R70"  Part="1"
 F 0 "R70" H 2520 4646 50  0000 L CNN
 F 1 "10k" H 2520 4555 50  0000 L CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 2380 4600 50  0001 C CNN
-F 3 "~" H 2450 4600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2450 4600 50  0001 C CNN
+F 4 "Yageo" H 2450 4600 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 2450 4600 50  0001 C CNN "MPN"
 	1    2450 4600
 	1    0    0    -1  
 $EndComp
@@ -1581,7 +1718,9 @@ AR Path="/5CFF3BEB/5D894B04" Ref="C49"  Part="1"
 F 0 "C49" H 1865 5346 50  0000 L CNN
 F 1 "10nF" H 1865 5255 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1788 5150 50  0001 C CNN
-F 3 "~" H 1750 5300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1750 5300 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 1750 5300 50  0001 C CNN "MPN"
+F 5 "Samsung" H 1750 5300 50  0001 C CNN "MFR"
 	1    1750 5300
 	1    0    0    -1  
 $EndComp
@@ -1594,7 +1733,9 @@ AR Path="/5CFF3BEB/5D894B0A" Ref="C48"  Part="1"
 F 0 "C48" H 1400 5350 50  0000 R CNN
 F 1 "10nF" H 1400 5250 50  0000 R CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1538 5150 50  0001 C CNN
-F 3 "~" H 1500 5300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1500 5300 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 1500 5300 50  0001 C CNN "MPN"
+F 5 "Samsung" H 1500 5300 50  0001 C CNN "MFR"
 	1    1500 5300
 	1    0    0    -1  
 $EndComp
@@ -1661,7 +1802,9 @@ AR Path="/5CFF3BEB/5D8B81D2" Ref="R81"  Part="1"
 F 0 "R81" V 1693 5700 50  0000 C CNN
 F 1 "10k" V 1784 5700 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 1830 5700 50  0001 C CNN
-F 3 "~" H 1900 5700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 5700 50  0001 C CNN
+F 4 "Yageo" H 1900 5700 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 1900 5700 50  0001 C CNN "MPN"
 	1    1900 5700
 	0    1    1    0   
 $EndComp
@@ -1674,7 +1817,9 @@ AR Path="/5CFF3BEB/5D8B81D8" Ref="R87"  Part="1"
 F 0 "R87" V 1693 6100 50  0000 C CNN
 F 1 "10k" V 1784 6100 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 1830 6100 50  0001 C CNN
-F 3 "~" H 1900 6100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 6100 50  0001 C CNN
+F 4 "Yageo" H 1900 6100 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 1900 6100 50  0001 C CNN "MPN"
 	1    1900 6100
 	0    1    1    0   
 $EndComp
@@ -1687,7 +1832,9 @@ AR Path="/5CFF3BEB/5D8B81DE" Ref="R82"  Part="1"
 F 0 "R82" H 2250 5750 50  0000 R CNN
 F 1 "10k" H 2250 5650 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 2230 5700 50  0001 C CNN
-F 3 "~" H 2300 5700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2300 5700 50  0001 C CNN
+F 4 "Yageo" H 2300 5700 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 2300 5700 50  0001 C CNN "MPN"
 	1    2300 5700
 	1    0    0    -1  
 $EndComp
@@ -1700,7 +1847,9 @@ AR Path="/5CFF3BEB/5D8B81E4" Ref="R83"  Part="1"
 F 0 "R83" H 2520 5746 50  0000 L CNN
 F 1 "10k" H 2520 5655 50  0000 L CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 2380 5700 50  0001 C CNN
-F 3 "~" H 2450 5700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2450 5700 50  0001 C CNN
+F 4 "Yageo" H 2450 5700 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 2450 5700 50  0001 C CNN "MPN"
 	1    2450 5700
 	1    0    0    -1  
 $EndComp
@@ -1726,7 +1875,9 @@ AR Path="/5CFF3BEB/5D8B81F0" Ref="C56"  Part="1"
 F 0 "C56" H 1865 6446 50  0000 L CNN
 F 1 "10nF" H 1865 6355 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1788 6250 50  0001 C CNN
-F 3 "~" H 1750 6400 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1750 6400 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 1750 6400 50  0001 C CNN "MPN"
+F 5 "Samsung" H 1750 6400 50  0001 C CNN "MFR"
 	1    1750 6400
 	1    0    0    -1  
 $EndComp
@@ -1739,7 +1890,9 @@ AR Path="/5CFF3BEB/5D8B81F6" Ref="C55"  Part="1"
 F 0 "C55" H 1400 6450 50  0000 R CNN
 F 1 "10nF" H 1400 6350 50  0000 R CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 1538 6250 50  0001 C CNN
-F 3 "~" H 1500 6400 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1500 6400 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 1500 6400 50  0001 C CNN "MPN"
+F 5 "Samsung" H 1500 6400 50  0001 C CNN "MFR"
 	1    1500 6400
 	1    0    0    -1  
 $EndComp
@@ -1801,6 +1954,8 @@ F 0 "U23" H 10450 3950 50  0000 C CNN
 F 1 "74LVC14" H 10450 3850 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 10350 3700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 10350 3700 50  0001 C CNN
+F 4 "Texas Instruments" H 10350 3700 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 10350 3700 50  0001 C CNN "MPN"
 	1    10350 3700
 	1    0    0    -1  
 $EndComp
@@ -1812,6 +1967,8 @@ F 0 "U23" H 10500 4650 50  0000 C CNN
 F 1 "74LVC14" H 10500 4550 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 10350 4400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 10350 4400 50  0001 C CNN
+F 4 "Texas Instruments" H 10350 4400 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 10350 4400 50  0001 C CNN "MPN"
 	2    10350 4400
 	1    0    0    -1  
 $EndComp
@@ -1823,6 +1980,8 @@ F 0 "U18" H 1250 1050 50  0000 C CNN
 F 1 "74LVC14" H 1250 1150 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 1300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 1150 1300 50  0001 C CNN
+F 4 "Texas Instruments" H 1150 1300 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 1150 1300 50  0001 C CNN "MPN"
 	4    1150 1300
 	-1   0    0    1   
 $EndComp
@@ -1834,6 +1993,8 @@ F 0 "U18" H 1250 650 50  0000 C CNN
 F 1 "74LVC14" H 1250 750 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 1150 900 50  0001 C CNN
+F 4 "Texas Instruments" H 1150 900 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 1150 900 50  0001 C CNN "MPN"
 	5    1150 900 
 	-1   0    0    1   
 $EndComp
@@ -1876,7 +2037,9 @@ AR Path="/5CFF3BEB/5D8B823E" Ref="R24"  Part="1"
 F 0 "R24" V 5443 900 50  0000 C CNN
 F 1 "10k" V 5534 900 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5580 900 50  0001 C CNN
-F 3 "~" H 5650 900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5650 900 50  0001 C CNN
+F 4 "Yageo" H 5650 900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 5650 900 50  0001 C CNN "MPN"
 	1    5650 900 
 	0    1    1    0   
 $EndComp
@@ -1889,7 +2052,9 @@ AR Path="/5CFF3BEB/5D8B8244" Ref="R35"  Part="1"
 F 0 "R35" V 5443 1300 50  0000 C CNN
 F 1 "10k" V 5534 1300 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5580 1300 50  0001 C CNN
-F 3 "~" H 5650 1300 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5650 1300 50  0001 C CNN
+F 4 "Yageo" H 5650 1300 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 5650 1300 50  0001 C CNN "MPN"
 	1    5650 1300
 	0    1    1    0   
 $EndComp
@@ -1902,7 +2067,9 @@ AR Path="/5CFF3BEB/5D8B824A" Ref="R25"  Part="1"
 F 0 "R25" H 6000 950 50  0000 R CNN
 F 1 "10k" H 6000 850 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5980 900 50  0001 C CNN
-F 3 "~" H 6050 900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6050 900 50  0001 C CNN
+F 4 "Yageo" H 6050 900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 6050 900 50  0001 C CNN "MPN"
 	1    6050 900 
 	1    0    0    -1  
 $EndComp
@@ -1915,7 +2082,9 @@ AR Path="/5CFF3BEB/5D8B8250" Ref="R28"  Part="1"
 F 0 "R28" H 6270 946 50  0000 L CNN
 F 1 "10k" H 6270 855 50  0000 L CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 6130 900 50  0001 C CNN
-F 3 "~" H 6200 900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6200 900 50  0001 C CNN
+F 4 "Yageo" H 6200 900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 6200 900 50  0001 C CNN "MPN"
 	1    6200 900 
 	1    0    0    -1  
 $EndComp
@@ -1941,7 +2110,9 @@ AR Path="/5CFF3BEB/5D8B825C" Ref="C17"  Part="1"
 F 0 "C17" H 5615 1646 50  0000 L CNN
 F 1 "10nF" H 5615 1555 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5538 1450 50  0001 C CNN
-F 3 "~" H 5500 1600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5500 1600 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 5500 1600 50  0001 C CNN "MPN"
+F 5 "Samsung" H 5500 1600 50  0001 C CNN "MFR"
 	1    5500 1600
 	1    0    0    -1  
 $EndComp
@@ -1954,7 +2125,9 @@ AR Path="/5CFF3BEB/5D8B8262" Ref="C16"  Part="1"
 F 0 "C16" H 5150 1650 50  0000 R CNN
 F 1 "10nF" H 5150 1550 50  0000 R CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5288 1450 50  0001 C CNN
-F 3 "~" H 5250 1600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5250 1600 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 5250 1600 50  0001 C CNN "MPN"
+F 5 "Samsung" H 5250 1600 50  0001 C CNN "MFR"
 	1    5250 1600
 	1    0    0    -1  
 $EndComp
@@ -2038,7 +2211,9 @@ AR Path="/5CFF3BEB/5D9193E4" Ref="R45"  Part="1"
 F 0 "R45" H 3200 2250 50  0000 R CNN
 F 1 "10k" H 3200 2150 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 3180 2200 50  0001 C CNN
-F 3 "~" H 3250 2200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3250 2200 50  0001 C CNN
+F 4 "Yageo" H 3250 2200 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 3250 2200 50  0001 C CNN "MPN"
 	1    3250 2200
 	1    0    0    -1  
 $EndComp
@@ -2062,7 +2237,9 @@ AR Path="/5CFF3BEB/5D9193F0" Ref="R47"  Part="1"
 F 0 "R47" V 3193 2350 50  0000 C CNN
 F 1 "10k" V 3284 2350 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 3330 2350 50  0001 C CNN
-F 3 "~" H 3400 2350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3400 2350 50  0001 C CNN
+F 4 "Yageo" H 3400 2350 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 3400 2350 50  0001 C CNN "MPN"
 	1    3400 2350
 	0    1    1    0   
 $EndComp
@@ -2075,7 +2252,9 @@ AR Path="/5CFF3BEB/5D9193F6" Ref="C19"  Part="1"
 F 0 "C19" H 3600 2400 50  0000 L CNN
 F 1 "100nF" H 3600 2300 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 3588 2300 50  0001 C CNN
-F 3 "~" H 3550 2450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3550 2450 50  0001 C CNN
+F 4 "Samsung" H 3550 2450 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 3550 2450 50  0001 C CNN "MPN"
 	1    3550 2450
 	1    0    0    -1  
 $EndComp
@@ -2124,7 +2303,9 @@ AR Path="/5CFF3BEB/5D956A7D" Ref="R60"  Part="1"
 F 0 "R60" H 3200 3500 50  0000 R CNN
 F 1 "10k" H 3200 3400 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 3180 3450 50  0001 C CNN
-F 3 "~" H 3250 3450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3250 3450 50  0001 C CNN
+F 4 "Yageo" H 3250 3450 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 3250 3450 50  0001 C CNN "MPN"
 	1    3250 3450
 	1    0    0    -1  
 $EndComp
@@ -2148,7 +2329,9 @@ AR Path="/5CFF3BEB/5D956A89" Ref="R62"  Part="1"
 F 0 "R62" V 3193 3600 50  0000 C CNN
 F 1 "10k" V 3284 3600 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 3330 3600 50  0001 C CNN
-F 3 "~" H 3400 3600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3400 3600 50  0001 C CNN
+F 4 "Yageo" H 3400 3600 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 3400 3600 50  0001 C CNN "MPN"
 	1    3400 3600
 	0    1    1    0   
 $EndComp
@@ -2161,7 +2344,9 @@ AR Path="/5CFF3BEB/5D956A8F" Ref="C26"  Part="1"
 F 0 "C26" H 3600 3650 50  0000 L CNN
 F 1 "100nF" H 3600 3550 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 3588 3550 50  0001 C CNN
-F 3 "~" H 3550 3700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3550 3700 50  0001 C CNN
+F 4 "Samsung" H 3550 3700 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 3550 3700 50  0001 C CNN "MPN"
 	1    3550 3700
 	1    0    0    -1  
 $EndComp
@@ -2186,6 +2371,8 @@ F 0 "U20" H 5050 650 50  0000 C CNN
 F 1 "74LVC14" H 5050 750 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 4900 900 50  0001 C CNN
+F 4 "Texas Instruments" H 4900 900 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 4900 900 50  0001 C CNN "MPN"
 	3    4900 900 
 	-1   0    0    1   
 $EndComp
@@ -2197,6 +2384,8 @@ F 0 "U21" H 7700 2600 50  0000 C CNN
 F 1 "74LVC14" H 7700 2500 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 7600 2350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 7600 2350 50  0001 C CNN
+F 4 "Texas Instruments" H 7600 2350 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 7600 2350 50  0001 C CNN "MPN"
 	6    7600 2350
 	1    0    0    -1  
 $EndComp
@@ -2232,7 +2421,9 @@ AR Path="/5CFF3BEB/5D956AB3" Ref="R71"  Part="1"
 F 0 "R71" H 3200 4700 50  0000 R CNN
 F 1 "10k" H 3200 4600 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 3180 4650 50  0001 C CNN
-F 3 "~" H 3250 4650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3250 4650 50  0001 C CNN
+F 4 "Yageo" H 3250 4650 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 3250 4650 50  0001 C CNN "MPN"
 	1    3250 4650
 	1    0    0    -1  
 $EndComp
@@ -2256,7 +2447,9 @@ AR Path="/5CFF3BEB/5D956ABF" Ref="R76"  Part="1"
 F 0 "R76" V 3193 4800 50  0000 C CNN
 F 1 "10k" V 3284 4800 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 3330 4800 50  0001 C CNN
-F 3 "~" H 3400 4800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3400 4800 50  0001 C CNN
+F 4 "Yageo" H 3400 4800 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 3400 4800 50  0001 C CNN "MPN"
 	1    3400 4800
 	0    1    1    0   
 $EndComp
@@ -2269,7 +2462,9 @@ AR Path="/5CFF3BEB/5D956AC5" Ref="C46"  Part="1"
 F 0 "C46" H 3600 4850 50  0000 L CNN
 F 1 "100nF" H 3600 4750 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 3588 4750 50  0001 C CNN
-F 3 "~" H 3550 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3550 4900 50  0001 C CNN
+F 4 "Samsung" H 3550 4900 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 3550 4900 50  0001 C CNN "MPN"
 	1    3550 4900
 	1    0    0    -1  
 $EndComp
@@ -2318,7 +2513,9 @@ AR Path="/5CFF3BEB/5D96E88C" Ref="R84"  Part="1"
 F 0 "R84" H 3200 5800 50  0000 R CNN
 F 1 "10k" H 3200 5700 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 3180 5750 50  0001 C CNN
-F 3 "~" H 3250 5750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3250 5750 50  0001 C CNN
+F 4 "Yageo" H 3250 5750 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 3250 5750 50  0001 C CNN "MPN"
 	1    3250 5750
 	1    0    0    -1  
 $EndComp
@@ -2342,7 +2539,9 @@ AR Path="/5CFF3BEB/5D96E898" Ref="R85"  Part="1"
 F 0 "R85" V 3193 5900 50  0000 C CNN
 F 1 "10k" V 3284 5900 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 3330 5900 50  0001 C CNN
-F 3 "~" H 3400 5900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3400 5900 50  0001 C CNN
+F 4 "Yageo" H 3400 5900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 3400 5900 50  0001 C CNN "MPN"
 	1    3400 5900
 	0    1    1    0   
 $EndComp
@@ -2355,7 +2554,9 @@ AR Path="/5CFF3BEB/5D96E89E" Ref="C53"  Part="1"
 F 0 "C53" H 3600 5950 50  0000 L CNN
 F 1 "100nF" H 3600 5850 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 3588 5850 50  0001 C CNN
-F 3 "~" H 3550 6000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3550 6000 50  0001 C CNN
+F 4 "Samsung" H 3550 6000 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 3550 6000 50  0001 C CNN "MPN"
 	1    3550 6000
 	1    0    0    -1  
 $EndComp
@@ -2380,6 +2581,8 @@ F 0 "U23" H 10350 5667 50  0000 C CNN
 F 1 "74LVC14" H 10350 5576 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 10350 5350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 10350 5350 50  0001 C CNN
+F 4 "Texas Instruments" H 10350 5350 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 10350 5350 50  0001 C CNN "MPN"
 	3    10350 5350
 	1    0    0    -1  
 $EndComp
@@ -2391,6 +2594,8 @@ F 0 "U18" H 3950 1350 50  0000 C CNN
 F 1 "74LVC14" H 3950 1250 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 3850 1100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 3850 1100 50  0001 C CNN
+F 4 "Texas Instruments" H 3850 1100 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 3850 1100 50  0001 C CNN "MPN"
 	6    3850 1100
 	1    0    0    -1  
 $EndComp
@@ -2426,7 +2631,9 @@ AR Path="/5CFF3BEB/5D96E8C2" Ref="R32"  Part="1"
 F 0 "R32" H 6950 1000 50  0000 R CNN
 F 1 "10k" H 6950 900 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 6930 950 50  0001 C CNN
-F 3 "~" H 7000 950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7000 950 50  0001 C CNN
+F 4 "Yageo" H 7000 950 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 7000 950 50  0001 C CNN "MPN"
 	1    7000 950 
 	1    0    0    -1  
 $EndComp
@@ -2450,7 +2657,9 @@ AR Path="/5CFF3BEB/5D96E8CE" Ref="R34"  Part="1"
 F 0 "R34" V 6943 1100 50  0000 C CNN
 F 1 "10k" V 7034 1100 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 7080 1100 50  0001 C CNN
-F 3 "~" H 7150 1100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7150 1100 50  0001 C CNN
+F 4 "Yageo" H 7150 1100 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 7150 1100 50  0001 C CNN "MPN"
 	1    7150 1100
 	0    1    1    0   
 $EndComp
@@ -2463,7 +2672,9 @@ AR Path="/5CFF3BEB/5D96E8D4" Ref="C15"  Part="1"
 F 0 "C15" H 7350 1150 50  0000 L CNN
 F 1 "100nF" H 7350 1050 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 7338 1050 50  0001 C CNN
-F 3 "~" H 7300 1200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7300 1200 50  0001 C CNN
+F 4 "Samsung" H 7300 1200 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 7300 1200 50  0001 C CNN "MPN"
 	1    7300 1200
 	1    0    0    -1  
 $EndComp
@@ -2495,7 +2706,9 @@ AR Path="/5CFF3BEB/5D9C3DF4" Ref="R42"  Part="1"
 F 0 "R42" V 5443 2150 50  0000 C CNN
 F 1 "10k" V 5534 2150 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5580 2150 50  0001 C CNN
-F 3 "~" H 5650 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5650 2150 50  0001 C CNN
+F 4 "Yageo" H 5650 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 5650 2150 50  0001 C CNN "MPN"
 	1    5650 2150
 	0    1    1    0   
 $EndComp
@@ -2508,7 +2721,9 @@ AR Path="/5CFF3BEB/5D9C3DFA" Ref="R52"  Part="1"
 F 0 "R52" V 5443 2550 50  0000 C CNN
 F 1 "10k" V 5534 2550 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5580 2550 50  0001 C CNN
-F 3 "~" H 5650 2550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5650 2550 50  0001 C CNN
+F 4 "Yageo" H 5650 2550 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 5650 2550 50  0001 C CNN "MPN"
 	1    5650 2550
 	0    1    1    0   
 $EndComp
@@ -2521,7 +2736,9 @@ AR Path="/5CFF3BEB/5D9C3E00" Ref="R43"  Part="1"
 F 0 "R43" H 6000 2200 50  0000 R CNN
 F 1 "10k" H 6000 2100 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5980 2150 50  0001 C CNN
-F 3 "~" H 6050 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6050 2150 50  0001 C CNN
+F 4 "Yageo" H 6050 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 6050 2150 50  0001 C CNN "MPN"
 	1    6050 2150
 	1    0    0    -1  
 $EndComp
@@ -2534,7 +2751,9 @@ AR Path="/5CFF3BEB/5D9C3E06" Ref="R44"  Part="1"
 F 0 "R44" H 6270 2196 50  0000 L CNN
 F 1 "10k" H 6270 2105 50  0000 L CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 6130 2150 50  0001 C CNN
-F 3 "~" H 6200 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6200 2150 50  0001 C CNN
+F 4 "Yageo" H 6200 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 6200 2150 50  0001 C CNN "MPN"
 	1    6200 2150
 	1    0    0    -1  
 $EndComp
@@ -2560,7 +2779,9 @@ AR Path="/5CFF3BEB/5D9C3E12" Ref="C24"  Part="1"
 F 0 "C24" H 5615 2896 50  0000 L CNN
 F 1 "10nF" H 5615 2805 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5538 2700 50  0001 C CNN
-F 3 "~" H 5500 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5500 2850 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 5500 2850 50  0001 C CNN "MPN"
+F 5 "Samsung" H 5500 2850 50  0001 C CNN "MFR"
 	1    5500 2850
 	1    0    0    -1  
 $EndComp
@@ -2573,7 +2794,9 @@ AR Path="/5CFF3BEB/5D9C3E18" Ref="C23"  Part="1"
 F 0 "C23" H 5150 2900 50  0000 R CNN
 F 1 "10nF" H 5150 2800 50  0000 R CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5288 2700 50  0001 C CNN
-F 3 "~" H 5250 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5250 2850 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 5250 2850 50  0001 C CNN "MPN"
+F 5 "Samsung" H 5250 2850 50  0001 C CNN "MFR"
 	1    5250 2850
 	1    0    0    -1  
 $EndComp
@@ -2635,6 +2858,8 @@ F 0 "U20" H 7750 1350 50  0000 C CNN
 F 1 "74LVC14" H 7750 1250 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 7600 1100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 7600 1100 50  0001 C CNN
+F 4 "Texas Instruments" H 7600 1100 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 7600 1100 50  0001 C CNN "MPN"
 	1    7600 1100
 	1    0    0    -1  
 $EndComp
@@ -2646,6 +2871,8 @@ F 0 "U19" H 1250 4750 50  0000 C CNN
 F 1 "74LVC14" H 1250 4850 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 5000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 1150 5000 50  0001 C CNN
+F 4 "Texas Instruments" H 1150 5000 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 1150 5000 50  0001 C CNN "MPN"
 	2    1150 5000
 	-1   0    0    1   
 $EndComp
@@ -2657,6 +2884,8 @@ F 0 "U20" H 1250 5850 50  0000 C CNN
 F 1 "74LVC14" H 1250 5950 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 6100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 1150 6100 50  0001 C CNN
+F 4 "Texas Instruments" H 1150 6100 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 1150 6100 50  0001 C CNN "MPN"
 	4    1150 6100
 	-1   0    0    1   
 $EndComp
@@ -2668,6 +2897,8 @@ F 0 "U20" H 1250 5450 50  0000 C CNN
 F 1 "74LVC14" H 1250 5550 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 5700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 1150 5700 50  0001 C CNN
+F 4 "Texas Instruments" H 1150 5700 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 1150 5700 50  0001 C CNN "MPN"
 	5    1150 5700
 	-1   0    0    1   
 $EndComp
@@ -2710,7 +2941,9 @@ AR Path="/5CFF3BEB/5D9C3E60" Ref="R57"  Part="1"
 F 0 "R57" V 5443 3400 50  0000 C CNN
 F 1 "10k" V 5534 3400 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5580 3400 50  0001 C CNN
-F 3 "~" H 5650 3400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5650 3400 50  0001 C CNN
+F 4 "Yageo" H 5650 3400 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 5650 3400 50  0001 C CNN "MPN"
 	1    5650 3400
 	0    1    1    0   
 $EndComp
@@ -2723,7 +2956,9 @@ AR Path="/5CFF3BEB/5D9C3E66" Ref="R66"  Part="1"
 F 0 "R66" V 5443 3800 50  0000 C CNN
 F 1 "10k" V 5534 3800 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5580 3800 50  0001 C CNN
-F 3 "~" H 5650 3800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5650 3800 50  0001 C CNN
+F 4 "Yageo" H 5650 3800 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 5650 3800 50  0001 C CNN "MPN"
 	1    5650 3800
 	0    1    1    0   
 $EndComp
@@ -2736,7 +2971,9 @@ AR Path="/5CFF3BEB/5D9C3E6C" Ref="R58"  Part="1"
 F 0 "R58" H 6000 3450 50  0000 R CNN
 F 1 "10k" H 6000 3350 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5980 3400 50  0001 C CNN
-F 3 "~" H 6050 3400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6050 3400 50  0001 C CNN
+F 4 "Yageo" H 6050 3400 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 6050 3400 50  0001 C CNN "MPN"
 	1    6050 3400
 	1    0    0    -1  
 $EndComp
@@ -2749,7 +2986,9 @@ AR Path="/5CFF3BEB/5D9C3E72" Ref="R59"  Part="1"
 F 0 "R59" H 6270 3446 50  0000 L CNN
 F 1 "10k" H 6270 3355 50  0000 L CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 6130 3400 50  0001 C CNN
-F 3 "~" H 6200 3400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6200 3400 50  0001 C CNN
+F 4 "Yageo" H 6200 3400 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 6200 3400 50  0001 C CNN "MPN"
 	1    6200 3400
 	1    0    0    -1  
 $EndComp
@@ -2775,7 +3014,9 @@ AR Path="/5CFF3BEB/5D9C3E7E" Ref="C44"  Part="1"
 F 0 "C44" H 5615 4146 50  0000 L CNN
 F 1 "10nF" H 5615 4055 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5538 3950 50  0001 C CNN
-F 3 "~" H 5500 4100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5500 4100 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 5500 4100 50  0001 C CNN "MPN"
+F 5 "Samsung" H 5500 4100 50  0001 C CNN "MFR"
 	1    5500 4100
 	1    0    0    -1  
 $EndComp
@@ -2788,7 +3029,9 @@ AR Path="/5CFF3BEB/5D9C3E84" Ref="C43"  Part="1"
 F 0 "C43" H 5150 4150 50  0000 R CNN
 F 1 "10nF" H 5150 4050 50  0000 R CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5288 3950 50  0001 C CNN
-F 3 "~" H 5250 4100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5250 4100 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 5250 4100 50  0001 C CNN "MPN"
+F 5 "Samsung" H 5250 4100 50  0001 C CNN "MFR"
 	1    5250 4100
 	1    0    0    -1  
 $EndComp
@@ -2881,7 +3124,9 @@ AR Path="/5CFF3BEB/5D9DB602" Ref="R72"  Part="1"
 F 0 "R72" V 5443 4650 50  0000 C CNN
 F 1 "10k" V 5534 4650 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5580 4650 50  0001 C CNN
-F 3 "~" H 5650 4650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5650 4650 50  0001 C CNN
+F 4 "Yageo" H 5650 4650 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 5650 4650 50  0001 C CNN "MPN"
 	1    5650 4650
 	0    1    1    0   
 $EndComp
@@ -2894,7 +3139,9 @@ AR Path="/5CFF3BEB/5D9DB608" Ref="R79"  Part="1"
 F 0 "R79" V 5443 5050 50  0000 C CNN
 F 1 "10k" V 5534 5050 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5580 5050 50  0001 C CNN
-F 3 "~" H 5650 5050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5650 5050 50  0001 C CNN
+F 4 "Yageo" H 5650 5050 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 5650 5050 50  0001 C CNN "MPN"
 	1    5650 5050
 	0    1    1    0   
 $EndComp
@@ -2907,7 +3154,9 @@ AR Path="/5CFF3BEB/5D9DB60E" Ref="R73"  Part="1"
 F 0 "R73" H 6000 4700 50  0000 R CNN
 F 1 "10k" H 6000 4600 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 5980 4650 50  0001 C CNN
-F 3 "~" H 6050 4650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6050 4650 50  0001 C CNN
+F 4 "Yageo" H 6050 4650 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 6050 4650 50  0001 C CNN "MPN"
 	1    6050 4650
 	1    0    0    -1  
 $EndComp
@@ -2920,7 +3169,9 @@ AR Path="/5CFF3BEB/5D9DB614" Ref="R74"  Part="1"
 F 0 "R74" H 6270 4696 50  0000 L CNN
 F 1 "10k" H 6270 4605 50  0000 L CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 6130 4650 50  0001 C CNN
-F 3 "~" H 6200 4650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6200 4650 50  0001 C CNN
+F 4 "Yageo" H 6200 4650 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 6200 4650 50  0001 C CNN "MPN"
 	1    6200 4650
 	1    0    0    -1  
 $EndComp
@@ -2946,7 +3197,9 @@ AR Path="/5CFF3BEB/5D9DB620" Ref="C51"  Part="1"
 F 0 "C51" H 5615 5396 50  0000 L CNN
 F 1 "10nF" H 5615 5305 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5538 5200 50  0001 C CNN
-F 3 "~" H 5500 5350 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5500 5350 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 5500 5350 50  0001 C CNN "MPN"
+F 5 "Samsung" H 5500 5350 50  0001 C CNN "MFR"
 	1    5500 5350
 	1    0    0    -1  
 $EndComp
@@ -2959,7 +3212,9 @@ AR Path="/5CFF3BEB/5D9DB626" Ref="C50"  Part="1"
 F 0 "C50" H 5150 5400 50  0000 R CNN
 F 1 "10nF" H 5150 5300 50  0000 R CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5288 5200 50  0001 C CNN
-F 3 "~" H 5250 5350 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5250 5350 50  0001 C CNN
+F 4 "CL21B103KCANNNC" H 5250 5350 50  0001 C CNN "MPN"
+F 5 "Samsung" H 5250 5350 50  0001 C CNN "MFR"
 	1    5250 5350
 	1    0    0    -1  
 $EndComp
@@ -3021,6 +3276,8 @@ F 0 "U22" H 10450 1750 50  0000 C CNN
 F 1 "74LVC14" H 10450 1650 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 10350 1500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 10350 1500 50  0001 C CNN
+F 4 "Texas Instruments" H 10350 1500 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 10350 1500 50  0001 C CNN "MPN"
 	1    10350 1500
 	1    0    0    -1  
 $EndComp
@@ -3032,6 +3289,8 @@ F 0 "U22" H 10450 3000 50  0000 C CNN
 F 1 "74LVC14" H 10450 2900 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 10350 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 10350 2750 50  0001 C CNN
+F 4 "Texas Instruments" H 10350 2750 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 10350 2750 50  0001 C CNN "MPN"
 	2    10350 2750
 	1    0    0    -1  
 $EndComp
@@ -3091,7 +3350,9 @@ AR Path="/5CFF3BEB/5DA3D3E7" Ref="R46"  Part="1"
 F 0 "R46" H 6950 2250 50  0000 R CNN
 F 1 "10k" H 6950 2150 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 6930 2200 50  0001 C CNN
-F 3 "~" H 7000 2200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7000 2200 50  0001 C CNN
+F 4 "Yageo" H 7000 2200 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 7000 2200 50  0001 C CNN "MPN"
 	1    7000 2200
 	1    0    0    -1  
 $EndComp
@@ -3115,7 +3376,9 @@ AR Path="/5CFF3BEB/5DA3D3F3" Ref="R49"  Part="1"
 F 0 "R49" V 6943 2350 50  0000 C CNN
 F 1 "10k" V 7034 2350 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 7080 2350 50  0001 C CNN
-F 3 "~" H 7150 2350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7150 2350 50  0001 C CNN
+F 4 "Yageo" H 7150 2350 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 7150 2350 50  0001 C CNN "MPN"
 	1    7150 2350
 	0    1    1    0   
 $EndComp
@@ -3128,7 +3391,9 @@ AR Path="/5CFF3BEB/5DA3D3F9" Ref="C20"  Part="1"
 F 0 "C20" H 7350 2400 50  0000 L CNN
 F 1 "100nF" H 7350 2300 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 7338 2300 50  0001 C CNN
-F 3 "~" H 7300 2450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7300 2450 50  0001 C CNN
+F 4 "Samsung" H 7300 2450 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 7300 2450 50  0001 C CNN "MPN"
 	1    7300 2450
 	1    0    0    -1  
 $EndComp
@@ -3153,6 +3418,8 @@ F 0 "U19" H 1250 4350 50  0000 C CNN
 F 1 "74LVC14" H 1250 4450 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 1150 4600 50  0001 C CNN
+F 4 "Texas Instruments" H 1150 4600 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 1150 4600 50  0001 C CNN "MPN"
 	3    1150 4600
 	-1   0    0    1   
 $EndComp
@@ -3164,6 +3431,8 @@ F 0 "U20" H 3850 6217 50  0000 C CNN
 F 1 "74LVC14" H 3850 6126 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 3850 5900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 3850 5900 50  0001 C CNN
+F 4 "Texas Instruments" H 3850 5900 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 3850 5900 50  0001 C CNN "MPN"
 	6    3850 5900
 	1    0    0    -1  
 $EndComp
@@ -3199,7 +3468,9 @@ AR Path="/5CFF3BEB/5DA3D41D" Ref="R61"  Part="1"
 F 0 "R61" H 6950 3500 50  0000 R CNN
 F 1 "10k" H 6950 3400 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 6930 3450 50  0001 C CNN
-F 3 "~" H 7000 3450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7000 3450 50  0001 C CNN
+F 4 "Yageo" H 7000 3450 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 7000 3450 50  0001 C CNN "MPN"
 	1    7000 3450
 	1    0    0    -1  
 $EndComp
@@ -3223,7 +3494,9 @@ AR Path="/5CFF3BEB/5DA3D429" Ref="R63"  Part="1"
 F 0 "R63" V 6943 3600 50  0000 C CNN
 F 1 "10k" V 7034 3600 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 7080 3600 50  0001 C CNN
-F 3 "~" H 7150 3600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7150 3600 50  0001 C CNN
+F 4 "Yageo" H 7150 3600 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 7150 3600 50  0001 C CNN "MPN"
 	1    7150 3600
 	0    1    1    0   
 $EndComp
@@ -3236,7 +3509,9 @@ AR Path="/5CFF3BEB/5DA3D42F" Ref="C27"  Part="1"
 F 0 "C27" H 7350 3650 50  0000 L CNN
 F 1 "100nF" H 7350 3550 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 7338 3550 50  0001 C CNN
-F 3 "~" H 7300 3700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7300 3700 50  0001 C CNN
+F 4 "Samsung" H 7300 3700 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 7300 3700 50  0001 C CNN "MPN"
 	1    7300 3700
 	1    0    0    -1  
 $EndComp
@@ -3285,7 +3560,9 @@ AR Path="/5CFF3BEB/5DA4C825" Ref="R75"  Part="1"
 F 0 "R75" H 6950 4750 50  0000 R CNN
 F 1 "10k" H 6950 4650 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 6930 4700 50  0001 C CNN
-F 3 "~" H 7000 4700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7000 4700 50  0001 C CNN
+F 4 "Yageo" H 7000 4700 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 7000 4700 50  0001 C CNN "MPN"
 	1    7000 4700
 	1    0    0    -1  
 $EndComp
@@ -3309,7 +3586,9 @@ AR Path="/5CFF3BEB/5DA4C831" Ref="R77"  Part="1"
 F 0 "R77" V 6943 4850 50  0000 C CNN
 F 1 "10k" V 7034 4850 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 7080 4850 50  0001 C CNN
-F 3 "~" H 7150 4850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7150 4850 50  0001 C CNN
+F 4 "Yageo" H 7150 4850 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 7150 4850 50  0001 C CNN "MPN"
 	1    7150 4850
 	0    1    1    0   
 $EndComp
@@ -3322,7 +3601,9 @@ AR Path="/5CFF3BEB/5DA4C837" Ref="C47"  Part="1"
 F 0 "C47" H 7350 4900 50  0000 L CNN
 F 1 "100nF" H 7350 4800 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 7338 4800 50  0001 C CNN
-F 3 "~" H 7300 4950 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7300 4950 50  0001 C CNN
+F 4 "Samsung" H 7300 4950 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 7300 4950 50  0001 C CNN "MPN"
 	1    7300 4950
 	1    0    0    -1  
 $EndComp
@@ -3347,6 +3628,8 @@ F 0 "U23" H 10350 6367 50  0000 C CNN
 F 1 "74LVC14" H 10350 6276 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 10350 6050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 10350 6050 50  0001 C CNN
+F 4 "Texas Instruments" H 10350 6050 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 10350 6050 50  0001 C CNN "MPN"
 	4    10350 6050
 	1    0    0    -1  
 $EndComp
@@ -3364,6 +3647,8 @@ F 0 "U19" H 4000 5050 50  0000 C CNN
 F 1 "74LVC14" H 4000 4950 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 3850 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 3850 4800 50  0001 C CNN
+F 4 "Texas Instruments" H 3850 4800 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 3850 4800 50  0001 C CNN "MPN"
 	1    3850 4800
 	1    0    0    -1  
 $EndComp
@@ -3375,6 +3660,8 @@ F 0 "U20" H 5000 1050 50  0000 C CNN
 F 1 "74LVC14" H 5000 1150 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 1300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 4900 1300 50  0001 C CNN
+F 4 "Texas Instruments" H 4900 1300 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 4900 1300 50  0001 C CNN "MPN"
 	2    4900 1300
 	-1   0    0    1   
 $EndComp
@@ -3386,6 +3673,8 @@ F 0 "U21" H 5000 3150 50  0000 C CNN
 F 1 "74LVC14" H 5000 3250 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 3400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 4900 3400 50  0001 C CNN
+F 4 "Texas Instruments" H 4900 3400 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 4900 3400 50  0001 C CNN "MPN"
 	3    4900 3400
 	-1   0    0    1   
 $EndComp
@@ -3397,6 +3686,8 @@ F 0 "U21" H 5000 2300 50  0000 C CNN
 F 1 "74LVC14" H 5000 2400 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 4900 2550 50  0001 C CNN
+F 4 "Texas Instruments" H 4900 2550 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 4900 2550 50  0001 C CNN "MPN"
 	4    4900 2550
 	-1   0    0    1   
 $EndComp
@@ -3408,6 +3699,8 @@ F 0 "U22" H 5000 4400 50  0000 C CNN
 F 1 "74LVC14" H 5000 4500 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 4650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 4900 4650 50  0001 C CNN
+F 4 "Texas Instruments" H 4900 4650 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 4900 4650 50  0001 C CNN "MPN"
 	5    4900 4650
 	-1   0    0    1   
 $EndComp
@@ -3419,6 +3712,8 @@ F 0 "U22" H 7600 5167 50  0000 C CNN
 F 1 "74LVC14" H 7600 5076 50  0000 C CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 7600 4850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 7600 4850 50  0001 C CNN
+F 4 "Texas Instruments" H 7600 4850 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 7600 4850 50  0001 C CNN "MPN"
 	6    7600 4850
 	1    0    0    -1  
 $EndComp
@@ -3442,7 +3737,9 @@ AR Path="/5CFF3BEB/5DBACD7E" Ref="C59"  Part="1"
 F 0 "C59" H 4300 6650 50  0000 L CNN
 F 1 "100nF" H 4300 6550 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 4288 6550 50  0001 C CNN
-F 3 "~" H 4250 6700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 4250 6700 50  0001 C CNN
+F 4 "Samsung" H 4250 6700 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 4250 6700 50  0001 C CNN "MPN"
 	1    4250 6700
 	1    0    0    -1  
 $EndComp
@@ -3475,6 +3772,8 @@ F 0 "U21" H 5050 7150 50  0000 L CNN
 F 1 "74LVC14" H 5050 7050 50  0000 L CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 4750 7100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 4750 7100 50  0001 C CNN
+F 4 "Texas Instruments" H 4750 7100 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 4750 7100 50  0001 C CNN "MPN"
 	7    4750 7100
 	1    0    0    -1  
 $EndComp
@@ -3498,7 +3797,9 @@ AR Path="/5CFF3BEB/5DBDB99A" Ref="C60"  Part="1"
 F 0 "C60" H 5100 6650 50  0000 L CNN
 F 1 "100nF" H 5100 6550 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5088 6550 50  0001 C CNN
-F 3 "~" H 5050 6700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5050 6700 50  0001 C CNN
+F 4 "Samsung" H 5050 6700 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 5050 6700 50  0001 C CNN "MPN"
 	1    5050 6700
 	1    0    0    -1  
 $EndComp
@@ -3529,6 +3830,8 @@ F 0 "U22" H 5850 7150 50  0000 L CNN
 F 1 "74LVC14" H 5850 7050 50  0000 L CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 5550 7100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 5550 7100 50  0001 C CNN
+F 4 "Texas Instruments" H 5550 7100 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 5550 7100 50  0001 C CNN "MPN"
 	7    5550 7100
 	1    0    0    -1  
 $EndComp
@@ -3552,7 +3855,9 @@ AR Path="/5CFF3BEB/5DBEA306" Ref="C61"  Part="1"
 F 0 "C61" H 5900 6650 50  0000 L CNN
 F 1 "100nF" H 5900 6550 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 5888 6550 50  0001 C CNN
-F 3 "~" H 5850 6700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5850 6700 50  0001 C CNN
+F 4 "Samsung" H 5850 6700 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 5850 6700 50  0001 C CNN "MPN"
 	1    5850 6700
 	1    0    0    -1  
 $EndComp
@@ -3585,6 +3890,8 @@ F 0 "U23" H 6650 7150 50  0000 L CNN
 F 1 "74LVC14" H 6650 7050 50  0000 L CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 6350 7100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 6350 7100 50  0001 C CNN
+F 4 "Texas Instruments" H 6350 7100 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 6350 7100 50  0001 C CNN "MPN"
 	7    6350 7100
 	1    0    0    -1  
 $EndComp
@@ -3608,7 +3915,9 @@ AR Path="/5CFF3BEB/5DC1032D" Ref="C62"  Part="1"
 F 0 "C62" H 6700 6650 50  0000 L CNN
 F 1 "100nF" H 6700 6550 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 6688 6550 50  0001 C CNN
-F 3 "~" H 6650 6700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6650 6700 50  0001 C CNN
+F 4 "Samsung" H 6650 6700 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 6650 6700 50  0001 C CNN "MPN"
 	1    6650 6700
 	1    0    0    -1  
 $EndComp
@@ -3641,6 +3950,8 @@ F 0 "U18" H 2650 7150 50  0000 L CNN
 F 1 "74LVC14" H 2650 7050 50  0000 L CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 2350 7100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 2350 7100 50  0001 C CNN
+F 4 "Texas Instruments" H 2350 7100 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 2350 7100 50  0001 C CNN "MPN"
 	7    2350 7100
 	1    0    0    -1  
 $EndComp
@@ -3664,7 +3975,9 @@ AR Path="/5CFF3BEB/5DC4A4A0" Ref="C57"  Part="1"
 F 0 "C57" H 2700 6650 50  0000 L CNN
 F 1 "100nF" H 2700 6550 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 2688 6550 50  0001 C CNN
-F 3 "~" H 2650 6700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2650 6700 50  0001 C CNN
+F 4 "Samsung" H 2650 6700 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 2650 6700 50  0001 C CNN "MPN"
 	1    2650 6700
 	1    0    0    -1  
 $EndComp
@@ -3697,6 +4010,8 @@ F 0 "U19" H 3450 7150 50  0000 L CNN
 F 1 "74LVC14" H 3450 7050 50  0000 L CNN
 F 2 "SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm" H 3150 7100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LV14" H 3150 7100 50  0001 C CNN
+F 4 "Texas Instruments" H 3150 7100 50  0001 C CNN "MFR"
+F 5 "SN74LVC14ADR" H 3150 7100 50  0001 C CNN "MPN"
 	7    3150 7100
 	1    0    0    -1  
 $EndComp
@@ -3720,7 +4035,9 @@ AR Path="/5CFF3BEB/5DC4A4BD" Ref="C58"  Part="1"
 F 0 "C58" H 3500 6650 50  0000 L CNN
 F 1 "100nF" H 3500 6550 50  0000 L CNN
 F 2 "Capacitor_BG:C_0805_2012Metric" H 3488 6550 50  0001 C CNN
-F 3 "~" H 3450 6700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3450 6700 50  0001 C CNN
+F 4 "Samsung" H 3450 6700 50  0001 C CNN "MFR"
+F 5 "CL21B104KBCNFNC" H 3450 6700 50  0001 C CNN "MPN"
 	1    3450 6700
 	1    0    0    -1  
 $EndComp
@@ -3936,7 +4253,9 @@ AR Path="/5CFF3BEB/5ED81C21" Ref="R90"  Part="1"
 F 0 "R90" H 9500 1400 50  0000 R CNN
 F 1 "10k" H 9500 1300 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9480 1350 50  0001 C CNN
-F 3 "~" H 9550 1350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9550 1350 50  0001 C CNN
+F 4 "Yageo" H 9550 1350 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9550 1350 50  0001 C CNN "MPN"
 	1    9550 1350
 	1    0    0    -1  
 $EndComp
@@ -3949,7 +4268,9 @@ AR Path="/5CFF3BEB/5EDF6647" Ref="R91"  Part="1"
 F 0 "R91" H 9500 2650 50  0000 R CNN
 F 1 "10k" H 9500 2550 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9480 2600 50  0001 C CNN
-F 3 "~" H 9550 2600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9550 2600 50  0001 C CNN
+F 4 "Yageo" H 9550 2600 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9550 2600 50  0001 C CNN "MPN"
 	1    9550 2600
 	1    0    0    -1  
 $EndComp
@@ -3973,7 +4294,9 @@ AR Path="/5CFF3BEB/5EE058ED" Ref="R92"  Part="1"
 F 0 "R92" H 9500 3600 50  0000 R CNN
 F 1 "10k" H 9500 3500 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9480 3550 50  0001 C CNN
-F 3 "~" H 9550 3550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9550 3550 50  0001 C CNN
+F 4 "Yageo" H 9550 3550 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9550 3550 50  0001 C CNN "MPN"
 	1    9550 3550
 	1    0    0    -1  
 $EndComp
@@ -3997,7 +4320,9 @@ AR Path="/5CFF3BEB/5EE14C5D" Ref="R93"  Part="1"
 F 0 "R93" H 9500 4300 50  0000 R CNN
 F 1 "10k" H 9500 4200 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9480 4250 50  0001 C CNN
-F 3 "~" H 9550 4250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9550 4250 50  0001 C CNN
+F 4 "Yageo" H 9550 4250 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9550 4250 50  0001 C CNN "MPN"
 	1    9550 4250
 	1    0    0    -1  
 $EndComp
@@ -4021,7 +4346,9 @@ AR Path="/5CFF3BEB/5EE24215" Ref="R94"  Part="1"
 F 0 "R94" H 9500 5250 50  0000 R CNN
 F 1 "10k" H 9500 5150 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9480 5200 50  0001 C CNN
-F 3 "~" H 9550 5200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9550 5200 50  0001 C CNN
+F 4 "Yageo" H 9550 5200 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9550 5200 50  0001 C CNN "MPN"
 	1    9550 5200
 	1    0    0    -1  
 $EndComp
@@ -4045,7 +4372,9 @@ AR Path="/5CFF3BEB/5EE331A1" Ref="R95"  Part="1"
 F 0 "R95" H 9500 5950 50  0000 R CNN
 F 1 "10k" H 9500 5850 50  0000 R CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 9480 5900 50  0001 C CNN
-F 3 "~" H 9550 5900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9550 5900 50  0001 C CNN
+F 4 "Yageo" H 9550 5900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9550 5900 50  0001 C CNN "MPN"
 	1    9550 5900
 	1    0    0    -1  
 $EndComp
