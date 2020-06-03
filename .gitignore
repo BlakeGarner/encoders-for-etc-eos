@@ -4,6 +4,7 @@
 # Temporary files
 Hardware/*.000
 Hardware/*.bak
+Hardware/*.sch-bak
 Hardware/*.bck
 Hardware/*.kicad_pcb-bak
 Hardware/*~

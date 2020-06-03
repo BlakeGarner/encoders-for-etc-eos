@@ -20,7 +20,7 @@ P 2700 6100
 F 0 "U7" H 2700 7687 60  0000 C CNN
 F 1 "Teensy3.2" H 2700 7581 60  0000 C CNN
 F 2 "Teensy_BG:Teensy30_31_32_LC" H 2700 5300 60  0001 C CNN
-F 3 "https://www.pjrc.com/store/teensy32.html" H 2700 5300 60  0000 C CNN
+F 3 "https://www.pjrc.com/store/teensy32.html" H 2700 5300 60  0001 C CNN
 F 4 "PJRC" H 2700 6100 50  0001 C CNN "MFR"
 F 5 "TEENSY32" H 2700 6100 50  0001 C CNN "MPN"
 F 6 "DNP" H 2700 6100 50  0001 C CNN "DNP"

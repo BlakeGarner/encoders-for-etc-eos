@@ -385,10 +385,10 @@ AR Path="/5D0B0E37" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5D0B0E37" Ref="SW12"  Part="1" 
 F 0 "SW12" H 8850 4185 50  0000 C CNN
 F 1 "SW_Push_LED_Red" H 8850 4094 50  0000 C CNN
-F 2 "Button_Switch_BG:E-Switch_SPST_Red_LED_SquareCap_TL3240F160R" H 8850 4100 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 4100 50  0001 C CNN
-F 4 "E-Switch" H 8850 3800 50  0001 C CNN "MFR"
-F 5 "TL3240F160R;TL3240S1CAPIVR" H 8850 3800 50  0001 C CNN "MPN"
+F 2 "" H 8850 4100 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 4100 50  0001 C CNN
+F 4 "TE Connectivity" H 8850 3800 50  0001 C CNN "MFR"
+F 5 "FSMIJ63BR04;2311403-2" H 8850 3800 50  0001 C CNN "MPN"
 F 6 "DNP" H 8850 3800 50  0001 C CNN "DNP"
 	1    8850 3800
 	1    0    0    -1  
@@ -405,10 +405,10 @@ AR Path="/5D0FBD90" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5D0FBD90" Ref="SW13"  Part="1" 
 F 0 "SW13" H 8850 4885 50  0000 C CNN
 F 1 "SW_Push_LED_Yellow" H 8850 4794 50  0000 C CNN
-F 2 "Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x" H 8850 4800 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 4800 50  0001 C CNN
-F 4 "E-Switch" H 8850 4500 50  0001 C CNN "MFR"
-F 5 "TL3240F160Y;TL3240S1CAPIVR" H 8850 4500 50  0001 C CNN "MPN"
+F 2 "" H 8850 4800 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 4800 50  0001 C CNN
+F 4 "TE Connectivity" H 8850 4500 50  0001 C CNN "MFR"
+F 5 "FSMIJ63BA04;2311403-2" H 8850 4500 50  0001 C CNN "MPN"
 F 6 "DNP" H 8850 4500 50  0001 C CNN "DNP"
 	1    8850 4500
 	1    0    0    -1  
@@ -423,10 +423,10 @@ AR Path="/5D107F09" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5D107F09" Ref="SW14"  Part="1" 
 F 0 "SW14" H 8850 5835 50  0000 C CNN
 F 1 "SW_Push_LED_Green" H 8850 5744 50  0000 C CNN
-F 2 "Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x" H 8850 5750 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 5750 50  0001 C CNN
-F 4 "E-Switch" H 8850 5450 50  0001 C CNN "MFR"
-F 5 "TL3240F160G;TL3240S1CAPIVR" H 8850 5450 50  0001 C CNN "MPN"
+F 2 "" H 8850 5750 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 5750 50  0001 C CNN
+F 4 "TE Connectivity" H 8850 5450 50  0001 C CNN "MFR"
+F 5 "FSMIJ63BG04;2311403-2" H 8850 5450 50  0001 C CNN "MPN"
 F 6 "DNP" H 8850 5450 50  0001 C CNN "DNP"
 	1    8850 5450
 	1    0    0    -1  
@@ -441,10 +441,10 @@ AR Path="/5D107F18" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5D107F18" Ref="SW15"  Part="1" 
 F 0 "SW15" H 8850 6535 50  0000 C CNN
 F 1 "SW_Push_LED_Blue" H 8850 6444 50  0000 C CNN
-F 2 "Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x" H 8850 6450 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 6450 50  0001 C CNN
-F 4 "E-Switch" H 8850 6150 50  0001 C CNN "MFR"
-F 5 "TL3240F160B;TL3240S1CAPIVR" H 8850 6150 50  0001 C CNN "MPN"
+F 2 "" H 8850 6450 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 6450 50  0001 C CNN
+F 4 "TE Connectivity" H 8850 6150 50  0001 C CNN "MFR"
+F 5 "FSMIJ63BB04;2311403-2" H 8850 6150 50  0001 C CNN "MPN"
 F 6 "DNP" H 8850 6150 50  0001 C CNN "DNP"
 	1    8850 6150
 	1    0    0    -1  
@@ -607,10 +607,10 @@ AR Path="/5CF7287A" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5CF7287A" Ref="SW11"  Part="1" 
 F 0 "SW11" H 8850 3235 50  0000 C CNN
 F 1 "SW_Push_LED_Blue" H 8850 3144 50  0000 C CNN
-F 2 "Button_Switch_BG:E-Switch_SPST_LED_RoundCap_TL3240F160x" H 8850 3150 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 3150 50  0001 C CNN
-F 4 "E-Switch" H 8850 2850 50  0001 C CNN "MFR"
-F 5 "TL3240F160B;TL3240R1CAPBLU" H 8850 2850 50  0001 C CNN "MPN"
+F 2 "" H 8850 3150 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 3150 50  0001 C CNN
+F 4 "TE Connectivity" H 8850 2850 50  0001 C CNN "MFR"
+F 5 "FSMIJ63BB04;2311402-4" H 8850 2850 50  0001 C CNN "MPN"
 F 6 "DNP" H 8850 2850 50  0001 C CNN "DNP"
 	1    8850 2850
 	1    0    0    -1  
@@ -623,10 +623,10 @@ AR Path="/5CF7337F" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5CF7337F" Ref="SW10"  Part="1" 
 F 0 "SW10" H 8850 1985 50  0000 C CNN
 F 1 "SW_Push_LED_Red" H 8850 1894 50  0000 C CNN
-F 2 "Button_Switch_BG:E-Switch_SPST_Red_LED_RoundCap_TL3240F160R" H 8850 1900 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf" H 8850 1900 50  0001 C CNN
-F 4 "E-Switch" H 8850 1600 50  0001 C CNN "MFR"
-F 5 "TL3240F160R;TL3240R1CAPBLK" H 8850 1600 50  0001 C CNN "MPN"
+F 2 "" H 8850 1900 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 1900 50  0001 C CNN
+F 4 "TE Connectivity" H 8850 1600 50  0001 C CNN "MFR"
+F 5 "FSMIJ63BR04;2311402-2" H 8850 1600 50  0001 C CNN "MPN"
 F 6 "DNP" H 8850 1600 50  0001 C CNN "DNP"
 	1    8850 1600
 	1    0    0    -1  
