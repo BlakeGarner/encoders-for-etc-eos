@@ -3,4 +3,5 @@
   (lib (name Teensy_BG)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Teensy_BG.lib)(options "")(descr ""))
   (lib (name Interface_Expansion_BG)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Interface_Expansion_BG.lib)(options "")(descr ""))
   (lib (name Switch_BG)(type Legacy)(uri ${KIPRJMOD}/blakegarner-kicad-library/kicad-symbols/Switch_BG.lib)(options "")(descr ""))
+  (lib (name EncoderBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/EncoderBoard-rescue.lib)(options "")(descr ""))
 )
