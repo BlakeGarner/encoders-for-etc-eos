@@ -1,9 +1,9 @@
-* Enlarge button-top cut-outs on acrylic by 0.5mm - it's a bit too snug for the button travel.
-* Dividers between each status LED on the right side of the module.
-* Wider footprint so the screw holes can be closer to the corners.
+DONE * Enlarge button-top cut-outs on acrylic by 0.5mm - it's a bit too snug for the button travel.
+DONE * Dividers between each status LED on the right side of the module.
+DONE * Wider footprint so the screw holes can be closer to the corners.
 * Frosted top panel for the RGB LEDs - to scatter the light in brighter environments.
-* Allow a bit more tolerance in the acrylic cutouts - in the x axis measurements seemed to drift by as much as 0.5mm.
-* Consider an alternative to the 74HCT245 (either MOSFET design or single channel design)
-* Round off the corners of the PCB and acrylic
-* Overhang the etching of layer 3 a bit (or split into a 3mm + 1.5mm piece?
-* Replace the switches with something more common on Digikey/Mouser. (Maybe the FSMIJ62Bx04? or FSMIJM62Bx04?)
+DONE * Allow a bit more tolerance in the acrylic cutouts - in the x axis measurements seemed to drift by as much as 0.5mm.
+NO   * Consider an alternative to the 74HCT245 (either MOSFET design or single channel design)
+DONE * Round off the corners of the PCB and acrylic
+NO LONGER RELEVANT * Overhang the etching of layer 3 a bit (or split into a 3mm + 1.5mm piece?
+DONE * Replace the switches with something more common on Digikey/Mouser. (Maybe the FSMIJ62Bx04? or FSMIJM62Bx04?)

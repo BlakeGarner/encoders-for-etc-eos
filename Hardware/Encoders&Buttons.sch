@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "Encoder Board"
-Date "2020-06-03"
-Rev "C-dev"
+Date "2020-06-10"
+Rev "C"
 Comp "Blake Garner"
 Comment1 ""
 Comment2 ""
@@ -385,7 +385,7 @@ AR Path="/5D0B0E37" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5D0B0E37" Ref="SW12"  Part="1" 
 F 0 "SW12" H 8850 4185 50  0000 C CNN
 F 1 "SW_Push_LED_Red" H 8850 4094 50  0000 C CNN
-F 2 "" H 8850 4100 50  0001 C CNN
+F 2 "Button_Switch_BG:TE_Alcoswitch_SPST_LED" H 8850 4100 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 4100 50  0001 C CNN
 F 4 "TE Connectivity" H 8850 3800 50  0001 C CNN "MFR"
 F 5 "FSMIJ63BR04;2311403-2" H 8850 3800 50  0001 C CNN "MPN"
@@ -405,7 +405,7 @@ AR Path="/5D0FBD90" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5D0FBD90" Ref="SW13"  Part="1" 
 F 0 "SW13" H 8850 4885 50  0000 C CNN
 F 1 "SW_Push_LED_Yellow" H 8850 4794 50  0000 C CNN
-F 2 "" H 8850 4800 50  0001 C CNN
+F 2 "Button_Switch_BG:TE_Alcoswitch_SPST_LED" H 8850 4800 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 4800 50  0001 C CNN
 F 4 "TE Connectivity" H 8850 4500 50  0001 C CNN "MFR"
 F 5 "FSMIJ63BA04;2311403-2" H 8850 4500 50  0001 C CNN "MPN"
@@ -423,7 +423,7 @@ AR Path="/5D107F09" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5D107F09" Ref="SW14"  Part="1" 
 F 0 "SW14" H 8850 5835 50  0000 C CNN
 F 1 "SW_Push_LED_Green" H 8850 5744 50  0000 C CNN
-F 2 "" H 8850 5750 50  0001 C CNN
+F 2 "Button_Switch_BG:TE_Alcoswitch_SPST_LED" H 8850 5750 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 5750 50  0001 C CNN
 F 4 "TE Connectivity" H 8850 5450 50  0001 C CNN "MFR"
 F 5 "FSMIJ63BG04;2311403-2" H 8850 5450 50  0001 C CNN "MPN"
@@ -441,7 +441,7 @@ AR Path="/5D107F18" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5D107F18" Ref="SW15"  Part="1" 
 F 0 "SW15" H 8850 6535 50  0000 C CNN
 F 1 "SW_Push_LED_Blue" H 8850 6444 50  0000 C CNN
-F 2 "" H 8850 6450 50  0001 C CNN
+F 2 "Button_Switch_BG:TE_Alcoswitch_SPST_LED" H 8850 6450 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 6450 50  0001 C CNN
 F 4 "TE Connectivity" H 8850 6150 50  0001 C CNN "MFR"
 F 5 "FSMIJ63BB04;2311403-2" H 8850 6150 50  0001 C CNN "MPN"
@@ -509,13 +509,13 @@ L Device:R R51
 U 1 1 5D16792D
 P 8350 6250
 F 0 "R51" V 8143 6250 50  0000 C CNN
-F 1 "33R" V 8234 6250 50  0000 C CNN
+F 1 "150R" V 8234 6250 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 8280 6250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8350 6250 50  0001 C CNN
 F 4 "Yageo" H 8350 6250 50  0001 C CNN "MFR"
-F 5 "RC0805FR-0733RL" H 8350 6250 50  0001 C CNN "MPN"
-F 6 "RC0805FR-0733RL" H 8350 6250 50  0001 C CNN "Seeed OPL"
-F 7 "301012298" H 8350 6250 50  0001 C CNN "Seeed OPL SKU"
+F 5 "RC0805FR-07150RL" H 8350 6250 50  0001 C CNN "MPN"
+F 6 "RC0805FR-07150RL" H 8350 6250 50  0001 C CNN "Seeed OPL"
+F 7 "301010370" H 8350 6250 50  0001 C CNN "Seeed OPL SKU"
 	1    8350 6250
 	0    1    1    0   
 $EndComp
@@ -607,7 +607,7 @@ AR Path="/5CF7287A" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5CF7287A" Ref="SW11"  Part="1" 
 F 0 "SW11" H 8850 3235 50  0000 C CNN
 F 1 "SW_Push_LED_Blue" H 8850 3144 50  0000 C CNN
-F 2 "" H 8850 3150 50  0001 C CNN
+F 2 "Button_Switch_BG:TE_Alcoswitch_SPST_LED" H 8850 3150 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 3150 50  0001 C CNN
 F 4 "TE Connectivity" H 8850 2850 50  0001 C CNN "MFR"
 F 5 "FSMIJ63BB04;2311402-4" H 8850 2850 50  0001 C CNN "MPN"
@@ -623,7 +623,7 @@ AR Path="/5CF7337F" Ref="SW?"  Part="1"
 AR Path="/5CFF3BEB/5CF7337F" Ref="SW10"  Part="1" 
 F 0 "SW10" H 8850 1985 50  0000 C CNN
 F 1 "SW_Push_LED_Red" H 8850 1894 50  0000 C CNN
-F 2 "" H 8850 1900 50  0001 C CNN
+F 2 "Button_Switch_BG:TE_Alcoswitch_SPST_LED" H 8850 1900 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773878-5_IlluminatedTactileSwitch&DocType=DS&DocLang=English" H 8850 1900 50  0001 C CNN
 F 4 "TE Connectivity" H 8850 1600 50  0001 C CNN "MFR"
 F 5 "FSMIJ63BR04;2311402-2" H 8850 1600 50  0001 C CNN "MPN"
@@ -640,13 +640,13 @@ L Device:R R31
 U 1 1 5CF9FE26
 P 8350 2950
 F 0 "R31" V 8143 2950 50  0000 C CNN
-F 1 "33R" V 8234 2950 50  0000 C CNN
+F 1 "150R" V 8234 2950 50  0000 C CNN
 F 2 "Resistor_BG:R_0805_2012Metric" V 8280 2950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8350 2950 50  0001 C CNN
 F 4 "Yageo" H 8350 2950 50  0001 C CNN "MFR"
-F 5 "RC0805FR-0733RL" H 8350 2950 50  0001 C CNN "MPN"
-F 6 "RC0805FR-0733RL" H 8350 2950 50  0001 C CNN "Seeed OPL"
-F 7 "301012298" H 8350 2950 50  0001 C CNN "Seeed OPL SKU"
+F 5 "RC0805FR-07150RL" H 8350 2950 50  0001 C CNN "MPN"
+F 6 "RC0805FR-07150RL" H 8350 2950 50  0001 C CNN "Seeed OPL"
+F 7 "301010370" H 8350 2950 50  0001 C CNN "Seeed OPL SKU"
 	1    8350 2950
 	0    1    1    0   
 $EndComp
@@ -731,18 +731,6 @@ Wire Wire Line
 	8050 5350 8650 5350
 Wire Wire Line
 	8050 6050 8650 6050
-NoConn ~ 9050 6150
-NoConn ~ 8650 6150
-NoConn ~ 8650 5450
-NoConn ~ 9050 5450
-NoConn ~ 9050 4500
-NoConn ~ 8650 4500
-NoConn ~ 8650 3800
-NoConn ~ 9050 3800
-NoConn ~ 9050 2850
-NoConn ~ 8650 2850
-NoConn ~ 8650 1600
-NoConn ~ 9050 1600
 $Comp
 L Device:R R?
 U 1 1 5D28780A
@@ -4705,4 +4693,40 @@ F 3 "" H 9550 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9550 1500
+Wire Wire Line
+	9050 1600 9050 1500
+Connection ~ 9050 1500
+Wire Wire Line
+	8650 1600 8650 1500
+Connection ~ 8650 1500
+Wire Wire Line
+	9050 6150 9050 6050
+Connection ~ 9050 6050
+Wire Wire Line
+	8650 6150 8650 6050
+Connection ~ 8650 6050
+Wire Wire Line
+	8650 5450 8650 5350
+Connection ~ 8650 5350
+Wire Wire Line
+	9050 5450 9050 5350
+Connection ~ 9050 5350
+Wire Wire Line
+	8650 4500 8650 4400
+Connection ~ 8650 4400
+Wire Wire Line
+	9050 4500 9050 4400
+Connection ~ 9050 4400
+Wire Wire Line
+	9050 3800 9050 3700
+Connection ~ 9050 3700
+Wire Wire Line
+	8650 3800 8650 3700
+Connection ~ 8650 3700
+Wire Wire Line
+	8650 2850 8650 2750
+Connection ~ 8650 2750
+Wire Wire Line
+	9050 2850 9050 2750
+Connection ~ 9050 2750
 $EndSCHEMATC
