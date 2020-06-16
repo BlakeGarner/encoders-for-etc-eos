@@ -471,7 +471,7 @@
       <datasheet>http://www.ti.com/lit/gpn/sn74HC245</datasheet>
       <fields>
         <field name="MFR">Texas Instruments</field>
-        <field name="MPN">SN74HCT245DWR</field>
+        <field name="MPN">SN74HCT245PWR</field>
       </fields>
       <libsource lib="74xx" part="74HC245" description="Octal BUS Transceivers, 3-State outputs"/>
       <sheetpath names="/" tstamps="/"/>
