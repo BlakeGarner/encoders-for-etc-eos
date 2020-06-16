@@ -1,26 +1,25 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"R89,R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R18,R19,R20,R21,R88";"R_0805_2012Metric";22;"4.7k";;;
-2;"C6,C2,C4,C8,C11";"C_1210_3225Metric";5;"10uF";;;
-3;"REF**,REF**,REF**,REF**,REF**";"MountingHole_3.2mm_M3";5;"MountingHole_3.2mm_M3";;;
-4;"SW11";"E-Switch_SPST_LED_RoundCap_TL3240F160x";1;"SW_Push_LED_Blue";;;
-5;"R17";"R_0805_2012Metric";1;"330R";;;
-6;"D12,D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11";"LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm";12;"WS2812B";;;
-7;"C41,C1,C3,C5,C7,C9,C10,C30,C31,C32,C33,C34,C35,C36,C37,C38,C39,C40,C14,C15,C18,C19,C20,C25,C26,C27,C28,C45,C46,C47,C52,C53,C54,C57,C58,C59,C60,C61,C62,C63,C64,C65,C66,C67,C68,C69,C70,C71,C72,C73,C74,C75";"C_0805_2012Metric";52;"100nF";;;
-8;"U14,U9,U10,U11,U12,U13,U15,U16,U17";"Display_OLED_128x32_I2C";9;"Display_OLED_128x32_I2C";;;
-9;"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9";"RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm";9;"Rotary_Encoder_Switch";;;
-10;"U7";"Teensy30_31_32_LC";1;"Teensy3.2";;;
-11;"SW10";"E-Switch_SPST_Red_LED_RoundCap_TL3240F160R";1;"SW_Push_LED_Red";;;
-12;"SW12";"E-Switch_SPST_Red_LED_SquareCap_TL3240F160R";1;"SW_Push_LED_Red";;;
-13;"SW13";"E-Switch_SPST_LED_SquareCap_TL3240F160x";1;"SW_Push_LED_Yellow";;;
-14;"SW14";"E-Switch_SPST_LED_SquareCap_TL3240F160x";1;"SW_Push_LED_Green";;;
-15;"SW15";"E-Switch_SPST_LED_SquareCap_TL3240F160x";1;"SW_Push_LED_Blue";;;
-16;"C12,C13,C16,C17,C21,C22,C23,C24,C29,C42,C43,C44,C48,C49,C50,C51,C55,C56";"C_0805_2012Metric";18;"10nF";;;
-17;"R22,R23,R27,R29,R24,R25,R28,R30,R32,R33,R34,R35,R36,R37,R39,R40,R42,R43,R44,R45,R46,R47,R49,R50,R52,R53,R54,R55,R56,R57,R58,R59,R60,R61,R62,R63,R64,R65,R66,R67,R68,R69,R70,R71,R72,R73,R74,R75,R76,R77,R78,R79,R80,R81,R82,R83,R84,R85,R86,R87,R90,R91,R92,R93,R94,R95";"R_0805_2012Metric";66;"10k";;;
-18;"R26,R38";"R_0805_2012Metric";2;"150";;;
-19;"R31,R51";"R_0805_2012Metric";2;"33";;;
-20;"R41,R48";"R_0805_2012Metric";2;"120";;;
-21;"U1,U2,U3";"SOIC-28W_7.5x17.9mm_P1.27mm";3;"MCP23S17_SO";;;
-22;"U4,U6";"TSSOP-24_4.4x7.8mm_P0.65mm";2;"TCA9548APWR";;;
-23;"U8,U24,U25,U26";"SOIC-8_3.9x4.9mm_P1.27mm";4;"CAT24M01W";;;
-24;"U5";"TSSOP-20_4.4x6.5mm_P0.65mm";1;"74HCT245";;;
-25;"U18,U19,U20,U21,U22,U23";"SOIC-14_3.9x8.7mm_P1.27mm";6;"74LVC14";;;
+Reference, Quantity, Value, Footprint, Datasheet, MFR, MPN
+C10 C7 C5 C3 C1 C9 C74 C72 C73 C75 C14 C18 C25 C28 C45 C52 C54 C19 C26 C46 C53 C15 C20 C27 C47 C59 C60 C61 C62 C57 C58 C30 C31 C32 C33 C34 C35 C36 C37 C38 C39 C40 C41 C63 C64 C65 C66 C67 C68 C69 C70 C71 ,52,"100nF","Capacitor_BG:C_0805_2012Metric","https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf","Samsung","CL21B104KBCNFNC"
+C11 C8 C6 C4 C2 ,5,"10uF","Capacitor_BG:C_1210_3225Metric","https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf","Samsung","CL32B106KPINNNE"
+C13 C12 C22 C21 C42 C29 C49 C48 C56 C55 C17 C16 C24 C23 C44 C43 C51 C50 ,18,"10nF","Capacitor_BG:C_0805_2012Metric","https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf","Samsung","CL21B103KCANNNC"
+D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 ,12,"WS2812B","LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm","https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf","World Semi","WS2812B"
+R1 R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13 R14 R15 R16 R18 R19 R21 R20 R89 R88 ,22,"4.7k","Resistor_BG:R_0805_2012Metric","https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf","Yageo","RC0805FR-074K7L"
+R17 ,1,"330R","Resistor_BG:R_0805_2012Metric","https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf","Yageo","RC0805FR-07330RL"
+R27 R29 R22 R23 R30 R33 R36 R53 R64 R67 R80 R86 R37 R50 R39 R40 R54 R65 R55 R56 R68 R78 R69 R70 R81 R87 R82 R83 R24 R35 R25 R28 R45 R47 R60 R62 R71 R76 R84 R85 R32 R34 R42 R52 R43 R44 R57 R66 R58 R59 R72 R79 R73 R74 R46 R49 R61 R63 R75 R77 R90 R91 R92 R93 R94 R95 ,66,"10k","Resistor_BG:R_0805_2012Metric","https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf","Yageo","RC0805FR-0710KL"
+R38 R26 ,2,"150","Resistor_BG:R_0805_2012Metric","https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf","Yageo","RC0805FR-07150RL"
+R41 R48 ,2,"120","Resistor_BG:R_0805_2012Metric","https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf","Yageo","RC0805FR-07120RL"
+R51 R31 ,2,"33","Resistor_BG:R_0805_2012Metric","https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf","Yageo","RC0805FR-0733RL"
+SW1 SW2 SW3 SW4 SW5 SW6 SW7 SW8 SW9 ,9,"Rotary_Encoder_Switch","Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm","https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf","Bourns Inc.","PEC12R-4025F-S0024"
+SW10 ,1,"SW_Push_LED_Red","Button_Switch_BG:E-Switch_SPST_Red_LED_RoundCap_TL3240F160R","https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf","E-Switch","TL3240F160R;TL3240R1CAPBLK"
+SW11 ,1,"SW_Push_LED_Blue","Button_Switch_BG:E-Switch_SPST_LED_RoundCap_TL3240F160x","https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf","E-Switch","TL3240F160B;TL3240R1CAPBLU"
+SW12 ,1,"SW_Push_LED_Red","Button_Switch_BG:E-Switch_SPST_Red_LED_SquareCap_TL3240F160R","https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf","E-Switch","TL3240F160R;TL3240S1CAPIVR"
+SW13 ,1,"SW_Push_LED_Yellow","Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x","https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf","E-Switch","TL3240F160Y;TL3240S1CAPIVR"
+SW14 ,1,"SW_Push_LED_Green","Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x","https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf","E-Switch","TL3240F160G;TL3240S1CAPIVR"
+SW15 ,1,"SW_Push_LED_Blue","Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x","https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf","E-Switch","TL3240F160B;TL3240S1CAPIVR"
+U1 U2 U3 ,3,"MCP23S17_SO","SOIC_BG:SOIC-28W_7.5x17.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf","Microchip","MCP23S17T-E/SO"
+U18 U19 U20 U21 U22 U23 ,6,"74LVC14","SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm","http://www.ti.com/lit/gpn/sn74LV14","Texas Instruments","SN74LVC14ADR"
+U4 U6 ,2,"TCA9548APWR","TSSOP_BG:TSSOP-24_4.4x7.8mm_P0.65mm","http://www.ti.com/lit/ds/symlink/tca9548a.pdf","Texas Instruments","TCA9548APWR"
+U5 ,1,"74HCT245","TSSOP_BG:TSSOP-20_4.4x6.5mm_P0.65mm","http://www.ti.com/lit/gpn/sn74HC245","Texas Instruments","SN74HCT245PWR"
+U7 ,1,"Teensy3.2","Teensy_BG:Teensy30_31_32_LC","https://www.pjrc.com/store/teensy32.html","PJRC","TEENSY32"
+U8 U25 U24 U26 ,4,"CAT24M01W","SOIC_BG:SOIC-8_3.9x4.9mm_P1.27mm","https://www.onsemi.com/pub/Collateral/CAT24M01-D.PDF","ON Semiconductor","CAT24M01WI-GT3"
+U9 U10 U11 U12 U13 U14 U15 U16 U17 ,9,"Display_OLED_128x32_I2C","Display_BG:Display_OLED_128x32_I2C","https://learn.adafruit.com/monochrome-oled-breakouts/downloads","Unbranded","128x32_I2C_OLED_SSD1306"

@@ -1,0 +1,4417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\blake\Documents\Git\EosControl\Hardware\EncoderBoard.sch</source>
+    <date>3/06/2020 8:43:07 PM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Encoder Board</title>
+        <company>Blake Garner</company>
+        <rev>B</rev>
+        <date>2020-06-02</date>
+        <source>EncoderBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Encoders and Buttons/" tstamps="/5CFF3BEB/">
+      <title_block>
+        <title>Encoder Board</title>
+        <company>Blake Garner</company>
+        <rev>B</rev>
+        <date>2020-06-02</date>
+        <source>Encoders&amp;Buttons.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Displays and LEDs/" tstamps="/5D4582C3/">
+      <title_block>
+        <title>Encoder Board</title>
+        <company>Blake Garner</company>
+        <rev>B</rev>
+        <date>2020-06-02</date>
+        <source>Displays&amp;LEDs.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U7">
+      <value>Teensy3.2</value>
+      <footprint>Teensy_BG:Teensy30_31_32_LC</footprint>
+      <datasheet>https://www.pjrc.com/store/teensy32.html</datasheet>
+      <fields>
+        <field name="MFR">PJRC</field>
+        <field name="MPN">TEENSY32</field>
+      </fields>
+      <libsource lib="Teensy_BG" part="Teensy3.2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF2155D</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP23S17_SO</value>
+      <footprint>SOIC_BG:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <fields>
+        <field name="MFR">Microchip</field>
+        <field name="MPN">MCP23S17T-E/SO</field>
+      </fields>
+      <libsource lib="Interface_Expansion_BG" part="MCP23S17_SO" description="16-bit I/O expander, SPI, interrupts, w pull-ups, SOIC-28"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF2970F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP23S17_SO</value>
+      <footprint>SOIC_BG:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <fields>
+        <field name="MFR">Microchip</field>
+        <field name="MPN">MCP23S17T-E/SO</field>
+      </fields>
+      <libsource lib="Interface_Expansion_BG" part="MCP23S17_SO" description="16-bit I/O expander, SPI, interrupts, w pull-ups, SOIC-28"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF54178</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP23S17_SO</value>
+      <footprint>SOIC_BG:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <fields>
+        <field name="MFR">Microchip</field>
+        <field name="MPN">MCP23S17T-E/SO</field>
+      </fields>
+      <libsource lib="Interface_Expansion_BG" part="MCP23S17_SO" description="16-bit I/O expander, SPI, interrupts, w pull-ups, SOIC-28"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF56301</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D20FDB5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2112DC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D21681D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2171A0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D23CCED</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D23CCF3</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D23CD02</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D23CD08</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2424E7</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2424ED</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2424FC</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D242502</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D264B90</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D264B96</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D264BA5</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D264BAB</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TCA9548APWR</value>
+      <footprint>TSSOP_BG:TSSOP-24_4.4x7.8mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tca9548a.pdf</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">TCA9548APWR</field>
+      </fields>
+      <libsource lib="Interface_Expansion" part="TCA9548APWR" description="Low voltage 8-channel I2C switch with reset, TSSOP-24"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D20BD30</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2EAD7F</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2EAD85</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitor_BG:C_1210_3225Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL32B106KPINNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3C2582</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3C59C9</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_BG:C_1210_3225Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL32B106KPINNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3DDD92</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3DDD98</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3F1AAE</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3F1AA8</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_BG:C_1210_3225Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL32B106KPINNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D42D60E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D42D614</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_BG:C_1210_3225Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL32B106KPINNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4369B5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4369BB</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_BG:C_1210_3225Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL32B106KPINNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D43D547</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D43D54D</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>74HCT245</value>
+      <footprint>TSSOP_BG:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC245</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">SN74HCT245PWR</field>
+      </fields>
+      <libsource lib="74xx" part="74HC245" description="Octal BUS Transceivers, 3-State outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4D59BC</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>330R</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-07330RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4D6EBC</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4E181A</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>CAT24M01W</value>
+      <footprint>SOIC_BG:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/CAT24M01-D.PDF</datasheet>
+      <fields>
+        <field name="MFR">ON Semiconductor</field>
+        <field name="MPN">CAT24M01WI-GT3</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="CAT24M01W" description="1 Mb I2C CMOS Serial EEPROM, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5D347</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>CAT24M01W</value>
+      <footprint>SOIC_BG:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/CAT24M01-D.PDF</datasheet>
+      <fields>
+        <field name="MFR">ON Semiconductor</field>
+        <field name="MPN">CAT24M01WI-GT3</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="CAT24M01W" description="1 Mb I2C CMOS Serial EEPROM, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD185E8</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>CAT24M01W</value>
+      <footprint>SOIC_BG:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/CAT24M01-D.PDF</datasheet>
+      <fields>
+        <field name="MFR">ON Semiconductor</field>
+        <field name="MPN">CAT24M01WI-GT3</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="CAT24M01W" description="1 Mb I2C CMOS Serial EEPROM, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD2F8DB</tstamp>
+    </comp>
+    <comp ref="U26">
+      <value>CAT24M01W</value>
+      <footprint>SOIC_BG:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/CAT24M01-D.PDF</datasheet>
+      <fields>
+        <field name="MFR">ON Semiconductor</field>
+        <field name="MPN">CAT24M01WI-GT3</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="CAT24M01W" description="1 Mb I2C CMOS Serial EEPROM, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD3A925</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TCA9548APWR</value>
+      <footprint>TSSOP_BG:TSSOP-24_4.4x7.8mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tca9548a.pdf</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">TCA9548APWR</field>
+      </fields>
+      <libsource lib="Interface_Expansion" part="TCA9548APWR" description="Low voltage 8-channel I2C switch with reset, TSSOP-24"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2F0866</tstamp>
+    </comp>
+    <comp ref="R89">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2E6736</tstamp>
+    </comp>
+    <comp ref="R88">
+      <value>4.7k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2FB0B8</tstamp>
+    </comp>
+    <comp ref="C74">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3154DA</tstamp>
+    </comp>
+    <comp ref="C72">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D31F86F</tstamp>
+    </comp>
+    <comp ref="C73">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D32BDAE</tstamp>
+    </comp>
+    <comp ref="C75">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D33E336</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns Inc.</field>
+        <field name="MPN">PEC12R-4025F-S0024</field>
+      </fields>
+      <libsource lib="Switch_BG" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D0037F5</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D0037FB</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D003801</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D003807</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D00380D</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D00382D</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D003835</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns Inc.</field>
+        <field name="MPN">PEC12R-4025F-S0024</field>
+      </fields>
+      <libsource lib="Switch_BG" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D023821</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns Inc.</field>
+        <field name="MPN">PEC12R-4025F-S0024</field>
+      </fields>
+      <libsource lib="Switch_BG" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D02E4B0</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns Inc.</field>
+        <field name="MPN">PEC12R-4025F-S0024</field>
+      </fields>
+      <libsource lib="Switch_BG" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D03752C</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns Inc.</field>
+        <field name="MPN">PEC12R-4025F-S0024</field>
+      </fields>
+      <libsource lib="Switch_BG" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D042B2C</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns Inc.</field>
+        <field name="MPN">PEC12R-4025F-S0024</field>
+      </fields>
+      <libsource lib="Switch_BG" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D06A5DF</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns Inc.</field>
+        <field name="MPN">PEC12R-4025F-S0024</field>
+      </fields>
+      <libsource lib="Switch_BG" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D074D4F</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns Inc.</field>
+        <field name="MPN">PEC12R-4025F-S0024</field>
+      </fields>
+      <libsource lib="Switch_BG" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D080EA1</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Encoder_BG:RotaryEncoder_Bourns_PEC12R-4x20k-Sxxxx-Switch_Vertical_H20mm</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PEC12R.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns Inc.</field>
+        <field name="MPN">PEC12R-4025F-S0024</field>
+      </fields>
+      <libsource lib="Switch_BG" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D08ED28</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push_LED_Red</value>
+      <footprint>Button_Switch_BG:E-Switch_SPST_Red_LED_SquareCap_TL3240F160R</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf</datasheet>
+      <fields>
+        <field name="MFR">E-Switch</field>
+        <field name="MPN">TL3240F160R;TL3240S1CAPIVR</field>
+      </fields>
+      <libsource lib="Switch_BG" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D0B0E37</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push_LED_Yellow</value>
+      <footprint>Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf</datasheet>
+      <fields>
+        <field name="MFR">E-Switch</field>
+        <field name="MPN">TL3240F160Y;TL3240S1CAPIVR</field>
+      </fields>
+      <libsource lib="Switch_BG" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D0FBD90</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push_LED_Green</value>
+      <footprint>Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf</datasheet>
+      <fields>
+        <field name="MFR">E-Switch</field>
+        <field name="MPN">TL3240F160G;TL3240S1CAPIVR</field>
+      </fields>
+      <libsource lib="Switch_BG" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D107F09</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push_LED_Blue</value>
+      <footprint>Button_Switch_BG:E-Switch_SPST_LED_SquareCap_TL3240F160x</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf</datasheet>
+      <fields>
+        <field name="MFR">E-Switch</field>
+        <field name="MPN">TL3240F160B;TL3240S1CAPIVR</field>
+      </fields>
+      <libsource lib="Switch_BG" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D107F18</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>150</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-07150RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D1650B7</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>120</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-07120RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D166F0F</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>120</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-07120RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D1674C3</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>33</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0733RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D16792D</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push_LED_Blue</value>
+      <footprint>Button_Switch_BG:E-Switch_SPST_LED_RoundCap_TL3240F160x</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf</datasheet>
+      <fields>
+        <field name="MFR">E-Switch</field>
+        <field name="MPN">TL3240F160B;TL3240R1CAPBLU</field>
+      </fields>
+      <libsource lib="Switch_BG" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5CF7287A</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push_LED_Red</value>
+      <footprint>Button_Switch_BG:E-Switch_SPST_Red_LED_RoundCap_TL3240F160R</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/155/TL3240.pdf</datasheet>
+      <fields>
+        <field name="MFR">E-Switch</field>
+        <field name="MPN">TL3240F160R;TL3240R1CAPBLK</field>
+      </fields>
+      <libsource lib="Switch_BG" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5CF7337F</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>33</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0733RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5CF9FE26</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>150</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-07150RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5CFA080E</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D28780A</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D43D737</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D43DBD4</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D541A1F</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D541A25</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D57E958</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D57E95E</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D58CEC7</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D58CECD</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D59B6BD</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D59B6C3</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D5AA24B</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D5AA251</tstamp>
+    </comp>
+    <comp ref="R86">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D5B94DA</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D5B94E0</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>74LVC14</value>
+      <footprint>SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LV14</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">SN74LVC14ADR</field>
+      </fields>
+      <libsource lib="74xx" part="74LV14" description="Hex Inverter"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D5C8846</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>74LVC14</value>
+      <footprint>SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LV14</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">SN74LVC14ADR</field>
+      </fields>
+      <libsource lib="74xx" part="74LV14" description="Hex Inverter"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D5CF300</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>74LVC14</value>
+      <footprint>SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LV14</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">SN74LVC14ADR</field>
+      </fields>
+      <libsource lib="74xx" part="74LV14" description="Hex Inverter"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D5D3A68</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D874B09</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D874B0F</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D874B15</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D874B1B</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D874B27</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D874B2D</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894A7A</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894A80</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894A86</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894A8C</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894A98</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894A9E</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>74LVC14</value>
+      <footprint>SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LV14</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">SN74LVC14ADR</field>
+      </fields>
+      <libsource lib="74xx" part="74LV14" description="Hex Inverter"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894ABD</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>74LVC14</value>
+      <footprint>SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LV14</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">SN74LVC14ADR</field>
+      </fields>
+      <libsource lib="74xx" part="74LV14" description="Hex Inverter"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894AC9</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894AE6</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894AEC</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894AF2</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894AF8</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894B04</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D894B0A</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B81D2</tstamp>
+    </comp>
+    <comp ref="R87">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B81D8</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B81DE</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B81E4</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B81F0</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B81F6</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>74LVC14</value>
+      <footprint>SOIC_BG:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LV14</datasheet>
+      <fields>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">SN74LVC14ADR</field>
+      </fields>
+      <libsource lib="74xx" part="74LV14" description="Hex Inverter"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B8215</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B823E</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B8244</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B824A</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B8250</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B825C</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D8B8262</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9193E4</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9193F0</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9193F6</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D956A7D</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D956A89</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D956A8F</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D956AB3</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D956ABF</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D956AC5</tstamp>
+    </comp>
+    <comp ref="R84">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D96E88C</tstamp>
+    </comp>
+    <comp ref="R85">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D96E898</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D96E89E</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D96E8C2</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D96E8CE</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D96E8D4</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3DF4</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3DFA</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3E00</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3E06</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3E12</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3E18</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3E60</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3E66</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3E6C</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3E72</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3E7E</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9C3E84</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9DB602</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9DB608</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9DB60E</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9DB614</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9DB620</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>10nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B103KCANNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5D9DB626</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DA3D3E7</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DA3D3F3</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DA3D3F9</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DA3D41D</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DA3D429</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DA3D42F</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DA4C825</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DA4C831</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DA4C837</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DBACD7E</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DBDB99A</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DBEA306</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DC1032D</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DC4A4A0</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5DC4A4BD</tstamp>
+    </comp>
+    <comp ref="R90">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5ED81C21</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5EDF6647</tstamp>
+    </comp>
+    <comp ref="R92">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5EE058ED</tstamp>
+    </comp>
+    <comp ref="R93">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5EE14C5D</tstamp>
+    </comp>
+    <comp ref="R94">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5EE24215</tstamp>
+    </comp>
+    <comp ref="R95">
+      <value>10k</value>
+      <footprint>Resistor_BG:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Encoders and Buttons/" tstamps="/5CFF3BEB/"/>
+      <tstamp>5EE331A1</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>Display_OLED_128x32_I2C</value>
+      <footprint>Display_BG:Display_OLED_128x32_I2C</footprint>
+      <datasheet>https://learn.adafruit.com/monochrome-oled-breakouts/downloads</datasheet>
+      <fields>
+        <field name="MFR">Unbranded</field>
+        <field name="MPN">128x32_I2C_OLED_SSD1306</field>
+      </fields>
+      <libsource lib="Displays_BG" part="Display_OLED_128x32_I2C" description=""/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D470BC3</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>Display_OLED_128x32_I2C</value>
+      <footprint>Display_BG:Display_OLED_128x32_I2C</footprint>
+      <datasheet>https://learn.adafruit.com/monochrome-oled-breakouts/downloads</datasheet>
+      <fields>
+        <field name="MFR">Unbranded</field>
+        <field name="MPN">128x32_I2C_OLED_SSD1306</field>
+      </fields>
+      <libsource lib="Displays_BG" part="Display_OLED_128x32_I2C" description=""/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D47C587</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>Display_OLED_128x32_I2C</value>
+      <footprint>Display_BG:Display_OLED_128x32_I2C</footprint>
+      <datasheet>https://learn.adafruit.com/monochrome-oled-breakouts/downloads</datasheet>
+      <fields>
+        <field name="MFR">Unbranded</field>
+        <field name="MPN">128x32_I2C_OLED_SSD1306</field>
+      </fields>
+      <libsource lib="Displays_BG" part="Display_OLED_128x32_I2C" description=""/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D47E7E6</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>Display_OLED_128x32_I2C</value>
+      <footprint>Display_BG:Display_OLED_128x32_I2C</footprint>
+      <datasheet>https://learn.adafruit.com/monochrome-oled-breakouts/downloads</datasheet>
+      <fields>
+        <field name="MFR">Unbranded</field>
+        <field name="MPN">128x32_I2C_OLED_SSD1306</field>
+      </fields>
+      <libsource lib="Displays_BG" part="Display_OLED_128x32_I2C" description=""/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D480D01</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>Display_OLED_128x32_I2C</value>
+      <footprint>Display_BG:Display_OLED_128x32_I2C</footprint>
+      <datasheet>https://learn.adafruit.com/monochrome-oled-breakouts/downloads</datasheet>
+      <fields>
+        <field name="MFR">Unbranded</field>
+        <field name="MPN">128x32_I2C_OLED_SSD1306</field>
+      </fields>
+      <libsource lib="Displays_BG" part="Display_OLED_128x32_I2C" description=""/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D483919</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>Display_OLED_128x32_I2C</value>
+      <footprint>Display_BG:Display_OLED_128x32_I2C</footprint>
+      <datasheet>https://learn.adafruit.com/monochrome-oled-breakouts/downloads</datasheet>
+      <fields>
+        <field name="MFR">Unbranded</field>
+        <field name="MPN">128x32_I2C_OLED_SSD1306</field>
+      </fields>
+      <libsource lib="Displays_BG" part="Display_OLED_128x32_I2C" description=""/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4868CB</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>Display_OLED_128x32_I2C</value>
+      <footprint>Display_BG:Display_OLED_128x32_I2C</footprint>
+      <datasheet>https://learn.adafruit.com/monochrome-oled-breakouts/downloads</datasheet>
+      <fields>
+        <field name="MFR">Unbranded</field>
+        <field name="MPN">128x32_I2C_OLED_SSD1306</field>
+      </fields>
+      <libsource lib="Displays_BG" part="Display_OLED_128x32_I2C" description=""/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D49104D</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>Display_OLED_128x32_I2C</value>
+      <footprint>Display_BG:Display_OLED_128x32_I2C</footprint>
+      <datasheet>https://learn.adafruit.com/monochrome-oled-breakouts/downloads</datasheet>
+      <fields>
+        <field name="MFR">Unbranded</field>
+        <field name="MPN">128x32_I2C_OLED_SSD1306</field>
+      </fields>
+      <libsource lib="Displays_BG" part="Display_OLED_128x32_I2C" description=""/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4945C2</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>Display_OLED_128x32_I2C</value>
+      <footprint>Display_BG:Display_OLED_128x32_I2C</footprint>
+      <datasheet>https://learn.adafruit.com/monochrome-oled-breakouts/downloads</datasheet>
+      <fields>
+        <field name="MFR">Unbranded</field>
+        <field name="MPN">128x32_I2C_OLED_SSD1306</field>
+      </fields>
+      <libsource lib="Displays_BG" part="Display_OLED_128x32_I2C" description=""/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D496686</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D496DC1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4A0838</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4A1AFB</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4A2F40</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4A4918</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4A5970</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4A721F</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4A87F8</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4A9C84</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4AB5D0</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4AC830</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>WS2812B</value>
+      <footprint>LED_BG:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="MFR">World Semi</field>
+        <field name="MPN">WS2812B</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4AE3A7</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4B6FD8</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4BD977</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4BEA8C</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4BF818</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4C0B30</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4C2016</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4C2DA8</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4C3674</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4C472A</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4C549D</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4C6A0E</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D4C7A5A</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D448626</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D44BFBD</tstamp>
+    </comp>
+    <comp ref="C65">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D44D393</tstamp>
+    </comp>
+    <comp ref="C66">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D44E143</tstamp>
+    </comp>
+    <comp ref="C67">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D44F52A</tstamp>
+    </comp>
+    <comp ref="C68">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D450297</tstamp>
+    </comp>
+    <comp ref="C69">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D451337</tstamp>
+    </comp>
+    <comp ref="C70">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D452971</tstamp>
+    </comp>
+    <comp ref="C71">
+      <value>100nF</value>
+      <footprint>Capacitor_BG:C_0805_2012Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf</datasheet>
+      <fields>
+        <field name="MFR">Samsung</field>
+        <field name="MPN">CL21B104KBCNFNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Displays and LEDs/" tstamps="/5D4582C3/"/>
+      <tstamp>5D454160</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS245">
+      <aliases>
+        <alias>74HC245</alias>
+      </aliases>
+      <description>Octal BUS Transceivers, 3-State outputs</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS245</docs>
+      <footprints>
+        <fp>DIP?20*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS245</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A-&gt;B" type="input"/>
+        <pin num="2" name="A0" type="3state"/>
+        <pin num="3" name="A1" type="3state"/>
+        <pin num="4" name="A2" type="3state"/>
+        <pin num="5" name="A3" type="3state"/>
+        <pin num="6" name="A4" type="3state"/>
+        <pin num="7" name="A5" type="3state"/>
+        <pin num="8" name="A6" type="3state"/>
+        <pin num="9" name="A7" type="3state"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="B7" type="3state"/>
+        <pin num="12" name="B6" type="3state"/>
+        <pin num="13" name="B5" type="3state"/>
+        <pin num="14" name="B4" type="3state"/>
+        <pin num="15" name="B3" type="3state"/>
+        <pin num="16" name="B2" type="3state"/>
+        <pin num="17" name="B1" type="3state"/>
+        <pin num="18" name="B0" type="3state"/>
+        <pin num="19" name="CE" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LV14">
+      <description>Hex Inverter</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LV14</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LV14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="3.3V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Displays_BG" part="Display_OLED_128x32_I2C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Display_OLED_128x32_I2C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="input"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="TCA9548APWR">
+      <aliases>
+        <alias>PCA9548APW</alias>
+      </aliases>
+      <description>Low voltage 8-channel I2C switch with reset, TSSOP-24</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tca9548a.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x7.8mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA9548APWR</field>
+        <field name="Footprint">Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="~RESET" type="input"/>
+        <pin num="4" name="SD0" type="BiDi"/>
+        <pin num="5" name="SC0" type="output"/>
+        <pin num="6" name="SD1" type="BiDi"/>
+        <pin num="7" name="SC1" type="output"/>
+        <pin num="8" name="SD2" type="BiDi"/>
+        <pin num="9" name="SC2" type="output"/>
+        <pin num="10" name="SD3" type="BiDi"/>
+        <pin num="11" name="SC3" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="SD4" type="BiDi"/>
+        <pin num="14" name="SC4" type="output"/>
+        <pin num="15" name="SD5" type="BiDi"/>
+        <pin num="16" name="SC5" type="output"/>
+        <pin num="17" name="SD6" type="BiDi"/>
+        <pin num="18" name="SC6" type="output"/>
+        <pin num="19" name="SD7" type="BiDi"/>
+        <pin num="20" name="SC7" type="output"/>
+        <pin num="21" name="A2" type="input"/>
+        <pin num="22" name="SCL" type="input"/>
+        <pin num="23" name="SDA" type="BiDi"/>
+        <pin num="24" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion_BG" part="MCP23S17_SO">
+      <description>16-bit I/O expander, SPI, interrupts, w pull-ups, SOIC-28</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x17.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23S17_SO</field>
+        <field name="Footprint">Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="BiDi"/>
+        <pin num="2" name="GPB1" type="BiDi"/>
+        <pin num="3" name="GPB2" type="BiDi"/>
+        <pin num="4" name="GPB3" type="BiDi"/>
+        <pin num="5" name="GPB4" type="BiDi"/>
+        <pin num="6" name="GPB5" type="BiDi"/>
+        <pin num="7" name="GPB6" type="BiDi"/>
+        <pin num="8" name="GPB7" type="BiDi"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="~CS~" type="input"/>
+        <pin num="12" name="SCK" type="input"/>
+        <pin num="13" name="SI" type="input"/>
+        <pin num="14" name="SO" type="BiDi"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A2" type="input"/>
+        <pin num="18" name="~RESET~" type="input"/>
+        <pin num="19" name="INTB" type="3state"/>
+        <pin num="20" name="INTA" type="3state"/>
+        <pin num="21" name="GPA0" type="BiDi"/>
+        <pin num="22" name="GPA1" type="BiDi"/>
+        <pin num="23" name="GPA2" type="BiDi"/>
+        <pin num="24" name="GPA3" type="BiDi"/>
+        <pin num="25" name="GPA4" type="BiDi"/>
+        <pin num="26" name="GPA5" type="BiDi"/>
+        <pin num="27" name="GPA6" type="BiDi"/>
+        <pin num="28" name="GPA7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="CAT24M01W">
+      <description>1 Mb I2C CMOS Serial EEPROM, SOIC-8</description>
+      <docs>https://www.onsemi.com/pub/Collateral/CAT24M01-D.PDF</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CAT24M01W</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch_BG" part="Rotary_Encoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="MP" name="Mounting_Point" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch_BG" part="SW_Push_LED">
+      <description>Push button switch with LED, generic</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Teensy_BG" part="Teensy3.2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy3.2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="0_RX1_Touch" type="BiDi"/>
+        <pin num="3" name="1_TX1_Touch" type="BiDi"/>
+        <pin num="4" name="2" type="BiDi"/>
+        <pin num="5" name="3_TX_PWM" type="BiDi"/>
+        <pin num="6" name="4_RX_PWM" type="BiDi"/>
+        <pin num="7" name="5_TX1_PWM" type="BiDi"/>
+        <pin num="8" name="6_PWM" type="BiDi"/>
+        <pin num="9" name="7_RX3_DOUT" type="BiDi"/>
+        <pin num="10" name="8_TX3_DIN" type="BiDi"/>
+        <pin num="11" name="9_RX2_CS_PWM" type="BiDi"/>
+        <pin num="12" name="10_TX2_CS_PWM" type="BiDi"/>
+        <pin num="13" name="11_DOUT" type="BiDi"/>
+        <pin num="14" name="12_DIN" type="BiDi"/>
+        <pin num="15" name="VBat" type="power_in"/>
+        <pin num="16" name="3.3V" type="power_out"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="Program" type="input"/>
+        <pin num="19" name="A14/DAC" type="BiDi"/>
+        <pin num="20" name="13_LED_SCK" type="BiDi"/>
+        <pin num="21" name="14_A0_SCK" type="BiDi"/>
+        <pin num="22" name="15_A1_CS_Touch" type="BiDi"/>
+        <pin num="23" name="16_A2_SCL0_Touch" type="BiDi"/>
+        <pin num="24" name="17_A3_SDA0_Touch" type="BiDi"/>
+        <pin num="25" name="18_A4_SDA0_Touch" type="BiDi"/>
+        <pin num="26" name="19_A5_SCL0_Touch" type="BiDi"/>
+        <pin num="27" name="20_A6_CS_PWM" type="BiDi"/>
+        <pin num="28" name="21_A7_RX1_CS_PWM" type="BiDi"/>
+        <pin num="29" name="22_A8_Touch_PWM" type="BiDi"/>
+        <pin num="30" name="23_A9_Touch_PWM" type="BiDi"/>
+        <pin num="31" name="3.3V_max100mA" type="power_out"/>
+        <pin num="32" name="AGND" type="input"/>
+        <pin num="33" name="Vin" type="power_in"/>
+        <pin num="34" name="VUSB" type="power_in"/>
+        <pin num="35" name="AREF" type="input"/>
+        <pin num="36" name="A10" type="BiDi"/>
+        <pin num="37" name="A11" type="BiDi"/>
+        <pin num="38" name="A12" type="BiDi"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="24" type="BiDi"/>
+        <pin num="41" name="25_Touch_PWM" type="BiDi"/>
+        <pin num="42" name="26_A15_RX2" type="BiDi"/>
+        <pin num="43" name="27_A16" type="BiDi"/>
+        <pin num="44" name="28_A17" type="BiDi"/>
+        <pin num="45" name="29_A18_SCL1" type="BiDi"/>
+        <pin num="46" name="30_A19_SDA1" type="BiDi"/>
+        <pin num="47" name="31_A20_TX2" type="BiDi"/>
+        <pin num="48" name="32_Touch_PWM" type="BiDi"/>
+        <pin num="49" name="33_Touch" type="BiDi"/>
+        <pin num="50" name="3.3V" type="power_out"/>
+        <pin num="51" name="A13" type="BiDi"/>
+        <pin num="52" name="Reset" type="input"/>
+        <pin num="53" name="D+" type="BiDi"/>
+        <pin num="54" name="D-" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\share\kicad\library/74xx.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Displays_BG">
+      <uri>C:\Users\blake\Documents\Git\EosControl\Hardware/blakegarner-kicad-library/kicad-symbols/Displays_BG.lib</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Interface_Expansion.lib</uri>
+    </library>
+    <library logical="Interface_Expansion_BG">
+      <uri>C:\Users\blake\Documents\Git\EosControl\Hardware/blakegarner-kicad-library/kicad-symbols/Interface_Expansion_BG.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\share\kicad\library/LED.lib</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Memory_EEPROM.lib</uri>
+    </library>
+    <library logical="Switch_BG">
+      <uri>C:\Users\blake\Documents\Git\EosControl\Hardware/blakegarner-kicad-library/kicad-symbols/Switch_BG.lib</uri>
+    </library>
+    <library logical="Teensy_BG">
+      <uri>C:\Users\blake\Documents\Git\EosControl\Hardware/blakegarner-kicad-library/kicad-symbols/Teensy_BG.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U6-Pad20)">
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="2" name="Net-(U7-Pad39)">
+      <node ref="U7" pin="39"/>
+    </net>
+    <net code="3" name="Net-(U7-Pad38)">
+      <node ref="U7" pin="38"/>
+    </net>
+    <net code="4" name="Net-(U6-Pad9)">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="5" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="6" name="Net-(U6-Pad11)">
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="7" name="Net-(U6-Pad10)">
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="8" name="Net-(U6-Pad16)">
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="9" name="Net-(U6-Pad15)">
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="10" name="Net-(U6-Pad18)">
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="11" name="Net-(U6-Pad17)">
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="12" name="+5V">
+      <node ref="D1" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U5" pin="20"/>
+      <node ref="D8" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="U7" pin="34"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U7" pin="33"/>
+    </net>
+    <net code="13" name="Net-(U6-Pad19)">
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="14" name="Net-(U5-Pad11)">
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="15" name="Net-(U5-Pad12)">
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="16" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="17" name="Net-(U5-Pad14)">
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="18" name="Net-(U5-Pad15)">
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="19" name="Net-(U5-Pad16)">
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="20" name="Net-(U5-Pad17)">
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="21" name="Net-(U5-Pad9)">
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="22" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="23" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="24" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="25" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="26" name="Net-(U7-Pad49)">
+      <node ref="U7" pin="49"/>
+    </net>
+    <net code="27" name="GND">
+      <node ref="SW5" pin="C"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="SW4" pin="S2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="U4" pin="21"/>
+      <node ref="SW4" pin="MP"/>
+      <node ref="SW4" pin="C"/>
+      <node ref="SW3" pin="S2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="SW8" pin="S2"/>
+      <node ref="SW8" pin="MP"/>
+      <node ref="SW8" pin="C"/>
+      <node ref="SW7" pin="S2"/>
+      <node ref="SW3" pin="MP"/>
+      <node ref="SW7" pin="MP"/>
+      <node ref="SW9" pin="C"/>
+      <node ref="SW6" pin="S2"/>
+      <node ref="SW6" pin="MP"/>
+      <node ref="SW9" pin="MP"/>
+      <node ref="SW6" pin="C"/>
+      <node ref="SW9" pin="S2"/>
+      <node ref="SW5" pin="S2"/>
+      <node ref="SW7" pin="C"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="SW13" pin="1"/>
+      <node ref="SW12" pin="1"/>
+      <node ref="SW1" pin="C"/>
+      <node ref="SW1" pin="MP"/>
+      <node ref="SW1" pin="S2"/>
+      <node ref="SW5" pin="MP"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="C32" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U2" pin="17"/>
+      <node ref="C33" pin="2"/>
+      <node ref="U7" pin="32"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U20" pin="7"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="C37" pin="2"/>
+      <node ref="U7" pin="17"/>
+      <node ref="C38" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U4" pin="12"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C61" pin="2"/>
+      <node ref="U22" pin="7"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C62" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="U23" pin="7"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C60" pin="2"/>
+      <node ref="U21" pin="7"/>
+      <node ref="U19" pin="7"/>
+      <node ref="C57" pin="2"/>
+      <node ref="U18" pin="7"/>
+      <node ref="SW15" pin="1"/>
+      <node ref="R51" pin="2"/>
+      <node ref="R48" pin="2"/>
+      <node ref="R41" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="SW10" pin="1"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="SW2" pin="S2"/>
+      <node ref="SW2" pin="MP"/>
+      <node ref="SW2" pin="C"/>
+      <node ref="SW3" pin="C"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C59" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U12" pin="4"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U9" pin="4"/>
+      <node ref="U10" pin="4"/>
+      <node ref="C74" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U6" pin="21"/>
+      <node ref="D6" pin="3"/>
+      <node ref="D7" pin="3"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U13" pin="4"/>
+      <node ref="U16" pin="4"/>
+      <node ref="U24" pin="4"/>
+      <node ref="U14" pin="4"/>
+      <node ref="U25" pin="2"/>
+      <node ref="U25" pin="4"/>
+      <node ref="C72" pin="2"/>
+      <node ref="C73" pin="2"/>
+      <node ref="C75" pin="2"/>
+      <node ref="U15" pin="4"/>
+      <node ref="U24" pin="3"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U8" pin="4"/>
+      <node ref="D4" pin="3"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U17" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D3" pin="3"/>
+      <node ref="D10" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D8" pin="3"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D9" pin="3"/>
+      <node ref="D5" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D2" pin="3"/>
+      <node ref="D1" pin="3"/>
+      <node ref="U5" pin="19"/>
+      <node ref="U5" pin="10"/>
+      <node ref="C41" pin="2"/>
+      <node ref="D12" pin="3"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C68" pin="2"/>
+      <node ref="U26" pin="4"/>
+      <node ref="U3" pin="10"/>
+      <node ref="C71" pin="2"/>
+      <node ref="C67" pin="2"/>
+      <node ref="C70" pin="2"/>
+      <node ref="C69" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="D11" pin="3"/>
+      <node ref="C63" pin="2"/>
+      <node ref="C64" pin="2"/>
+      <node ref="C66" pin="2"/>
+      <node ref="U3" pin="17"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U6" pin="12"/>
+      <node ref="C65" pin="2"/>
+    </net>
+    <net code="28" name="Net-(U7-Pad19)">
+      <node ref="U7" pin="19"/>
+    </net>
+    <net code="29" name="Net-(U7-Pad18)">
+      <node ref="U7" pin="18"/>
+    </net>
+    <net code="30" name="Net-(U7-Pad16)">
+      <node ref="U7" pin="16"/>
+    </net>
+    <net code="31" name="Net-(U7-Pad15)">
+      <node ref="U7" pin="15"/>
+    </net>
+    <net code="32" name="Net-(U7-Pad54)">
+      <node ref="U7" pin="54"/>
+    </net>
+    <net code="33" name="Net-(U7-Pad53)">
+      <node ref="U7" pin="53"/>
+    </net>
+    <net code="34" name="Net-(U7-Pad52)">
+      <node ref="U7" pin="52"/>
+    </net>
+    <net code="35" name="Net-(U7-Pad51)">
+      <node ref="U7" pin="51"/>
+    </net>
+    <net code="36" name="Net-(U7-Pad50)">
+      <node ref="U7" pin="50"/>
+    </net>
+    <net code="37" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="38" name="Net-(U7-Pad48)">
+      <node ref="U7" pin="48"/>
+    </net>
+    <net code="39" name="Net-(U7-Pad47)">
+      <node ref="U7" pin="47"/>
+    </net>
+    <net code="40" name="Net-(U7-Pad46)">
+      <node ref="U7" pin="46"/>
+    </net>
+    <net code="41" name="Net-(U7-Pad45)">
+      <node ref="U7" pin="45"/>
+    </net>
+    <net code="42" name="Net-(U7-Pad44)">
+      <node ref="U7" pin="44"/>
+    </net>
+    <net code="43" name="Net-(U7-Pad43)">
+      <node ref="U7" pin="43"/>
+    </net>
+    <net code="44" name="Net-(U7-Pad42)">
+      <node ref="U7" pin="42"/>
+    </net>
+    <net code="45" name="Net-(U7-Pad41)">
+      <node ref="U7" pin="41"/>
+    </net>
+    <net code="46" name="Net-(U7-Pad40)">
+      <node ref="U7" pin="40"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="48" name="Net-(U7-Pad37)">
+      <node ref="U7" pin="37"/>
+    </net>
+    <net code="49" name="Net-(U7-Pad36)">
+      <node ref="U7" pin="36"/>
+    </net>
+    <net code="50" name="Net-(U7-Pad35)">
+      <node ref="U7" pin="35"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="56" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="57" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="58" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="60" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="61" name="SDA">
+      <node ref="U25" pin="5"/>
+      <node ref="U4" pin="23"/>
+      <node ref="U6" pin="23"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U24" pin="5"/>
+      <node ref="U26" pin="5"/>
+      <node ref="U7" pin="25"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="62" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="63" name="Net-(U8-Pad1)">
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="64" name="SCL">
+      <node ref="U6" pin="22"/>
+      <node ref="R21" pin="2"/>
+      <node ref="U7" pin="26"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U25" pin="6"/>
+      <node ref="U26" pin="6"/>
+      <node ref="U4" pin="22"/>
+      <node ref="U24" pin="6"/>
+    </net>
+    <net code="65" name="EEPROM_WP">
+      <node ref="U8" pin="7"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U24" pin="7"/>
+      <node ref="U25" pin="7"/>
+      <node ref="U26" pin="7"/>
+    </net>
+    <net code="66" name="/WS2812_3V3">
+      <node ref="U5" pin="2"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="67" name="WS2812_DATA">
+      <node ref="R17" pin="1"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="68" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="69" name="SDA8">
+      <node ref="R19" pin="2"/>
+      <node ref="U17" pin="1"/>
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="70" name="SCL7">
+      <node ref="U16" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="71" name="SCL8">
+      <node ref="R18" pin="2"/>
+      <node ref="U17" pin="2"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="72" name="SDA7">
+      <node ref="U6" pin="6"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U16" pin="1"/>
+    </net>
+    <net code="73" name="Net-(U3-Pad28)">
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="74" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="75" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="76" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="77" name="+3V3">
+      <node ref="R60" pin="1"/>
+      <node ref="C58" pin="1"/>
+      <node ref="U22" pin="14"/>
+      <node ref="U23" pin="14"/>
+      <node ref="C61" pin="1"/>
+      <node ref="C62" pin="1"/>
+      <node ref="R90" pin="1"/>
+      <node ref="R91" pin="1"/>
+      <node ref="C60" pin="1"/>
+      <node ref="U21" pin="14"/>
+      <node ref="U19" pin="14"/>
+      <node ref="C57" pin="1"/>
+      <node ref="U18" pin="14"/>
+      <node ref="U15" pin="3"/>
+      <node ref="U20" pin="14"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="C68" pin="1"/>
+      <node ref="U10" pin="3"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U9" pin="3"/>
+      <node ref="R40" pin="1"/>
+      <node ref="C69" pin="1"/>
+      <node ref="C70" pin="1"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U17" pin="3"/>
+      <node ref="R69" pin="1"/>
+      <node ref="R83" pin="1"/>
+      <node ref="R82" pin="1"/>
+      <node ref="U14" pin="3"/>
+      <node ref="R70" pin="1"/>
+      <node ref="C63" pin="1"/>
+      <node ref="R56" pin="1"/>
+      <node ref="R55" pin="1"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U16" pin="3"/>
+      <node ref="C66" pin="1"/>
+      <node ref="R74" pin="1"/>
+      <node ref="R73" pin="1"/>
+      <node ref="R46" pin="1"/>
+      <node ref="C67" pin="1"/>
+      <node ref="R95" pin="1"/>
+      <node ref="R94" pin="1"/>
+      <node ref="R93" pin="1"/>
+      <node ref="R92" pin="1"/>
+      <node ref="C64" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C71" pin="1"/>
+      <node ref="U11" pin="3"/>
+      <node ref="R75" pin="1"/>
+      <node ref="R61" pin="1"/>
+      <node ref="C59" pin="1"/>
+      <node ref="C65" pin="1"/>
+      <node ref="U25" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U24" pin="8"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U24" pin="2"/>
+      <node ref="C75" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C73" pin="1"/>
+      <node ref="C74" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R43" pin="1"/>
+      <node ref="R44" pin="1"/>
+      <node ref="R89" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R88" pin="1"/>
+      <node ref="U6" pin="24"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C72" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="U3" pin="18"/>
+      <node ref="U3" pin="16"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U4" pin="24"/>
+      <node ref="U26" pin="8"/>
+      <node ref="U7" pin="31"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U2" pin="18"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U1" pin="18"/>
+      <node ref="R84" pin="1"/>
+      <node ref="R71" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U1" pin="9"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U26" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U25" pin="3"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U26" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R59" pin="1"/>
+      <node ref="R58" pin="1"/>
+    </net>
+    <net code="78" name="SDA3">
+      <node ref="U12" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="79" name="SCL3">
+      <node ref="R7" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="80" name="Net-(R89-Pad2)">
+      <node ref="R89" pin="2"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="81" name="Net-(R88-Pad2)">
+      <node ref="R88" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="82" name="Net-(U24-Pad1)">
+      <node ref="U24" pin="1"/>
+    </net>
+    <net code="83" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="84" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="85" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="86" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="87" name="Net-(U7-Pad23)">
+      <node ref="U7" pin="23"/>
+    </net>
+    <net code="88" name="Net-(U7-Pad6)">
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="89" name="Net-(U7-Pad5)">
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="90" name="Net-(U7-Pad22)">
+      <node ref="U7" pin="22"/>
+    </net>
+    <net code="91" name="Net-(U7-Pad24)">
+      <node ref="U7" pin="24"/>
+    </net>
+    <net code="92" name="Net-(U25-Pad1)">
+      <node ref="U25" pin="1"/>
+    </net>
+    <net code="93" name="Net-(U7-Pad21)">
+      <node ref="U7" pin="21"/>
+    </net>
+    <net code="94" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="95" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="96" name="Net-(U4-Pad19)">
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="97" name="Net-(U4-Pad20)">
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="98" name="Net-(U26-Pad1)">
+      <node ref="U26" pin="1"/>
+    </net>
+    <net code="99" name="INT1_A">
+      <node ref="U2" pin="20"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="100" name="BUTTON4_SW">
+      <node ref="U23" pin="6"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="101" name="MOSI">
+      <node ref="U2" pin="13"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="102" name="BUTTON5_SW">
+      <node ref="U3" pin="21"/>
+      <node ref="U23" pin="8"/>
+    </net>
+    <net code="103" name="BUTTON3_SW">
+      <node ref="U3" pin="23"/>
+      <node ref="U23" pin="4"/>
+    </net>
+    <net code="104" name="BUTTON2_SW">
+      <node ref="U3" pin="24"/>
+      <node ref="U23" pin="2"/>
+    </net>
+    <net code="105" name="ENC8_A">
+      <node ref="U3" pin="25"/>
+      <node ref="U22" pin="10"/>
+    </net>
+    <net code="106" name="ENC8_B">
+      <node ref="U3" pin="26"/>
+      <node ref="U22" pin="8"/>
+    </net>
+    <net code="107" name="ENC8_SW">
+      <node ref="U3" pin="27"/>
+      <node ref="U22" pin="12"/>
+    </net>
+    <net code="108" name="BUTTON0_SW">
+      <node ref="U22" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="109" name="BUTTON1_SW">
+      <node ref="U22" pin="4"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="110" name="BUTTON0_LED">
+      <node ref="SW10" pin="A"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="111" name="BUTTON1_LED">
+      <node ref="SW11" pin="A"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="112" name="INT0_A">
+      <node ref="U7" pin="9"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="113" name="ENC1_A">
+      <node ref="U18" pin="6"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="114" name="INT2_A">
+      <node ref="U7" pin="11"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="115" name="BUTTON2_LED">
+      <node ref="SW12" pin="A"/>
+      <node ref="U7" pin="27"/>
+    </net>
+    <net code="116" name="BUTTON3_LED">
+      <node ref="U7" pin="28"/>
+      <node ref="SW13" pin="A"/>
+    </net>
+    <net code="117" name="BUTTON4_LED">
+      <node ref="U7" pin="29"/>
+      <node ref="SW14" pin="A"/>
+    </net>
+    <net code="118" name="BUTTON5_LED">
+      <node ref="U7" pin="30"/>
+      <node ref="SW15" pin="A"/>
+    </net>
+    <net code="119" name="ENC6_B">
+      <node ref="U21" pin="8"/>
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="120" name="CS0">
+      <node ref="U7" pin="12"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="121" name="ENC3_B">
+      <node ref="U2" pin="2"/>
+      <node ref="U19" pin="4"/>
+    </net>
+    <net code="122" name="ENC6_A">
+      <node ref="U21" pin="10"/>
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="123" name="ENC3_A">
+      <node ref="U19" pin="6"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="124" name="ENC6_SW">
+      <node ref="U21" pin="12"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="125" name="ENC2_A">
+      <node ref="U2" pin="25"/>
+      <node ref="U19" pin="10"/>
+    </net>
+    <net code="126" name="ENC2_B">
+      <node ref="U19" pin="8"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="127" name="ENC2_SW">
+      <node ref="U2" pin="27"/>
+      <node ref="U19" pin="12"/>
+    </net>
+    <net code="128" name="ENC3_SW">
+      <node ref="U2" pin="3"/>
+      <node ref="U19" pin="2"/>
+    </net>
+    <net code="129" name="ENC7_A">
+      <node ref="U21" pin="6"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="130" name="ENC7_B">
+      <node ref="U2" pin="6"/>
+      <node ref="U21" pin="4"/>
+    </net>
+    <net code="131" name="ENC7_SW">
+      <node ref="U2" pin="7"/>
+      <node ref="U21" pin="2"/>
+    </net>
+    <net code="132" name="ENC4_SW">
+      <node ref="U20" pin="12"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="133" name="SCLK">
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U7" pin="20"/>
+    </net>
+    <net code="134" name="MISO">
+      <node ref="U3" pin="14"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="135" name="ENC1_B">
+      <node ref="U18" pin="4"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="136" name="ENC4_A">
+      <node ref="U1" pin="21"/>
+      <node ref="U20" pin="10"/>
+    </net>
+    <net code="137" name="ENC4_B">
+      <node ref="U20" pin="8"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="138" name="ENC0_A">
+      <node ref="U1" pin="25"/>
+      <node ref="U18" pin="10"/>
+    </net>
+    <net code="139" name="ENC0_B">
+      <node ref="U18" pin="8"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="140" name="ENC0_SW">
+      <node ref="U1" pin="27"/>
+      <node ref="U18" pin="12"/>
+    </net>
+    <net code="141" name="ENC1_SW">
+      <node ref="U1" pin="3"/>
+      <node ref="U18" pin="2"/>
+    </net>
+    <net code="142" name="ENC5_A">
+      <node ref="U1" pin="5"/>
+      <node ref="U20" pin="6"/>
+    </net>
+    <net code="143" name="ENC5_B">
+      <node ref="U20" pin="4"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="144" name="ENC5_SW">
+      <node ref="U1" pin="7"/>
+      <node ref="U20" pin="2"/>
+    </net>
+    <net code="145" name="SDA4">
+      <node ref="R10" pin="2"/>
+      <node ref="U13" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="146" name="SCL4">
+      <node ref="U13" pin="2"/>
+      <node ref="U4" pin="9"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="147" name="SCL5">
+      <node ref="R11" pin="2"/>
+      <node ref="U14" pin="2"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="148" name="SDA5">
+      <node ref="U4" pin="13"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="149" name="SCL2">
+      <node ref="U11" pin="2"/>
+      <node ref="U4" pin="18"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="150" name="SDA2">
+      <node ref="U4" pin="17"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="151" name="SCL0">
+      <node ref="U9" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="152" name="SDA0">
+      <node ref="U4" pin="4"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="153" name="SDA1">
+      <node ref="R4" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="154" name="SCL1">
+      <node ref="U10" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="155" name="SCL6">
+      <node ref="U15" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="156" name="SDA6">
+      <node ref="U15" pin="1"/>
+      <node ref="U4" pin="15"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="157" name="Net-(R44-Pad2)">
+      <node ref="SW7" pin="B"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="158" name="Net-(C24-Pad1)">
+      <node ref="U21" pin="9"/>
+      <node ref="C24" pin="1"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="159" name="Net-(C23-Pad1)">
+      <node ref="U21" pin="11"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="160" name="Net-(R42-Pad1)">
+      <node ref="SW7" pin="A"/>
+      <node ref="R43" pin="2"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="161" name="Net-(C15-Pad1)">
+      <node ref="U20" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="162" name="Net-(C53-Pad1)">
+      <node ref="C53" pin="1"/>
+      <node ref="R85" pin="1"/>
+      <node ref="U20" pin="13"/>
+    </net>
+    <net code="163" name="Net-(R84-Pad2)">
+      <node ref="SW5" pin="S1"/>
+      <node ref="R84" pin="2"/>
+      <node ref="R85" pin="2"/>
+    </net>
+    <net code="164" name="Net-(C52-Pad1)">
+      <node ref="U23" pin="5"/>
+      <node ref="C52" pin="1"/>
+      <node ref="R80" pin="1"/>
+    </net>
+    <net code="165" name="Net-(C14-Pad1)">
+      <node ref="U18" pin="13"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="166" name="Net-(R32-Pad2)">
+      <node ref="SW6" pin="S1"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="167" name="Net-(R59-Pad2)">
+      <node ref="SW8" pin="B"/>
+      <node ref="R66" pin="1"/>
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="168" name="Net-(C44-Pad1)">
+      <node ref="R66" pin="2"/>
+      <node ref="U21" pin="3"/>
+      <node ref="C44" pin="1"/>
+    </net>
+    <net code="169" name="Net-(R57-Pad1)">
+      <node ref="R58" pin="2"/>
+      <node ref="R57" pin="1"/>
+      <node ref="SW8" pin="A"/>
+    </net>
+    <net code="170" name="Net-(C43-Pad1)">
+      <node ref="U21" pin="5"/>
+      <node ref="C43" pin="1"/>
+      <node ref="R57" pin="2"/>
+    </net>
+    <net code="171" name="Net-(R28-Pad2)">
+      <node ref="SW6" pin="B"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="172" name="Net-(C17-Pad1)">
+      <node ref="U20" pin="3"/>
+      <node ref="R35" pin="2"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="173" name="Net-(R24-Pad1)">
+      <node ref="SW6" pin="A"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="174" name="Net-(C16-Pad1)">
+      <node ref="R24" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U20" pin="5"/>
+    </net>
+    <net code="175" name="Net-(C55-Pad1)">
+      <node ref="C55" pin="1"/>
+      <node ref="R81" pin="2"/>
+      <node ref="U20" pin="11"/>
+    </net>
+    <net code="176" name="Net-(C12-Pad1)">
+      <node ref="U18" pin="11"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="177" name="Net-(R83-Pad2)">
+      <node ref="R83" pin="2"/>
+      <node ref="R87" pin="1"/>
+      <node ref="SW5" pin="B"/>
+    </net>
+    <net code="178" name="Net-(R81-Pad1)">
+      <node ref="R82" pin="2"/>
+      <node ref="R81" pin="1"/>
+      <node ref="SW5" pin="A"/>
+    </net>
+    <net code="179" name="Net-(C46-Pad1)">
+      <node ref="C46" pin="1"/>
+      <node ref="U19" pin="1"/>
+      <node ref="R76" pin="1"/>
+    </net>
+    <net code="180" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="R49" pin="1"/>
+      <node ref="U21" pin="13"/>
+    </net>
+    <net code="181" name="Net-(R60-Pad2)">
+      <node ref="SW3" pin="S1"/>
+      <node ref="R60" pin="2"/>
+      <node ref="R62" pin="2"/>
+    </net>
+    <net code="182" name="Net-(R71-Pad2)">
+      <node ref="R76" pin="2"/>
+      <node ref="R71" pin="2"/>
+      <node ref="SW4" pin="S1"/>
+    </net>
+    <net code="183" name="Net-(R45-Pad2)">
+      <node ref="R47" pin="2"/>
+      <node ref="SW2" pin="S1"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="184" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1"/>
+      <node ref="R47" pin="1"/>
+      <node ref="U18" pin="1"/>
+    </net>
+    <net code="185" name="Net-(C26-Pad1)">
+      <node ref="U19" pin="13"/>
+      <node ref="R62" pin="1"/>
+      <node ref="C26" pin="1"/>
+    </net>
+    <net code="186" name="Net-(SW14-Pad4)">
+      <node ref="SW14" pin="4"/>
+    </net>
+    <net code="187" name="Net-(C50-Pad1)">
+      <node ref="R72" pin="2"/>
+      <node ref="U22" pin="11"/>
+      <node ref="C50" pin="1"/>
+    </net>
+    <net code="188" name="Net-(R72-Pad1)">
+      <node ref="SW9" pin="A"/>
+      <node ref="R73" pin="2"/>
+      <node ref="R72" pin="1"/>
+    </net>
+    <net code="189" name="Net-(R46-Pad2)">
+      <node ref="R49" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="SW7" pin="S1"/>
+    </net>
+    <net code="190" name="Net-(C48-Pad1)">
+      <node ref="U19" pin="5"/>
+      <node ref="C48" pin="1"/>
+      <node ref="R68" pin="2"/>
+    </net>
+    <net code="191" name="Net-(R74-Pad2)">
+      <node ref="SW9" pin="B"/>
+      <node ref="R79" pin="1"/>
+      <node ref="R74" pin="2"/>
+    </net>
+    <net code="192" name="Net-(C51-Pad1)">
+      <node ref="R79" pin="2"/>
+      <node ref="C51" pin="1"/>
+      <node ref="U22" pin="9"/>
+    </net>
+    <net code="193" name="Net-(C47-Pad1)">
+      <node ref="U22" pin="13"/>
+      <node ref="C47" pin="1"/>
+      <node ref="R77" pin="1"/>
+    </net>
+    <net code="194" name="Net-(R75-Pad2)">
+      <node ref="R77" pin="2"/>
+      <node ref="SW9" pin="S1"/>
+      <node ref="R75" pin="2"/>
+    </net>
+    <net code="195" name="Net-(C27-Pad1)">
+      <node ref="U21" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R63" pin="1"/>
+    </net>
+    <net code="196" name="Net-(R61-Pad2)">
+      <node ref="SW8" pin="S1"/>
+      <node ref="R61" pin="2"/>
+      <node ref="R63" pin="2"/>
+    </net>
+    <net code="197" name="Net-(R53-Pad2)">
+      <node ref="SW11" pin="3"/>
+      <node ref="R53" pin="2"/>
+      <node ref="R91" pin="2"/>
+    </net>
+    <net code="198" name="Net-(SW11-Pad2)">
+      <node ref="SW11" pin="2"/>
+    </net>
+    <net code="199" name="Net-(SW11-Pad4)">
+      <node ref="SW11" pin="4"/>
+    </net>
+    <net code="200" name="Net-(R36-Pad2)">
+      <node ref="R90" pin="2"/>
+      <node ref="SW10" pin="3"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="201" name="Net-(SW10-Pad2)">
+      <node ref="SW10" pin="2"/>
+    </net>
+    <net code="202" name="Net-(SW10-Pad4)">
+      <node ref="SW10" pin="4"/>
+    </net>
+    <net code="203" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1"/>
+      <node ref="SW11" pin="K"/>
+    </net>
+    <net code="204" name="Net-(R26-Pad1)">
+      <node ref="SW10" pin="K"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="205" name="Net-(R48-Pad1)">
+      <node ref="SW14" pin="K"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="206" name="Net-(R41-Pad1)">
+      <node ref="R41" pin="1"/>
+      <node ref="SW13" pin="K"/>
+    </net>
+    <net code="207" name="Net-(R86-Pad2)">
+      <node ref="R86" pin="2"/>
+      <node ref="SW15" pin="3"/>
+      <node ref="R95" pin="2"/>
+    </net>
+    <net code="208" name="Net-(SW15-Pad2)">
+      <node ref="SW15" pin="2"/>
+    </net>
+    <net code="209" name="Net-(SW15-Pad4)">
+      <node ref="SW15" pin="4"/>
+    </net>
+    <net code="210" name="Net-(R38-Pad1)">
+      <node ref="R38" pin="1"/>
+      <node ref="SW12" pin="K"/>
+    </net>
+    <net code="211" name="Net-(R51-Pad1)">
+      <node ref="SW15" pin="K"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="212" name="Net-(SW13-Pad2)">
+      <node ref="SW13" pin="2"/>
+    </net>
+    <net code="213" name="Net-(SW12-Pad2)">
+      <node ref="SW12" pin="2"/>
+    </net>
+    <net code="214" name="Net-(SW12-Pad4)">
+      <node ref="SW12" pin="4"/>
+    </net>
+    <net code="215" name="Net-(SW13-Pad4)">
+      <node ref="SW13" pin="4"/>
+    </net>
+    <net code="216" name="Net-(C18-Pad1)">
+      <node ref="R36" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U22" pin="1"/>
+    </net>
+    <net code="217" name="Net-(C25-Pad1)">
+      <node ref="C25" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="U22" pin="3"/>
+    </net>
+    <net code="218" name="Net-(SW14-Pad2)">
+      <node ref="SW14" pin="2"/>
+    </net>
+    <net code="219" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="SW1" pin="S1"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="220" name="Net-(R22-Pad2)">
+      <node ref="SW1" pin="A"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="221" name="Net-(R23-Pad2)">
+      <node ref="SW1" pin="B"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="222" name="Net-(C13-Pad1)">
+      <node ref="R29" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U18" pin="9"/>
+    </net>
+    <net code="223" name="Net-(R64-Pad2)">
+      <node ref="R92" pin="2"/>
+      <node ref="R64" pin="2"/>
+      <node ref="SW12" pin="3"/>
+    </net>
+    <net code="224" name="Net-(R67-Pad2)">
+      <node ref="R93" pin="2"/>
+      <node ref="R67" pin="2"/>
+      <node ref="SW13" pin="3"/>
+    </net>
+    <net code="225" name="Net-(R80-Pad2)">
+      <node ref="R80" pin="2"/>
+      <node ref="SW14" pin="3"/>
+      <node ref="R94" pin="2"/>
+    </net>
+    <net code="226" name="Net-(R56-Pad2)">
+      <node ref="R65" pin="1"/>
+      <node ref="R56" pin="2"/>
+      <node ref="SW3" pin="B"/>
+    </net>
+    <net code="227" name="Net-(R54-Pad1)">
+      <node ref="R55" pin="2"/>
+      <node ref="R54" pin="1"/>
+      <node ref="SW3" pin="A"/>
+    </net>
+    <net code="228" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1"/>
+      <node ref="U19" pin="11"/>
+      <node ref="R54" pin="2"/>
+    </net>
+    <net code="229" name="Net-(R68-Pad1)">
+      <node ref="R68" pin="1"/>
+      <node ref="SW4" pin="A"/>
+      <node ref="R69" pin="2"/>
+    </net>
+    <net code="230" name="Net-(C21-Pad1)">
+      <node ref="R37" pin="2"/>
+      <node ref="U18" pin="5"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="231" name="Net-(R37-Pad1)">
+      <node ref="SW2" pin="A"/>
+      <node ref="R37" pin="1"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="232" name="Net-(C42-Pad1)">
+      <node ref="U19" pin="9"/>
+      <node ref="R65" pin="2"/>
+      <node ref="C42" pin="1"/>
+    </net>
+    <net code="233" name="Net-(C56-Pad1)">
+      <node ref="C56" pin="1"/>
+      <node ref="R87" pin="2"/>
+      <node ref="U20" pin="9"/>
+    </net>
+    <net code="234" name="Net-(C28-Pad1)">
+      <node ref="C28" pin="1"/>
+      <node ref="U23" pin="1"/>
+      <node ref="R64" pin="1"/>
+    </net>
+    <net code="235" name="Net-(R70-Pad2)">
+      <node ref="R70" pin="2"/>
+      <node ref="SW4" pin="B"/>
+      <node ref="R78" pin="1"/>
+    </net>
+    <net code="236" name="Net-(C49-Pad1)">
+      <node ref="U19" pin="3"/>
+      <node ref="C49" pin="1"/>
+      <node ref="R78" pin="2"/>
+    </net>
+    <net code="237" name="Net-(C54-Pad1)">
+      <node ref="C54" pin="1"/>
+      <node ref="U23" pin="9"/>
+      <node ref="R86" pin="1"/>
+    </net>
+    <net code="238" name="Net-(C45-Pad1)">
+      <node ref="C45" pin="1"/>
+      <node ref="R67" pin="1"/>
+      <node ref="U23" pin="3"/>
+    </net>
+    <net code="239" name="Net-(R40-Pad2)">
+      <node ref="SW2" pin="B"/>
+      <node ref="R50" pin="1"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="240" name="Net-(C22-Pad1)">
+      <node ref="R50" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U18" pin="3"/>
+    </net>
+    <net code="241" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="242" name="Net-(D10-Pad2)">
+      <node ref="D11" pin="4"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="243" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="D12" pin="4"/>
+    </net>
+    <net code="244" name="Net-(D10-Pad4)">
+      <node ref="D9" pin="2"/>
+      <node ref="D10" pin="4"/>
+    </net>
+    <net code="245" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="4"/>
+    </net>
+    <net code="246" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="4"/>
+    </net>
+    <net code="247" name="Net-(D6-Pad2)">
+      <node ref="D7" pin="4"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="248" name="Net-(D5-Pad2)">
+      <node ref="D6" pin="4"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="249" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="4"/>
+    </net>
+    <net code="250" name="Net-(D3-Pad2)">
+      <node ref="D4" pin="4"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="251" name="Net-(D2-Pad2)">
+      <node ref="D3" pin="4"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="252" name="Net-(D1-Pad2)">
+      <node ref="D2" pin="4"/>
+      <node ref="D1" pin="2"/>
+    </net>
+  </nets>
+</export>
